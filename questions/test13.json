@@ -1,0 +1,122 @@
+[
+  {
+    "question": "The Stock Exchanges and Stock Brokers decide the option premiums - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "Stock Exchanges decide the rules and provide the platform for trading and Stock Brokers act as authorized mediators. The option prices are decided by the buyers and sellers based on the spot price, time value, volatility and many other factors."
+  },
+  {
+    "question": "The Indian Stock Future Markets deals in ________.",
+    "options": ["Swaps", "Equity Cash", "Equity Derivative", "All of the above"],
+    "answer": "Equity Derivative",
+    "explanation": "Swaps are series of forward contracts. Equity Cash is traded in the Spot Markets. Equity Derivatives like Futures and Options are traded in the Stock Futures markets."
+  },
+  {
+    "question": "Usually as the level of risk rises, the expected rate of return on that investment should also rise - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": "Higher the risk (e.g., Equity Shares) higher is the return. Lower the risk (e.g., Bank Fixed Deposits) lower is the return."
+  },
+  {
+    "question": "The system of SEBI which enables investors to lodge and follow up their complaints and track the status of redressal of such complaints from anywhere is called SCORES True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "A short seller has the time of one week to deliver the stocks – True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "Selling Short means Seller does not own the stock he is supposed to deliver. Even if a trader has stock he has to deliver the shares in T+2 days."
+  },
+  {
+    "question": "The total liquid assets comprise of at least 60% of the cash component and the rest is non cash component - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "The total liquid assets comprise of at least 50% of the cash component and the rest is non cash component."
+  },
+  {
+    "question": "In the accounting system of open options as on Balance Sheet day, the \"Provision for Loss on Equity Index/ stock Option Account\" is shown as deduction from \"Equity Index/ stock Option Premium\" which is shown under _________.",
+    "options": ["Current Assets", "Current Liabilities", "Short term Debts", "None of the above"],
+    "answer": "Current Assets",
+    "explanation": ""
+  },
+  {
+    "question": "Operational risks include losses due to _________.",
+    "options": ["Inadequate disaster planning", "Too much of management control", "Government policies", "Income tax regulations"],
+    "answer": "Inadequate disaster planning",
+    "explanation": ""
+  },
+  {
+    "question": "A tax which is clearly mentioned in the Contract Note is ______",
+    "options": ["Long Term Capital Gain Tax", "Short Term Capital Gain Tax", "Both 1 and 2", "Securities Transaction Tax (STT)"],
+    "answer": "Securities Transaction Tax (STT)",
+    "explanation": ""
+  },
+  {
+    "question": "________ refers to when securities professionals making unnecessary and excessive trades in customer accounts for the sole purpose of generating commissions.",
+    "options": ["Hedging", "Arbitrage", "Churning", "Broking"],
+    "answer": "Churning",
+    "explanation": ""
+  },
+  {
+    "question": "What role do speculators play in the Futures Market?",
+    "options": ["They sell futures and buy it back when price rises to make a profit", "They buy futures and sell it back when the price rises to make a profit", "They sell futures and also sell in the cash market to create a hedge", "None of the above"],
+    "answer": "They buy futures and sell it back when the price rises to make a profit",
+    "explanation": ""
+  },
+  {
+    "question": "As per the L.C.Gupta Committee recommendations a separate Investor Protection Fund must be created for derivatives segment – True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "An index option is a Money Market Instrument - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "An index option is a Derivative Product."
+  },
+  {
+    "question": "Option which gives buyer a right to sell the underlying asset, is called _____ option",
+    "options": ["Call", "Put", "American", "European"],
+    "answer": "Put",
+    "explanation": "Option which gives buyer a right to buy the underlying asset is called Call option and the option which gives buyer a right to sell the underlying asset is called Put option."
+  },
+  {
+    "question": "If there is not much price movement, the OTM option will be beneficial to ____.",
+    "options": ["Buyer of Call Option", "Seller of Call Option", "Buyer of Put Option", "None of the above"],
+    "answer": "Seller of Call Option",
+    "explanation": "There is no Intrinsic Value in OTM option but only Time Value. So a buyer of an option will pay the premium and the seller will receive it. If there is not much price movement, the seller will earn the premium received."
+  },
+  {
+    "question": "A Trading member can either clear his trades or use the services of Professional Clearing members - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "A Trading member cannot clear his trades. Only a Trading cum Clearing members can clear their own trades."
+  },
+  {
+    "question": "A Broker or Dealer who is already registered with an existing stock exchange will have to get additional registration for the Derivative Exchange - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": "In addition to their registration as brokers of existing stock exchanges, Derivative brokers/dealers and clearing members are required to seek registration from SEBI."
+  },
+  {
+    "question": "The cash component of Liquid Securities can include Units of money market mutual fund and Gilt funds where applicable haircut is 10%. True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "As per J.R.Verma Committee recommendations, Volatility should be calculated based on ________ of logarithmic daily returns.",
+    "options": ["Variance", "Delta", "Standard Deviation", "CAGR"],
+    "answer": "Standard Deviation",
+    "explanation": ""
+  },
+  {
+    "question": "Impact cost is low when ________.",
+    "options": ["volume/ liquidity is low", "volume/ liquidity is high", "the scrip is trading at a all time high", "the scrip is trading at a all time low"],
+    "answer": "volume/ liquidity is high",
+    "explanation": "Impact cost is said to be low when large orders can be executed without moving the prices in a big way. So when volumes will be high the impact cost will be low."
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "question": "The risk that cannot be controlled by diversification of portfolio is ______.",
+    "options": ["Systematic Risk", "Unsystematic Risk", "Credit Risk", "Operational Risk"],
+    "answer": "Systematic Risk"
+  },
+  {
+    "question": "The margining system for index futures is based on ______.",
+    "options": ["Margin at risk", "Price at risk", "Volume at risk", "Value at risk"],
+    "answer": "Value at risk"
+  },
+  {
+    "question": "Future contracts are not symmetrical with respect to rights & obligations of the parties involved - State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "The option which gives the holder a right to SELL the underlying asset on or before a particular date for a certain price, is called as _______",
+    "options": ["American Call option", "American Put option", "European Call option", "European Put option"],
+    "answer": "American Put option"
+  },
+  {
+    "question": "The rate of change in option premium for a unit change in price of the underlying asset is known as Delta - State True or False ?",
+    "options": ["FALSE", "TRUE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "A tick is_________.",
+    "options": ["Minimum price difference between two buy quotes", "Minimum price difference between two sell quotes", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "question": "Calendar spreads carry basis risk and no market risk - hence_____margins are charged.",
+    "options": ["Higher", "Lower", "NIL", "Very high"],
+    "answer": "Lower"
+  },
+  {
+    "question": "Professional clearing member clears the trades of his associate Trading Member only - State True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "Tick size is ________.",
+    "options": ["Contract Lot size", "Average of the high and low prices", "The maximum permitted movement in the price of the contract", "The minimum permitted movement in the price of the contract"],
+    "answer": "The minimum permitted movement in the price of the contract"
+  },
+  {
+    "question": "How many shares should be ideally there in an index ?",
+    "options": ["Depends on the objective of the index", "Around 100 to comprehensively cover all sectors", "Exactly 50", "Below 50"],
+    "answer": "Depends on the objective of the index"
+  },
+  {
+    "question": "In Option Spreads there is a combination of options constructed in such a way that there is limited profit or limited loss - State True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "The Exercise price of an option is same as its position limit - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "If the price of far month futures is less than the price of near month futures, it is called as ______.",
+    "options": ["Reverse Hedging", "Contango", "Basis", "Backwardation"],
+    "answer": "Backwardation"
+  },
+  {
+    "question": "What does a seller of Put Option expect?",
+    "options": ["An increase in the price of the underlying", "No change in the price of the underlying", "A decrease in the price of the underlying", "Both 1 and 2"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "question": "What does a beta of more than 1 mean ?",
+    "options": ["It means that the expected percentage change in stock price will be twice the percentage change in index", "It means that the expected percentage change in stock price will be less percentage change in index", "It means that the expected percentage change in stock price will be more than the percentage change in index", "It means that the expected percentage change in stock price equals the percentage change in index"],
+    "answer": "It means that the expected percentage change in stock price will be more than the percentage change in index"
+  },
+  {
+    "question": "You sold a call option on a share. The strike price of the Call was Rs 250 and you received a premium of Rs 16 from the option buyer. What can be the maximum loss on this position?",
+    "options": ["Unlimited", "Zero", "Rs. 250", "Rs. 234"],
+    "answer": "Unlimited"
+  },
+  {
+    "question": "Clearing Corporation of an Exchange guarantees performance of exchange traded contracts - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "In the derivatives segment, who has to pay the margins as specified by the Clearing Corporation?",
+    "options": ["Clients", "Arbitrageurs", "Financial Institutions", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "When a dealer is doing trades in his own account and also doing trades for their clients then these two trades have to be completely segregated - State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "When a person enters into a forward contract, the loss that can occur on the position is ____.",
+    "options": ["known", "Unknown"],
+    "answer": "unknown"
+  },
+  {
+    "question": "As per the SEBI Act, the board members of Securities Exchange Board of India are appointed by______.",
+    "options": ["The Stock Exchanges", "The Central Government", "The High Court of Mumbai", "Securities Appellate Tribunal"],
+    "answer": "The Central Government"
+  },
+  {
+    "question": "Can a long position in a Put option can be closed out by taking a short position in a call option with identical exercise date and exercise price ?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  }
+]

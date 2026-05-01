@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NISM Mock Test App</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #0f1b35; --navy-mid: #1a2f58; --gold: #f0b429;
+      --cream: #fdf8f0; --white: #ffffff; --green: #22c55e;
+      --red: #ef4444; --text: #1e293b; --muted: #64748b;
+      --card-shadow: 0 8px 32px rgba(15,27,53,0.13);
+    }
+    body { 
+      font-family: 'DM Sans', sans-serif; 
+      background: var(--navy); 
+      min-height: 100vh; 
+      color: var(--text); 
+      padding-bottom: 40px; 
+    }
+
+    header { 
+      background: linear-gradient(135deg, var(--navy-mid), var(--navy)); 
+      border-bottom: 2px solid var(--gold); 
+      padding: 18px 24px; 
+      display: flex; 
+      align-items: center; 
+      gap: 14px; 
+    }
+    header .logo-icon { font-size: 2rem; }
+    header h1 { 
+      font-family: 'DM Serif Display', serif; 
+      color: var(--gold); 
+      font-size: clamp(1.2rem, 4vw, 1.7rem); 
+    }
+    header p { color: #94a3b8; font-size: 0.8rem; margin-top: 2px; }
+
+    .container { 
+      max-width: 780px; 
+      margin: 0 auto; 
+      padding: 28px 16px; 
+    }
+
+    .section-label { 
+      font-size: 0.75rem; 
+      font-weight: 600; 
+      letter-spacing: 0.12em; 
+      text-transform: uppercase; 
+      color: var(--gold); 
+      margin-bottom: 14px; 
+    }
+
+    #testList { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); 
+      gap: 12px; 
+      margin-bottom: 32px; 
+    }
+
+    .test-btn { 
+      background: rgba(255,255,255,0.05); 
+      border: 1.5px solid rgba(240,180,41,0.3); 
+      border-radius: 12px; 
+      color: var(--cream); 
+      padding: 16px 10px; 
+      cursor: pointer; 
+      font-family: 'DM Sans', sans-serif; 
+      font-size: 0.88rem; 
+      font-weight: 500; 
+      transition: all 0.22s ease; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 8px; 
+    }
+    .test-btn .test-icon {
+      display: flex; align-items: center; justify-content: center;
+      width: 36px; height: 36px; border-radius: 50%;
+      background: rgba(240,180,41,0.2); 
+      border: 1.5px solid rgba(240,180,41,0.4);
+      font-size: 0.9rem; font-weight: 700; color: var(--gold);
+    }
+    .test-btn:hover { 
+      background: rgba(240,180,41,0.15); 
+      border-color: var(--gold); 
+      transform: translateY(-3px); 
+    }
+    .test-btn.active { 
+      background: var(--gold); 
+      border-color: var(--gold); 
+      color: var(--navy); 
+      font-weight: 700; 
+    }
+
+    #quiz, #resultCard, #historyBox { display: none; }
+
+    .quiz-inner { padding: 28px 28px 24px; }
+
+    .quiz-meta { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      margin-bottom: 20px; 
+    }
+    .q-counter { 
+      font-size: 0.78rem; 
+      font-weight: 600; 
+      letter-spacing: 0.08em; 
+      color: var(--muted); 
+      text-transform: uppercase; 
+    }
+
+    .timer-pill { 
+      display: flex; 
+      align-items: center; 
+      gap: 6px; 
+      background: #fef3c7; 
+      border: 1.5px solid var(--gold); 
+      border-radius: 999px; 
+      padding: 5px 14px; 
+      font-weight: 700; 
+      font-size: 0.9rem; 
+      color: #92400e; 
+    }
+    .timer-pill.urgent { 
+      background: #fee2e2; 
+      border-color: var(--red); 
+      color: #991b1b; 
+      animation: pulse 0.6s ease infinite alternate; 
+    }
+    @keyframes pulse { 
+      from { transform: scale(1); } 
+      to { transform: scale(1.05); } 
+    }
+
+    .question { 
+      font-family: 'DM Serif Display', serif; 
+      font-size: clamp(1rem, 2.5vw, 1.15rem); 
+      line-height: 1.6; 
+      color: var(--text); 
+      margin-bottom: 22px; 
+    }
+
+    .options { 
+      display: flex; 
+      flex-direction: column; 
+      gap: 10px; 
+    }
+    .option-label { 
+      display: flex; 
+      align-items: center; 
+      gap: 12px; 
+      background: #f8fafc; 
+      border: 2px solid #e2e8f0; 
+      border-radius: 10px; 
+      padding: 12px 16px; 
+      cursor: pointer; 
+      transition: all 0.18s ease; 
+      font-size: 0.93rem; 
+      font-weight: 500; 
+      color: var(--text); 
+    }
+    .option-label:hover { 
+      border-color: var(--gold); 
+      background: #fffbeb; 
+    }
+    .option-label input[type="radio"] { display: none; }
+    
+    .radio-dot { 
+      width: 18px; 
+      height: 18px; 
+      min-width: 18px; 
+      border-radius: 50%; 
+      border: 2px solid #cbd5e1; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      transition: all 0.15s ease; 
+    }
+    .option-label.selected { 
+      border-color: var(--gold); 
+      background: #fffbeb; 
+    }
+    .option-label.selected .radio-dot { 
+      border-color: var(--gold); 
+      background: var(--gold); 
+    }
+    .option-label.selected .radio-dot::after { 
+      content: ''; 
+      width: 7px; 
+      height: 7px; 
+      border-radius: 50%; 
+      background: white; 
+    }
+
+    .quiz-nav { 
+      display: flex; 
+      justify-content: flex-end; 
+      gap: 10px; 
+      margin-top: 24px; 
+      padding-top: 18px; 
+      border-top: 1px solid #e2e8f0; 
+    }
+    .btn { 
+      padding: 10px 24px; 
+      border-radius: 10px; 
+      border: none; 
+      cursor: pointer; 
+      font-family: 'DM Sans', sans-serif; 
+      font-size: 0.9rem; 
+      font-weight: 600; 
+      transition: all 0.2s ease; 
+    }
+    .btn-primary { background: var(--navy); color: var(--white); }
+    .btn-primary:hover { background: var(--navy-mid); transform: translateY(-1px); }
+    .btn-gold { background: var(--gold); color: var(--navy); }
+    .btn-gold:hover { background: #e0a020; transform: translateY(-1px); }
+
+    #resultCard { 
+      background: var(--white); 
+      border-radius: 18px; 
+      box-shadow: var(--card-shadow); 
+      padding: 36px 28px; 
+      animation: fadeUp 0.4s ease; 
+    }
+    @keyframes fadeUp { 
+      from { opacity: 0; transform: translateY(20px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+
+    .score-grid { 
+      display: grid; 
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 12px; 
+      margin-bottom: 28px; 
+    }
+    .score-box { 
+      border-radius: 12px; 
+      padding: 16px 10px; 
+      text-align: center; 
+    }
+    .score-box .score-num { 
+      font-family: 'DM Serif Display', serif; 
+      font-size: 1.8rem; 
+      font-weight: 700; 
+      display: block; 
+    }
+    .score-box .score-lbl { 
+      font-size: 0.72rem; 
+      font-weight: 600; 
+      letter-spacing: 0.06em; 
+      text-transform: uppercase; 
+      margin-top: 4px; 
+      display: block; 
+    }
+
+    .wrong-title { 
+      font-family: 'DM Serif Display', serif; 
+      font-size: 1.1rem; 
+      color: var(--text); 
+      margin-bottom: 14px; 
+      padding-bottom: 10px; 
+      border-bottom: 1px solid #e2e8f0; 
+    }
+    .wrong-item { 
+      background: #fff5f5; 
+      border-left: 4px solid var(--red); 
+      border-radius: 0 8px 8px 0; 
+      padding: 12px 14px; 
+      margin-bottom: 10px; 
+      font-size: 0.88rem; 
+    }
+    .correct-ans { color: var(--green); font-weight: 600; margin-top: 6px; display: block; }
+    .your-ans { color: var(--red); margin-top: 3px; display: block; }
+
+    .retry-btn-wrap { text-align: center; margin-top: 24px; }
+
+    @media (max-width: 520px) {
+      .quiz-inner { padding: 18px 14px; }
+      .score-grid { grid-template-columns: 1fr 1fr; }
+      #testList { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    /* Hide navigation buttons when not logged in */
+    #navButtons { display: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="logo-icon">📘</span>
+  <div>
+    <h1>NISM Mock Test</h1>
+    <p>Securities Markets · Certification Practice</p>
+  </div>
+</header>
+
+<!-- ==================== LOGIN PAGE ==================== -->
+<div id="loginPage" style="display:flex; flex-direction:column; align-items:center; gap:12px; margin-top:80px; padding:20px;">
+  <h2 style="color:white;">Login</h2>
+  <input id="usernameInput" placeholder="Enter Username" 
+    style="padding:10px; border-radius:8px; border:none; width:280px;">
+  <input id="passwordInput" type="password" placeholder="Enter Password" 
+    style="padding:10px; border-radius:8px; border:none; width:280px;">
+  <button onclick="loginUser()" class="btn btn-gold" style="width:280px;">Login</button>
+  <button onclick="signupUser()" class="btn btn-primary" style="width:280px;">Sign Up</button>
+</div>
+
+<!-- ==================== MAIN APP (Hidden Initially) ==================== -->
+<div class="container" id="mainApp" style="display: none;">
+
+  <div id="navButtons" style="display:flex; justify-content:space-between; margin-bottom:20px;">
+    <button class="btn btn-primary" onclick="goHome()">🏠 Home</button>
+    <button class="btn btn-gold" onclick="showHistory()">📊 History</button>
+    <button class="btn btn-primary" onclick="logoutUser()">🚪 Logout</button>
+  </div>
+
+  <div id="historyBox" style="background:white; padding:20px; border-radius:12px; margin-bottom:20px;"></div>
+
+  <div id="homeScreen">
+    <div class="section-label">Select a Mock Test</div>
+    <div id="testList"></div>
+  </div>
+
+  <div id="quiz">
+    <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+    <div class="quiz-inner">
+      <div class="quiz-meta">
+        <span class="q-counter" id="qCounter">Question 1 of 10</span>
+        <div class="timer-pill" id="timerPill">⏱ <span id="timerNum">60</span>s</div>
+      </div>
+      <div class="question" id="questionText"></div>
+      <div class="options" id="optionsList"></div>
+      <div class="quiz-nav" id="quizNav"></div>
+    </div>
+  </div>
+
+  <div id="resultCard">
+    <div class="result-title">Test Completed!</div>
+    <div class="result-subtitle" id="resultSubtitle"></div>
+    
+    <div class="score-grid">
+      <div class="score-box box-green"><span class="score-num" id="resCorrect">0</span><span class="score-lbl">Correct</span></div>
+      <div class="score-box box-red"><span class="score-num" id="resWrong">0</span><span class="score-lbl">Wrong</span></div>
+      <div class="score-box box-grey"><span class="score-num" id="resSkipped">0</span><span class="score-lbl">Skipped</span></div>
+      <div class="score-box box-gold"><span class="score-num" id="resScore">0</span><span class="score-lbl">Score</span></div>
+    </div>
+
+    <div class="wrong-title">Incorrect Answers Review</div>
+    <div id="wrongList"></div>
+
+    <div class="retry-btn-wrap">
+      <button class="btn btn-primary" onclick="resetApp()">← Try Another Test</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

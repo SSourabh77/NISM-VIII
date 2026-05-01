@@ -1,0 +1,152 @@
+[
+  {
+    "question": "A market index is very important for its use _________.",
+    "options": ["in portfolio management", "as a benchmark of portfolio performance", "as a barometer for market behavior", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "If a stock fails to meet these retention criteria for three months consecutively, existing unexpired contracts may be permitted to trade till expiry and new strikes may also be introduced in the existing contract months - True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "The clearing member/trading member is required to disclose to the clearing corporation details of any person(s) acting in concert who together own _____% or more of the open interest of all futures and options contracts on a particular underlying index on the stock exchange.",
+    "options": ["12", "15", "17", "20"],
+    "answer": "15"
+  },
+  {
+    "question": "What penalty is levied for first instance margin / limit violation ?",
+    "options": ["0.07% per day", "0.07% per day + Rs.5,000/- per instance", "0.07% per day + Rs.20,000/-", "None of the above"],
+    "answer": "0.07% per day"
+  },
+  {
+    "question": "Which of the following factor(s) do not affect the value of an option ?",
+    "options": ["The Open Interest", "The Spot Price", "The volatility in underlying instruments", "The strike price"],
+    "answer": "The Open Interest"
+  },
+  {
+    "question": "You sold a Put option on a share. The strike price of the put was Rs.245 and you received a premium of Rs.49 from the option buyer. Theoretically, what can be the maximum loss on this position?",
+    "options": ["206", "196", "49", "NIL"],
+    "answer": "196"
+  },
+  {
+    "question": "An Equity based Mutual Fund can sell Index Futures to hedge its position - True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "Futures differs from forwards in the sense that _______.",
+    "options": ["settlement of contract takes place in the future", "both parties are bound to give/take delivery", "positions are marked-to-market everyday", "contracts are custom designed"],
+    "answer": "contracts are custom designed"
+  },
+  {
+    "question": "Which of these PUT's are In the Money ?",
+    "options": ["Spot 300 ; Strike Price 300", "Spot 300 ; Strike Price 280", "Spot 300 ; Strike Price 320", "None of the above"],
+    "answer": "Spot 300 ; Strike Price 320"
+  },
+  {
+    "question": "In Indian context, derivative includes: A) A security derived from a debt instrument, share, loan whether secured or unsecured, risk instrument or contract for differences or any other form of security; B) A contract which derives its value from the prices, or index of prices, of underlying securities.",
+    "options": ["A", "B", "Both A and B", "Neither A or B"],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "The beta of SBI is 0.9. If a trader has a buy position of Rs 3,00,000 of SBI, which of the following will give him a complete hedge ?",
+    "options": ["Sell Nifty of 270000", "Sell Nifty of 330000", "Sell Nifty of 300000", "Beta of below 1 cannot be hedged"],
+    "answer": "Sell Nifty of 270000"
+  },
+  {
+    "question": "A stock broker applies for registration to SEBI _______.",
+    "options": ["directly on his own", "through stock exchange(s) of which he or she is admitted as a member", "through Ministry of Finance", "through association of members"],
+    "answer": "through stock exchange(s) of which he or she is admitted as a member"
+  },
+  {
+    "question": "An investor has bought 100 SBI shares at Rs 2000. How will he hedge it ? The Current market price of SBI is Rs 2000.",
+    "options": ["Buy SBI futures at Rs 1000", "Buy SBI Call options of strike price 2000", "Buy SBI Put options at strike price 2000", "Sell SBI Put options at strike price 2000"],
+    "answer": "Buy SBI Put options at strike price 2000"
+  },
+  {
+    "question": "An trader purchases three contracts of Reliance Industries in the futures market at Rs 900. On the expiry day, Reliance closes at Rs 918. Lot size is 250 shares. What will the trader receive ?",
+    "options": ["He will receive 750 shares of Reliance Industries", "He will receive nothing as he has not squared up his position", "He will receive the difference between the purchase price and closing/expiry price", "None of the above"],
+    "answer": "He will receive the difference between the purchase price and closing/expiry price"
+  },
+  {
+    "question": "If you sell an Option, you will –",
+    "options": ["have to pay the premium", "receive the premium", "no payments are received or made", "none of the above"],
+    "answer": "receive the premium"
+  },
+  {
+    "question": "As per the rules of European Call Option, it gives the right but not the obligation to buy from the seller an underlying at the prevailing market price on or before the expiry – True or False ?",
+    "options": ["FALSE", "TRUE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "If an investor buys a future contract but does not sell it till expiry than what happens to that contract ?",
+    "options": ["The investor will receive the delivery of the underlying", "The exchange will square up the position by the closing price", "A new buy position will be automatically be created in the next month", "The client has to pay a stiff penalty"],
+    "answer": "The exchange will square up the position by the closing price"
+  },
+  {
+    "question": "What is the intrinsic value of a call option of SBI if the spot price is 2000 and the strike price is 1950.",
+    "options": ["50", "-50", "2000", "0"],
+    "answer": "50"
+  },
+  {
+    "question": "Margins in futures trading are applicable to –",
+    "options": ["Only Institutional players.", "Both the buyer and the seller", "Only the buyer", "Only the Seller"],
+    "answer": "Both the buyer and the seller"
+  },
+  {
+    "question": "Mr Manoj buys a put option on PQR stock for Rs 20 of strike price Rs 130. If on the exercise day, the spot price of PQR is Rs 175, Mr Manoj will choose _______.",
+    "options": ["Not to exercise the option", "To exercise the option"],
+    "answer": "Not to exercise the option"
+  },
+  {
+    "question": "The Clearing Corporation can transfer a defaulting members client's position to",
+    "options": ["Liability a/c.", "Another solvent member", "Investor Protection Fund a/c.", "The Stock Exchange"],
+    "answer": "Another solvent member"
+  },
+  {
+    "question": "The Spot Price of ABC Stock is Rs. 347. Rs. 325 strike call is quoted at Rs. 39. What is the Intrinsic Value?",
+    "options": ["0", "22", "39", "61"],
+    "answer": "22"
+  },
+  {
+    "question": "Mr. Deshmukh took a short position of one contract in May Nifty futures (Contract multiplier 50) at a price of Rs. 5600. When he closed this position after a few days, he realized that he has made a profit of Rs.5000. Which of the following closing actions would have enabled him to generate this profit ?",
+    "options": ["Selling 1 May Nifty futures contract at 5700", "Buying 1 May Nifty futures contract at 5700", "Buying 1 May Nifty futures contract at 5500", "Selling 1 May Nifty futures contract at 5500"],
+    "answer": "Buying 1 May Nifty futures contract at 5500"
+  },
+  {
+    "question": "By using Financial derivatives one can engage in _______.",
+    "options": ["Hedging", "Arbitraging", "Speculation", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "If an trader does an calender spread in index futures and the near leg of the calendar spread expires, the Further leg becomes a regular open position. True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "Mr. Nayyar has purchased 8 contracts of March series and sold 6 contracts of April series of the NSE Nifty futures. How many lots will get categorized as Regular (non-spread) open positions?",
+    "options": ["14", "8", "2", "6"],
+    "answer": "2"
+  },
+  {
+    "question": "The strategy in which an trader buys a call option of lower strike price and sells another call option with a higher strike price of the same share and same expiry date is called",
+    "options": ["Butterfly spread", "Bearish spread", "Calendar spread", "Bullish spread"],
+    "answer": "Bullish spread"
+  },
+  {
+    "question": "The spot price of Grasim Industries Ltd share is Rs 2900, the call option of Strike Price Rs 2800 is _.",
+    "options": ["At the money", "Out of the money", "In the money", "None of the above"],
+    "answer": "In the money"
+  },
+  {
+    "question": "Of the below mentioned options, which would attract margins ?",
+    "options": ["Buyer of PUT Option", "Seller of CALL Option", "Seller of PUT Option", "Both 2 and 3"],
+    "answer": "Both 2 and 3"
+  },
+  {
+    "question": "If the price of a stock is volatile, then the option premium would be relatively _____.",
+    "options": ["Lower", "Higher", "No effect of volatility", "zero"],
+    "answer": "Higher"
+  }
+]

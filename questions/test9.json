@@ -1,0 +1,502 @@
+[
+  {
+    "question": "A client Mr P has bought March series contract and another client Mr Q has sold March series contract on Nifty futures. This has been done through the same broker. Will this qualify as a calendar spread?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "The adjustment factor for a stock which issues a Bonus in the ratio A: B is _________",
+    "options": ["(A+B)/B", "(A-B)/B", "(A+B) X B", "(A-B) X A"],
+    "answer": "(A+B)/B"
+  },
+  {
+    "question": "The spot price of a stock is Rs 200. A trader buys the Rs 195 strike price call option by paying a premium of Rs 10. On expiry the settlement price is Rs 220. What is the net profit for the trader?",
+    "options": ["Rs 25", "Rs 15", "Rs 10", "NIL"],
+    "answer": "Rs 15"
+  },
+  {
+    "question": "The theoretical future price is considered for _______ in case a futures contract is not traded during the day.",
+    "options": ["the opening price", "the daily mark to mark settlement price", "premium settlement", "last traded price"],
+    "answer": "the daily mark to mark settlement price"
+  },
+  {
+    "question": "Delivery based settlement in single stock futures is provided by _________",
+    "options": ["BSE", "NSE", "OTCEI", "Both BSE and NSE"],
+    "answer": "Both BSE and NSE"
+  },
+  {
+    "question": "The Final Settlement Price in Options is the Closing price of such underlying security on the last trading day of the options contract- True or False.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Nifty50 consists of securities having _______ market capitalisation stocks.",
+    "options": ["Large", "Medium", "Small", "All of the above"],
+    "answer": "Large"
+  },
+  {
+    "question": "A bull spread can be created only by ___________",
+    "options": ["Buying and selling Futures", "Buying and selling Cash and Futures", "Buying and selling Options", "Buying and selling ETF's"],
+    "answer": "Buying and selling Options"
+  },
+  {
+    "question": "On expiry, the settlement price for Wipro Ltd. will be the ________",
+    "options": ["Last half hour weighted average price of Wipro Futures", "Closing price of Wipro in the cash market", "Opening price of Wipro in the cash market", "The last traded price of Wipro in the cash market"],
+    "answer": "Closing price of Wipro in the cash market"
+  },
+  {
+    "question": "_________ is at the lowest level of hierarchy of a trading firm.",
+    "options": ["Speculator", "Dealer", "Branch Manager", "Regional Manager"],
+    "answer": "Dealer"
+  },
+  {
+    "question": "Mr Mohit buy 3 Call options of strike price 200 when the spot price was 190 at a premium of Rs16. Will he have to pay STT?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "The open position of a Trading Member is arrived by ___________",
+    "options": ["Adding up all his proprietary positions", "Adding up all his clients net outstanding positions", "Adding both - his proprietary positions and all his clients net outstanding positions", "None of the above"],
+    "answer": "Adding both - his proprietary positions and all his clients net outstanding positions"
+  },
+  {
+    "question": "An investor has ICICI Bank shares in his portfolio. He wants to protect against the downslide in this stock as he thinks the market may go down. What should he do?",
+    "options": ["Buy ICICI Put Option", "Buy ICICI Call Option", "Buy Nifty futures", "Buy Bank Nifty"],
+    "answer": "Buy ICICI Put Option"
+  },
+  {
+    "question": "A spread that is designed to profit if the price goes down is called ___________",
+    "options": ["Hedge Spread", "Arbitrage Spread", "Bull Spread", "Bear Spread"],
+    "answer": "Bear Spread"
+  },
+  {
+    "question": "Time value of an option is the difference between __________",
+    "options": ["It’s strike price and premium", "It’s strike price and spot price", "It’s premium and spot price", "It’s premium and intrinsic value"],
+    "answer": "It’s premium and intrinsic value"
+  },
+  {
+    "question": "In the F&O segment of NSE one can trade in the following derivative instruments except ____________",
+    "options": ["index based futures", "individual stock options", "index based options", "individual warrant options"],
+    "answer": "individual warrant options"
+  },
+  {
+    "question": "What will be the payoff if a stock future was bought at Rs 100 and sold at Rs 87? The lot size is 1000 shares.",
+    "options": ["NIL", "+13000", "-13000", "-8700"],
+    "answer": "-13000"
+  },
+  {
+    "question": "The price at which the underlying asset can be bought or sold on exercise of an option is called __________",
+    "options": ["Spot Price", "Risk Premium", "Strike Price", "Option Premium"],
+    "answer": "Strike Price"
+  },
+  {
+    "question": "All types of investors should allot some portion of their portfolio to derivative products in order to increase the portfolio returns irrespective of their risk tolerance levels - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Speculator accepts the risks in search of profits - State True or False?",
+    "options": ["False", "True"],
+    "answer": "True"
+  },
+  {
+    "question": "In India, the clearing and settlement of derivatives trades would be through ___________",
+    "options": ["State Bank of India", "Euroclear", "SEBI approved Clearing Corporation / Clearing House", "The Interbank Clearing House"],
+    "answer": "SEBI approved Clearing Corporation / Clearing House"
+  },
+  {
+    "question": "In a calendar spread transaction, the trader takes opposite position in two futures contracts with __________",
+    "options": ["two different underlying assets and same delivery month", "two differently delivery months and two different underlying assets", "two differently delivery months and same underlying asset", "one stock and one index of same delivery months"],
+    "answer": "two differently delivery months and same underlying asset"
+  },
+  {
+    "question": "Excess of premium in an option over the intrinsic value is known as the time value - State True or False?",
+    "options": ["False", "True"],
+    "answer": "True"
+  },
+  {
+    "question": "The simultaneous purchase and sale of two different tenors’ futures contracts in the same underlying is known as a ____________",
+    "options": ["Limit order", "Short hedge", "Spread trade", "Long hedge"],
+    "answer": "Spread trade"
+  },
+  {
+    "question": "Delta is the change in option price given a one percentage point change in the risk-free interest rate - State True or False?",
+    "options": ["False", "True"],
+    "answer": "False"
+  },
+  {
+    "question": "If the volatility of the underlying stock is decreasing, the premium of call option would _________",
+    "options": ["Increase", "Decrease", "will not change", "None of the above"],
+    "answer": "Decrease"
+  },
+  {
+    "question": "Investors who believe that the markets will fall are known as Bulls - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "The mark-to-mark debits for stock options are done on a _________",
+    "options": ["fortnightly basis", "monthly basis", "daily basis", "weekly basis"],
+    "answer": "daily basis"
+  },
+  {
+    "question": "If the clearing / trading member fails to pay the dues, the clearing corporation can disable the clearing / trading members from trading - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Losses incurred on derivative transactions on a ‘recognized stock exchange’ can be carried forward to __________ subsequent assessment year and setoff against any other non-speculative business income of the subsequent year.",
+    "options": ["5", "8", "12", "15"],
+    "answer": "8"
+  },
+  {
+    "question": "A Forward Contract _________",
+    "options": ["can be cancelled but only after the expiry date", "can be cancelled if the counter party also agrees to it", "cannot be cancelled", "can be cancelled even without the consent of the counter party"],
+    "answer": "can be cancelled if the counter party also agrees to it"
+  },
+  {
+    "question": "Can a Clearing Member give ‘Fixed Deposits’ as part of liquid assets to the Clearing Corporation?",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "The option premium is adjustable against the exercise price on settlement, if the option is exercised on maturity - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "A Clearing Member has to deposit with the derivatives segment of the exchange or with the clearing corporation a minimum of __________",
+    "options": ["Rs. 50 lakhs", "Rs. 100 lakhs", "Rs. 150 lakhs", "Rs. 20 lakhs"],
+    "answer": "Rs. 50 lakhs"
+  },
+  {
+    "question": "When a seller SHORT SELLS a stock, it means __________",
+    "options": ["He has more than a months time to deliver the stock which he sold", "He owns the stock he is supposed to deliver", "He has to deliver the stock within a short time", "He does not own the stock he is supposed to deliver"],
+    "answer": "He does not own the stock he is supposed to deliver"
+  },
+  {
+    "question": "The strategy of buying a put option on a stock you are owning is known as __________",
+    "options": ["calendar spread", "aggressive put", "protective put", "Straddle"],
+    "answer": "protective put"
+  },
+  {
+    "question": "State True or False - Scarcity of underlying commodity will generally cause a rise in its futures price.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "At which price can a trader place a bid or offer for a scrip?",
+    "options": ["At price which is within the daily circuit filter limits", "At a price which the trader wishes", "At a price negotiated between the exchange and the member", "At a price which the trader deems fit"],
+    "answer": "At price which is within the daily circuit filter limits"
+  },
+  {
+    "question": "A decrease in the interest rates will lead to __________",
+    "options": ["Increase the premium on the put option", "Decrease the premium on the put option", "Expires the put options immediately", "No effect on put options"],
+    "answer": "Increase the premium on the put option"
+  },
+  {
+    "question": "What will be the value of one lot of ABC futures contract if the price is Rs. 3200 and the contract size is 150?",
+    "options": ["Rs. 240000", "Rs. 320000", "Rs. 540000", "Rs. 480000"],
+    "answer": "Rs. 480000"
+  },
+  {
+    "question": "A Professional Clearing member of derivatives segment ___________",
+    "options": ["should also be a member of the cash segment", "should also become a member of the cash segment within 2 years", "provides trading facility to its clients", "does not have any trading rights"],
+    "answer": "does not have any trading rights"
+  },
+  {
+    "question": "When the price of a future contract increases, the margin account __________",
+    "options": ["of the buyer of futures contract will be credited for the gain", "of the seller of futures contract will be debited for the loss", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "question": "Theta is a measure of the sensitivity of an option price to changes in market volatility. - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "When the strike price increases, the premium on call option decreases - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "You sold one ABC stock futures contract at Rs.268 and the lot size is 1,500. What is your profit (+) or loss (-), if you purchase the contract back at Rs.274?",
+    "options": ["+9000", "+18000", "-9000", "-18000"],
+    "answer": "-9000"
+  },
+  {
+    "question": "The Intrinsic Value is zero for out-of-the money options but always positive for in-the-money options - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "A stock index like Nifty ________",
+    "options": ["is a basket of stocks", "can be easily manipulated", "Both 1 and 2", "None of the above"],
+    "answer": "is a basket of stocks"
+  },
+  {
+    "question": "When a call option on an index is exercised, the option holder will receive from the option writer, cash amount equal to excess of spot price (at the time of exercise) over the strike price of the call option - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "There is higher flexibility in fixing forward contract specification as compared to futures contract specifications - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "What is Tick size?",
+    "options": ["Tick size is the size of the futures contract", "Tick size is the maximum permitted movement in the price of the contract", "Tick size is the minimum permitted movement in the price of the contract", "Tick size is the average of the high and low permitted prices"],
+    "answer": "Tick size is the minimum permitted movement in the price of the contract"
+  },
+  {
+    "question": "Functions of a Derivative Market include ___________",
+    "options": ["Improving price discovery based on actual valuations and expectations", "Shift of speculative trades from unorganized market to organized market", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "question": "Who appoints the board members of the Securities Exchange Board of India under the SEBI Act?",
+    "options": ["Maharashtra Government as SEBI is situated in Mumbai", "The President of India", "The Central Government", "The Stock Exchanges"],
+    "answer": "The Central Government"
+  },
+  {
+    "question": "The expiry day for June series Index Futures on BSE would be ___________",
+    "options": ["Last Thursday in June", "Last Thursday in July", "Last Thursday in August", "Last Thursday in September"],
+    "answer": "Last Thursday in June"
+  },
+  {
+    "question": "A call option gives its holder the right to buy ‘any quantity’ of the underlying asset from the writer of the call option at a pre-specified price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Institutional investors pay lower margins than the individual investors for derivatives trading - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "Generally, other things remaining the same - American options value is lower than that of European options - True or False?",
+    "options": ["True", "False", "The information given is inadequate", "It depends on market condition"],
+    "answer": "False"
+  },
+  {
+    "question": "A short position in a PUT option can be closed out by taking a long position in a same PUT option - State True or False?",
+    "options": ["False", "True"],
+    "answer": "True"
+  },
+  {
+    "question": "The initial margin in derivatives market depends on the volatility of the underlying market. Usually ____________",
+    "options": ["Higher the volatility, Lower the initial margin", "Higher the volatility, Higher the initial margin", "Lower the volatility, Higher the initial margin", "None of the above"],
+    "answer": "Higher the volatility, Higher the initial margin"
+  },
+  {
+    "question": "In normal market, a forward contract having a longer time to maturity trades at a higher price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Option contracts can be settled _________",
+    "options": ["in cash or settled by delivery depending on the terms of the contract", "in cash or settled by delivery depending on the choice of the buyer", "in cash or settled by delivery depending on the choice of the seller", "None of the above"],
+    "answer": "in cash or settled by delivery depending on the terms of the contract"
+  },
+  {
+    "question": "A Trading Member on derivatives exchange does not have Clearing rights - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Exposure levels of Clearing Members are ________ correlated with the Liquid Assets maintained with the Clearing Corporation.",
+    "options": ["Positively", "Negatively", "Not related", "exponentially"],
+    "answer": "Positively"
+  },
+  {
+    "question": "Vega measures change in delta with respect to change in price of the underlying asset - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "A fall in the price of Wipro stock increases the value of the Wipro call option - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "In general terms, if the number of participants in a market are more, the liquidity will be low - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "The holder of a long position in a PUT option will gain if the price of the underlying asset ________",
+    "options": ["Increases", "Decreases", "Does not change", "If the option expires worthless"],
+    "answer": "Decreases"
+  },
+  {
+    "question": "Which of the below statement(s) hold true for Futures Contract?",
+    "options": ["Futures Contracts are settled through clearing corporation of the exchange", "Futures Contracts are standardized contracts", "Futures Contracts are traded on an exchange", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which one of these complaints against a trading member can an Exchange take up for redressal?",
+    "options": ["Complaints regarding land dealings between a client and trading member", "Complaints in respect of transactions which are already subject matter of Arbitrage proceedings", "Claims regarding notional loss for the disputed trade", "Claims regarding unauthorized transaction in the client's account"],
+    "answer": "Claims regarding unauthorized transaction in the client's account"
+  },
+  {
+    "question": "The securities or money deposited by clients __________",
+    "options": ["will be as per brokers rules and regulations", "can be used asper the decision of Clearing Corporation and the broker", "can be attached for meeting broker's obligation on his proprietary account", "cannot be attached for meeting broker's obligation on his proprietary account"],
+    "answer": "cannot be attached for meeting broker's obligation on his proprietary account"
+  },
+  {
+    "question": "Mr. Sunil places a stop loss sell order on ABC stock with a trigger price of Rs. 450. The current market price of ABC stock is Rs 470. The order will be released for execution ________",
+    "options": ["As soon as the market price of ABC touches Rs. 470", "As soon as the market price of ABC touches Rs. 450", "As soon as the order is placed in the system", "If similar orders are available in the order book at Rs. 450"],
+    "answer": "As soon as the market price of ABC touches Rs. 450"
+  },
+  {
+    "question": "In Index futures, an open position can be settled by _________",
+    "options": ["delivery on maturity", "cash settlement on maturity", "either by cash or delivery on maturity", "exchange for gold on maturity"],
+    "answer": "cash settlement on maturity"
+  },
+  {
+    "question": "As per news, the Government can lose a vote of confidence and this can affect the stock markets pretty badly. If you are an active trader, what is the ideal step you will take?",
+    "options": ["Buy index futures", "Sell index futures", "Double your portfolio holdings", "Buy Blue Chip shares"],
+    "answer": "Sell index futures"
+  },
+  {
+    "question": "When ordinary cash dividends are declared, Call Option values will decrease - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "When SEBI has approved the approves bye-laws of a derivative exchange, the exchange is free to introduce futures contracts on any number of stocks and it does not require to go to SEBI every time - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "In the derivatives market, the mark to market margin is equal to the initial margin - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "On final settlement, the buyer/holder of the option will recognise the favourable difference received from the seller/writer as __________ in the profit and loss account.",
+    "options": ["Income", "Expense", "Loan", "Amortization"],
+    "answer": "Income"
+  },
+  {
+    "question": "Mr A sold a put option of strike Rs.300 on ABC stock for a premium of Rs.20. The lot size is 1000. On the expiry day, ABC stock closed at Rs. 250. What is your net profit or loss?",
+    "options": ["-30000", "30000", "70000", "-70000"],
+    "answer": "-30000"
+  },
+  {
+    "question": "The exercise date and expiration date of a European option is _______",
+    "options": ["Always the same", "Always on the 28th of the expiry month", "always different", "May be same"],
+    "answer": "Always the same"
+  },
+  {
+    "question": "In an ‘Opening Buy Transaction’ the effect will be that of creating or increasing ________",
+    "options": ["Arbitrage position", "Cross position", "Long position", "Short position"],
+    "answer": "Long position"
+  },
+  {
+    "question": "What advantage does the screen-based trading has over floor trading?",
+    "options": ["There are no set up costs in screen-based trading", "There is transparency in trade execution and execution price", "The technology needs are lower", "There is no need to route the order through an exchange"],
+    "answer": "There is transparency in trade execution and execution price"
+  },
+  {
+    "question": "The speculators play an important role in the futures market because _______",
+    "options": ["They buy in one market and sell in another for arbitrage gains", "They transfer their risk to the hedgers", "They add to the liquidity to the futures markets", "They take delivery of the commodities at expiration"],
+    "answer": "They add to the liquidity to the futures markets"
+  },
+  {
+    "question": "What does Value-at-risk measures?",
+    "options": ["value of a volatile portfolio", "Risk level of a financial portfolio", "Value of illiquid shares portfolio", "Index PE value"],
+    "answer": "Risk level of a financial portfolio"
+  },
+  {
+    "question": "A member has two clients Rohit and Mohit. Rohit has purchased 100 contracts and Mohit has sold 300 contracts in March Tata Steel futures series. What is the outstanding liability (open Position) of the member towards Clearing Corporation in number of contracts?",
+    "options": ["100", "300", "400", "200"],
+    "answer": "400"
+  },
+  {
+    "question": "Are Broker-Members allowed on the Clearing Council of the Clearing Corporation of the derivatives segment?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "One of the important duties of a trading member is to assess the financial soundness, genuineness and background of a new client - True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Mr. Kailash has bought 200 shares of ABC Industries Ltd. at Rs.850 per share. He expects the price to go up but wants to protect himself if the price falls. He does not want to lose more than Rs. 4000 on this long position. What should he do?",
+    "options": ["Place a limit buy order for 200 shares Rs. 830 per share", "Place a limit sell order for 200 shares Rs. 830 per share", "Place a stop loss sell order for 200 shares Rs. 830 per share", "Place a limit buy order for 200 shares at Rs. 870 per share"],
+    "answer": "Place a stop loss sell order for 200 shares Rs. 830 per share"
+  },
+  {
+    "question": "Of the below mentioned options, in which option is the strike price better than the market price and therefore it is profitable to exercise the option?",
+    "options": ["At-the-money option", "Out-of-the money option", "In the money option", "None of the above"],
+    "answer": "In the money option"
+  },
+  {
+    "question": "What does ‘selling short a stock’ means?",
+    "options": ["Seller owns the stock he is supposed to deliver", "Seller has sufficient time to deliver the stock which he sold", "Seller does not own the stock he is supposed to deliver", "Seller has to deliver the stock within a short time"],
+    "answer": "Seller does not own the stock he is supposed to deliver"
+  },
+  {
+    "question": "All the trades and open positions on a derivative exchange are guaranteed by the Clearing Corporation and it becomes a legal counterparty.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Mark-to-Market margins are collected on a __________ basis.",
+    "options": ["monthly", "weekly", "bi weekly i.e., Mondays and Thursdays", "daily"],
+    "answer": "daily"
+  },
+  {
+    "question": "STT means ___________",
+    "options": ["Stock Trading Tax", "Stock Transaction Tax", "Securities Transaction Tax", "Securities Trading Tax"],
+    "answer": "Securities Transaction Tax"
+  },
+  {
+    "question": "Of the below options, when will the April index future contract be introduced on NSE?",
+    "options": ["On the 1st trading day after last Thursday in March", "On the 1st trading day after last Friday in March", "On the 1st trading day after last Thursday in January", "On the 1st trading day after last Friday in January"],
+    "answer": "On the 1st trading day after last Thursday in January"
+  },
+  {
+    "question": "Main objectives of Trade Guarantee Fund (TGF) are:",
+    "options": ["To protect the interest of the investors in securities", "To inculcate confidence in the minds of market participants", "To guarantee settlement of bonafide transactions of the members of the exchange", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Initial Margin is ___________",
+    "options": ["The margin which is paid when a trading member starts his business", "The Margin which is paid at the time of buying shares in the spot market", "The margin which a trading member needs to pay when applying for membership", "The margin which is paid at the time of entering futures contract"],
+    "answer": "The margin which is paid at the time of entering futures contract"
+  },
+  {
+    "question": "In India, the derivatives product can be traded by ___________",
+    "options": ["Brokers of NSE / BSE", "SEBI registered brokers", "SEBI registered brokers for trading in derivatives", "All of the above"],
+    "answer": "SEBI registered brokers for trading in derivatives"
+  },
+  {
+    "question": "Mr. Banerjee sells a put option of a higher strike price and buys a put option of a lower strike price, both on the same share and same expiration. This strategy is called ________",
+    "options": ["Bearish Spread", "Bullish Spread", "Calendar Spread", "Straddle"],
+    "answer": "Bullish Spread"
+  },
+  {
+    "question": "Generally the Future prices converge to Spot prices on expiry day - True or False?",
+    "options": ["False", "True"],
+    "answer": "True"
+  },
+  {
+    "question": "Beta is a measure of systematic risk of a security that cannot be avoided through diversification.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "You have bought a CALL of Ambuja Cements of Strike price of Rs 200 of January. To close the position, you will Sell a CALL of same strike price of January. True or False?",
+    "options": ["False", "True"],
+    "answer": "True"
+  },
+  {
+    "question": "A long position in a PUT option can be closed by taking a short position in CALL option.",
+    "options": ["True", "False"],
+    "answer": "False"
+  }
+]

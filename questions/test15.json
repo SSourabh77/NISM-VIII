@@ -1,0 +1,242 @@
+[
+  {
+    "question": "The total number of outstanding / unsettled contracts in the market, at any point of time, is called as _______.",
+    "options": ["Open Interest", "Volume", "Turnover", "None of the above"],
+    "answer": "Open Interest",
+    "explanation": "Open Interest is the total number of outstanding contracts."
+  },
+  {
+    "question": "If the price of a future contract increases, the mark to market margin account of the seller of this futures contract is credited for the loss. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "The seller’s margin account is debited when price increases."
+  },
+  {
+    "question": "In India, futures and options on individual stocks are allowed on _______.",
+    "options": ["All scrips listed on NSE", "A few selected stocks", "All scrips above Rs 100", "All stocks with market cap of Rs 300 crore or more"],
+    "answer": "A few selected stocks",
+    "explanation": "Only selected stocks are permitted as per SEBI guidelines."
+  },
+  {
+    "question": "In a derivative exchange, the net worth requirement for a clearing member is _______.",
+    "options": ["Rs. 100 Lakhs", "Rs. 300 Lakhs", "Rs. 500 Lakhs", "Rs. 1000 Lakhs"],
+    "answer": "Rs. 300 Lakhs",
+    "explanation": ""
+  },
+  {
+    "question": "All active members of the Exchange are required to make initial contribution towards Trade Guarantee Fund / Settlement Guarantee Fund.",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "In a forward contract, the party that agrees to sell the underlying asset on a certain date in the future is called the _______.",
+    "options": ["Buyer", "Seller", "Short", "Long"],
+    "answer": "Seller",
+    "explanation": ""
+  },
+  {
+    "question": "In case of Call options, if the market price is less than the exercise (strike) price, the option is said to be _______.",
+    "options": ["In the money", "At the money", "Out of the money", "None of the above"],
+    "answer": "Out of the money",
+    "explanation": ""
+  },
+  {
+    "question": "A high initial margin level improves solvency & financial capability of the clearing corporation. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "A futures contract is usually referred to by its delivery month. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "In an Index Futures contract, the tick size is 0.2 of an index point & the index is currently at 2500. The minimum price movement would be _______.",
+    "options": ["Rs. 0.2", "Rs. 2", "Rs. 20", "Rs. 50"],
+    "answer": "Rs. 2",
+    "explanation": ""
+  },
+  {
+    "question": "Contract month means _______.",
+    "options": ["Month in which the transaction is done", "Month in which the contract expires", "Month in which the contract is settled", "None of the above"],
+    "answer": "Month in which the contract expires",
+    "explanation": ""
+  },
+  {
+    "question": "Daily Trading Price Limits define the maximum percentage by which the price of a futures contract is allowed to move up or down in a day. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "A Clearing Member is responsible to the exchange for his transactions & also for the transactions of his clients. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "Does trading in derivatives become expensive due to high margins? State Yes or No?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Margins are refundable security deposits."
+  },
+  {
+    "question": "The Clearing of trades on a stock exchange can be done by _______.",
+    "options": ["by the trading member himself", "by a professional clearing member", "by a self clearing member", "All of the above"],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "Delta measures the expected change in the option premium for a unit change in the price of the underlying asset. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "Liquid assets criterion for professional clearing members is different from that of trading members. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": ""
+  },
+  {
+    "question": "When would a trader make a profit on a short position of September futures?",
+    "options": ["When the futures price in September is higher than the price at which he sold", "When the futures price in September is lower than the price at which he sold", "When the spot price in September is higher", "None of the above"],
+    "answer": "When the futures price in September is lower than the price at which he sold",
+    "explanation": ""
+  },
+  {
+    "question": "Options contracts are not symmetrical with respect to rights & obligations of the buyer & the seller. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "The main logic behind Position limits is to _______.",
+    "options": ["prevent the market from becoming too volatile", "prevent any single trader or group of traders from manipulating the market", "Both 1 and 2", "None of the above"],
+    "answer": "prevent any single trader or group of traders from manipulating the market",
+    "explanation": ""
+  },
+  {
+    "question": "A portfolio with 50 different stocks is twice as risky as another portfolio with 100 different stocks. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "More diversification reduces unsystematic risk."
+  },
+  {
+    "question": "Futures trading is considered more risky than equity trading due to _______.",
+    "options": ["high leverage", "daily mark to market", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2",
+    "explanation": ""
+  },
+  {
+    "question": "The derivatives segment of a Stock Exchange is under the same governing council as the cash segment. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": ""
+  },
+  {
+    "question": "Stock price is _______.",
+    "options": ["same as in the near month future contract", "same as in the far month future contract", "different from future price", "None of the above"],
+    "answer": "different from future price",
+    "explanation": ""
+  },
+  {
+    "question": "Factor(s) influencing option pricing include which of the following?",
+    "options": ["time to expiry", "volatility of the underlying", "interest rates", "All of the above"],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "The maximum possible loss for the option buyer is the premium paid, but the potential profit is theoretically unlimited. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "A future contract is a very standardized contract that leaves very little (except the price) to be negotiated. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "Any person who wishes to open a Trading Account must be given the following documents by the broker.",
+    "options": ["Risk Disclosure Document", "Rights and Obligations document", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2",
+    "explanation": ""
+  },
+  {
+    "question": "The Clearing members in derivatives exchange are required to make a minimum deposit with the clearing corporation. This deposit is called _______.",
+    "options": ["Initial Margin", "Security Deposit", "Both 1 and 2", "None of the above"],
+    "answer": "Security Deposit",
+    "explanation": ""
+  },
+  {
+    "question": "The idea and economic rational of introducing forward contracts is to _______.",
+    "options": ["reduce risk", "increase risk", "make more profit", "None of the above"],
+    "answer": "reduce risk",
+    "explanation": ""
+  },
+  {
+    "question": "A person who is bullish and a payer of premium is a _______.",
+    "options": ["buyer of call option", "seller of call option", "buyer of put option", "seller of put option"],
+    "answer": "buyer of call option",
+    "explanation": ""
+  },
+  {
+    "question": "A trader has taken a short position of one contract in Sept ABC futures (contract size 1000) at Rs 300. The initial margin is 10%. What is the initial margin amount he has to deposit with his broker?",
+    "options": ["Rs 30,000", "Rs 3,000", "Rs 300,000", "Rs 3,000,000"],
+    "answer": "Rs 30,000",
+    "explanation": "10% of (300 × 1000) = Rs. 30,000"
+  },
+  {
+    "question": "A call option gives the holder a right to buy how much of the underlying from the writer?",
+    "options": ["1 share", "the quantity mentioned in the contract", "100 shares", "None of the above"],
+    "answer": "the quantity mentioned in the contract",
+    "explanation": ""
+  },
+  {
+    "question": "The networth criterion for Professional clearing Members is the same as that for Trading Members. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": ""
+  },
+  {
+    "question": "Loss incurred on derivatives transactions can be carried forward for a period of _______.",
+    "options": ["8 years", "4 years", "2 years", "1 year"],
+    "answer": "8 years",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following complaints can be taken up by the exchange for redressal?",
+    "options": ["non receipt of funds", "non receipt of securities", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2",
+    "explanation": ""
+  },
+  {
+    "question": "Trading members are required to possess a higher level of Capital Adequacy (as compared to cash market) to be able to trade in derivatives. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "A calendar spread in index futures is treated as _______ in a far month contract.",
+    "options": ["Open position", "Net position", "Zero position", "None of the above"],
+    "answer": "Net position",
+    "explanation": ""
+  },
+  {
+    "question": "The Trading members on the exchanges derivatives segment are not required to collect margins from institutional clients. State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE",
+    "explanation": "Margins must be collected from all clients."
+  },
+  {
+    "question": "On the National Stock Exchange, for its index futures, what would be the open interest on the day of expiry?",
+    "options": ["Zero", "Very high", "Same as previous day", "None of the above"],
+    "answer": "Zero",
+    "explanation": "All contracts get settled on expiry day."
+  }
+]

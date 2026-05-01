@@ -1,0 +1,62 @@
+[
+  {
+    "question": "In case of a member's default, the Clearing Corporation cannot transfer clients positions to another member or close out all open positions of defaulting member, without prior approval from SEBI - State True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "There are many products in the market which give high returns in risk-free manner - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "A long or short position in a futures contract can be closed by initiating a reverse trade - State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "Its common to have derivatives contract without any expiration date - State whether True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "Fixed deposits and Bank guarantees are NOT permitted to be offered by Clearing Members to the Clearing corpn as part of liquid assets - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "The term mark-to-market means ______ .",
+    "options": ["process by which a portfolio manager checks the daily profits / losses", "the current / spot index price", "intimation from the broker to a client for additional funds", "the every day revaluation of open positions by the exchanges to reflect profits and losses in the market"],
+    "answer": "the every day revaluation of open positions by the exchanges to reflect profits and losses in the market"
+  },
+  {
+    "question": "______ means the maximum exposures in terms of number of options and futures contacts that an investor can hold on one side of the market.",
+    "options": ["Outstanding Limit", "Market Limit", "Position Limit", "Upper Limit"],
+    "answer": "Position Limit"
+  },
+  {
+    "question": "The mark-to-market margin debits for stock futures are done on a daily basis but the mark-to-market margin credits are done on a weekly basis - State whether True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "The initial margin is always equal to the mark-to-market margin - State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "Mr. Arvind is very bullish on the market. How ever he feels some specific companies which he has in his portfolio will not perform well in future. What strategy should he adopt?",
+    "options": ["Sell Index futures and Sell specific companies shares", "Buy Index futures and Sell specific companies shares", "Sell Index futures and Buy specific companies shares", "Do nothing as markets are uncertain"],
+    "answer": "Buy Index futures and Sell specific companies shares"
+  },
+  {
+    "question": "Even if you do not own the underlying stock, you can sell the stock option for that stock - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "Longer the time to maturity of the PUT option, higher will be the time value - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "question": "An index option is a __________________.",
+    "options": ["Debt instrument", "Derivative product", "Cash market product", "Money market instrument"],
+    "answer": "Derivative product"
+  },
+  {
+    "question": "The purchase of a share in one market and the simultaneous sale in a different market to benefit from price differentials is known as ____________.",
+    "options": ["Mortgage", "Arbitrage", "Hedging", "Speculation"],
+    "answer": "Arbitrage"
+  },
+  {
+    "question": "Financial derivatives provide the facility for __________.",
+    "options": ["Trading", "Hedging", "Arbitraging", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Operational risks include losses due to ____________.",
+    "options": ["Inadequate disaster planning", "Too much of management control", "Income tax regulations", "Government policies"],
+    "answer": "Inadequate disaster planning"
+  },
+  {
+    "question": "Impact cost is low when the liquidity in the system is poor.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "You sold one XYZ Stock Futures contract at Rs. 278 and the lot size is 1,200. What is your profit (+) or loss (-), if you purchase the contract back at Rs. 265?",
+    "options": ["16,600", "15,600", "-15,600", "-16,600"],
+    "answer": "15,600"
+  },
+  {
+    "question": "You have taken a short position of one contract in June XYZ futures (contract multiplier 50) at a price of Rs. 3,400. When you closed this position after a few days, you realized that you made a profit of Rs. 10,000. Which of the following closing actions would have enabled you to generate this profit?",
+    "options": ["Selling 1 June XYZ futures contract at 3600", "Buying 1 June XYZ futures contract at 3600", "Buying 1 June XYZ futures contract at 3200", "Selling 1 June XYZ futures contract at 3200"],
+    "answer": "Buying 1 June XYZ futures contract at 3200"
+  },
+  {
+    "question": "Which of the following is closest to the forward price of a share, if Cash Price = Rs.750, Forward Contract Maturity = 6 months from date, Market Interest rate = 12%?",
+    "options": ["772.5", "795", "840", "940.8"],
+    "answer": "795"
+  },
+  {
+    "question": "If you have sold a XYZ futures contract (contract multiplier 50) at 3100 and bought it back at 3300, what is your gain/loss?",
+    "options": ["A loss of Rs. 10,000", "A gain of Rs. 10,000", "A loss of Rs. 5,000", "A gain of Rs. 5,000"],
+    "answer": "A loss of Rs. 10,000"
+  },
+  {
+    "question": "A calendar spread contract in index futures attracts ___________.",
+    "options": ["Same margin as sum of two independent legs of futures contract", "Lower margin than sum of two independent legs of futures contract", "Higher margin than sum of two independent legs of futures contract", "No margin need to be paid for calendar spread positions"],
+    "answer": "Lower margin than sum of two independent legs of futures contract"
+  },
+  {
+    "question": "Client A has purchased 10 contracts of December series and sold 7 contracts of January series of the NSE Nifty futures. How many lots will get categorized as regular (non-spread) open positions?",
+    "options": ["10", "7", "3", "17"],
+    "answer": "3"
+  },
+  {
+    "question": "An investor, who is anticipating a broad stock market fall, but is not willing to sell his entire portfolio of stocks, can offset his potential losses by shorting a certain number of Index futures.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Margins in 'Futures' trading are to be paid by _______.",
+    "options": ["Only the buyer", "Only the seller", "Both the buyer and the seller", "The clearing corporation"],
+    "answer": "Both the buyer and the seller"
+  },
+  {
+    "question": "When the near leg of the calendar spread transaction on index futures expires, the farther leg becomes a regular open position.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Selling short a stock means ___________.",
+    "options": ["Seller does not own the stock he is supposed to deliver", "Seller has to deliver the stock within a short time", "Seller owns the stock he is supposed to deliver", "Seller has more than a year's time to deliver the stock which he sold"],
+    "answer": "Seller does not own the stock he is supposed to deliver"
+  },
+  {
+    "question": "The buyer of an option cannot lose more than the option premium paid.",
+    "options": ["True only for European options", "True only for American options", "True for all options", "False for all options"],
+    "answer": "True for all options"
+  },
+  {
+    "question": "Cost of carry model states that ______________. ",
+    "options": ["Price of Futures = Spot + Cost of Carry", "Price of Futures = Spot - Cost of Carry", "Price of Futures = Spot Price", "Price of Futures = Cost of Carry"],
+    "answer": "Price of Futures = Spot + Cost of Carry"
+  },
+  {
+    "question": "What role do speculators play in the futures market?",
+    "options": ["They take delivery of the commodities at expiration", "They produce the commodities traded at futures exchanges", "They add to the liquidity in the futures markets", "They transfer their risk to the hedgers"],
+    "answer": "They add to the liquidity in the futures markets"
+  },
+  {
+    "question": "You sold a Put option on a share. The strike price of the put was Rs245 and you received a premium of Rs 49 from the option buyer. Theoretically, what can be the maximum loss on this position?",
+    "options": ["196", "206", "0", "49"],
+    "answer": "196"
+  },
+  {
+    "question": "Current Price of XYZ Stock is Rs 286. Rs. 260 strike call is quoted at Rs 45. What is the Intrinsic Value?",
+    "options": ["19", "26", "45", "0"],
+    "answer": "26"
+  },
+  {
+    "question": "A European call option gives the buyer the right but not the obligation to buy from the seller an underlying at the prevailing market price \"on or before\" the expiry date.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "A put option gives the buyer a right to sell how much of the underlying to the writer of the option?",
+    "options": ["Any quantity", "Only the specified quantity (lot size of the option contract)", "The specified quantity or less than the specified quantity", "The specified quantity or more than the specified quantity"],
+    "answer": "Only the specified quantity (lot size of the option contract)"
+  },
+  {
+    "question": "An in-the-money option is _____________.",
+    "options": ["An option with a negative intrinsic value", "An option which cannot be profitably exercised by the holder immediately", "An option with a positive intrinsic value", "An option with zero time value"],
+    "answer": "An option with a positive intrinsic value"
+  },
+  {
+    "question": "An option with a delta of 0.5 will increase in value approximately by how much, if the underlying share price increases by Rs 2?",
+    "options": ["Rs 1", "Rs 2", "Rs 4", "There would be no change"],
+    "answer": "Rs 1"
+  },
+  {
+    "question": "Exchange traded options are _______________.",
+    "options": ["Standardised options", "Always in-the-money options", "Customised options", "Always out-of-the money options"],
+    "answer": "Standardised options"
+  },
+  {
+    "question": "Higher the price volatility of the underlying stock of the put option, ___________.",
+    "options": ["Higher would be the premium", "Lower would be the premium", "Nil (zero) would be the premium", "Volatility does not effect put value"],
+    "answer": "Higher would be the premium"
+  },
+  {
+    "question": "In which option is the strike price better than the market price (i.e., price difference is advantageous to the option holder) and therefore it is profitable to exercise the option?",
+    "options": ["Out of the money option", "In the money option", "At the money option", "Higher the money option"],
+    "answer": "In the money option"
+  },
+  {
+    "question": "Mr. X purchases 100 put option on stock S at Rs 30 per call with strike price of Rs280. If on exercise date, stock price is Rs 350, ignoring transaction cost, Mr. X will choose ________",
+    "options": ["To exercise the option", "Not to exercise the option", "May or may not exercise the option depending on whether he is in his hometown or not at that time", "May or may not exercise the option depending on whether he like the company S or Not"],
+    "answer": "Not to exercise the option"
+  },
+  {
+    "question": "Three Call series of XYZ stock - January, February and March are quoted. Which will have the lowest Option Premium (same strikes)?",
+    "options": ["January", "February", "March", "All will be equal"],
+    "answer": "January"
+  },
+  {
+    "question": "Which is the ratio of change in option premium for the unit change in interest rates?",
+    "options": ["Vega", "Rho", "Theta", "Gamma"],
+    "answer": "Rho"
+  },
+  {
+    "question": "If you sell a put option with strike of Rs 245 at a premium of Rs.40, how much is the maximum gain that you may have on expiry of this position?",
+    "options": ["285", "40", "0", "205"],
+    "answer": "40"
+  },
+  {
+    "question": "If an investor buys a call option with lower strike price and sells another call option with higher strike price, both on the same underlying share and same expiration date, the strategy is called ___________.",
+    "options": ["Bullish spread", "Bearish spread", "Butterfly spread", "Calendar spread"],
+    "answer": "Bullish spread"
+  },
+  {
+    "question": "On the derivative exchanges, all the orders entered on the Trading System are at prices exclusive of brokerage.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "A trader has bought 100 shares of XYZ at Rs 780 per share. He expects the price to go up but wants to protect himself if the price falls. He does not want to lose more than Rs1000 on this long position in XYZ. What should the trader do?",
+    "options": ["Place a limit sell order for 100 shares of XYZ at Rs 770 per share", "Place a stop loss sell order for 100 shares of XYZ at Rs770 per share", "Place a limit buy order for 100 shares of XYZ at Rs 790 per share", "Place a limit buy order for 100 shares of XYZ at Rs770 per share"],
+    "answer": "Place a stop loss sell order for 100 shares of XYZ at Rs770 per share"
+  },
+  {
+    "question": "Trader A wants to sell 20 contracts of August series at Rs 4500 and Trader B wants to sell 17 contracts of September series at Rs 4550. Lot size is 50 for both these contracts. The Initial Margin is fixed at 6%. How much Initial Margin is required to be collected from both these investors (sum of initial margins of A and B) by the broker?",
+    "options": ["2,70,000", "5,02,050", "2,32,050", "4,10,000"],
+    "answer": "5,02,050"
+  },
+  {
+    "question": "A member has two clients C1 and C2. C1 has purchased 800 contracts and C2 has sold 900 contracts in August XYZ futures series. What is the outstanding liability (open position) of the member towards Clearing Corporation in number of contracts?",
+    "options": ["800", "1700", "900", "100"],
+    "answer": "1700"
+  },
+  {
+    "question": "A defaulting member's clients’ positions could be transferred to ____________ by the Clearing Corporation.",
+    "options": ["Another solvent member", "The Exchange", "A suspense account", "Error account"],
+    "answer": "Another solvent member"
+  },
+  {
+    "question": "Clients' positions cannot be netted off against each other while calculating initial margin on the derivatives segment.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Mark-to-market margins are collected ___________.",
+    "options": ["On a weekly basis", "Every 2 days", "Every 3 days", "On a daily basis"],
+    "answer": "On a daily basis"
+  },
+  {
+    "question": "Value-at-risk measures ___________.",
+    "options": ["Value of proprietary portfolio", "Risk level of a financial portfolio", "Net-worth of an investor", "Credit rating of an investor"],
+    "answer": "Risk level of a financial portfolio"
+  },
+  {
+    "question": "A penalty or suspension of registration of a stock broker from derivatives exchange/segment under the SEBI (Stock Broker) Regulations, 1992 can take place if _____",
+    "options": ["The stock broker fails to pay fees", "The stock broker violates the conditions of registration", "The stock broker is suspended by the stock exchange", "In any of the above situations"],
+    "answer": "In any of the above situations"
+  },
+  {
+    "question": "Clearing corporation on a derivatives exchange becomes a legal counterparty to all trades and be responsible for guaranteeing settlement for all open positions.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Initial margin collection is monitored by the _________.",
+    "options": ["RBI", "Clearing Corporation", "SEBI", "Margin Office"],
+    "answer": "Clearing Corporation"
+  },
+  {
+    "question": "Liquid Assets maintained by Mr A (Clearing Member) are higher than that maintained by Mr B (Clearing Member). Which of the following statements is true?",
+    "options": ["Mr A can enjoy higher exposure levels in futures than Mr B", "Mr B can enjoy higher exposure levels in futures than Mr A", "Both Mr A and Mr B enjoy the same exposure levels", "No need to maintain liquid assets for exposure in derivatives markets"],
+    "answer": "Mr A can enjoy higher exposure levels in futures than Mr B"
+  },
+  {
+    "question": "On the Clearing Council of the Clearing Corporation of the derivatives segment, broker-members are allowed.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "The main objective of Trade Guarantee Fund (TGF) at the exchanges is ___________",
+    "options": ["To guarantee settlement of bonafide transactions of the members of the exchange", "To inculcate confidence in the minds of market participants", "To protect the interest of the investors in securities", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Value-at-risk provides the ______________. ",
+    "options": ["Expected maximum loss, which may be incurred by a portfolio over a given period of time and specified confidence level", "Value of securities which are very risky", "Value of speculative stocks", "Theoretical value of illiquid stocks in a portfolio"],
+    "answer": "Expected maximum loss, which may be incurred by a portfolio over a given period of time and specified confidence level"
+  },
+  {
+    "question": "Who is eligible for clearing trades in index options?",
+    "options": ["All Indian citizens", "All members of the stock exchange", "All national level distributors", "Only members, who are registered with the Derivatives Segment as Clearing Members"],
+    "answer": "Only members, who are registered with the Derivatives Segment as Clearing Members"
+  },
+  {
+    "question": "If price of a futures contract decreases, the margin account of the buyer of this futures contract is debited for the loss.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "When establishing a relationship with a new client, the trading member takes reasonable steps to assess the background, genuineness, beneficial identify, financial soundness of such person and his investment/trading objectives.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following options on ABC Ltd stock with a strike price of Rs.500 has the highest time value?",
+    "options": ["Option expiring in a week", "Option expiring in one month", "Option expiring in two months", "Option expiring in three months"],
+    "answer": "Option expiring in three months"
+  },
+  {
+    "question": "The type of volatility which is derived from the option price and indicates the volatility expected over the life of the option is termed as ____________.",
+    "options": ["implied volatility", "historical volatility", "expected volatility", "forecast volatility"],
+    "answer": "implied volatility"
+  },
+  {
+    "question": "Which of the following is a hedged position?",
+    "options": ["Short straddle", "Short strangle", "Covered call", "Protective put"],
+    "answer": "Protective put"
+  },
+  {
+    "question": "Put-call parity refers to the relationship between: ________.",
+    "options": ["futures and options on the same stock", "call options on the same stock with the same maturity but different strike prices", "put and call options on the same stock but different strike prices and different maturity", "call and put options on the same stock with the same strike prices and same maturity"],
+    "answer": "call and put options on the same stock with the same strike prices and same maturity"
+  },
+  {
+    "question": "Which of the following situations indicates a bullish trend in the underlying?",
+    "options": ["a rising futures price along with falling open interest", "a falling futures price along with rising open interest", "a rising futures price along with rising open interest", "a falling futures price along with falling open interest"],
+    "answer": "a rising futures price along with rising open interest"
+  },
+  {
+    "question": "Which of the following costs is not actually paid by the market participants but arises due to lack of liquidity?",
+    "options": ["Securities Transaction Tax", "Impact cost", "SEBI charges", "Brokerage"],
+    "answer": "Impact cost"
+  },
+  {
+    "question": "Which of the following statements about interoperability of clearing corporations is TRUE?",
+    "options": ["It allows brokers to trade on only one exchange but clear and settle their trades through multiple clearing corporations", "it will lead to an increase in trading costs", "it allows brokers to trade on any exchange but clear and settle trades through the clearing corporation of any other exchange", "it will reduce competition among clearing corporations"],
+    "answer": "it allows brokers to trade on any exchange but clear and settle trades through the clearing corporation of any other exchange"
+  },
+  {
+    "question": "Which of the following measures was introduced by SEBI to prevent brokers from allowing excessive intraday leverage to their clients?",
+    "options": ["Cross margin", "SPAN margin", "Peak margin", "Exposure margin"],
+    "answer": "Peak margin"
+  },
+  {
+    "question": "Profits from derivatives transactions for Indian investors are taxed as: __________.",
+    "options": ["Speculative income under the head ‘profits and gains of business or profession’", "Short term capital gains under the head ‘capital gains’", "Non-speculative income under the head ‘income from other sources’", "Non-speculative income under the head ‘profits and gains of business or profession’"],
+    "answer": "Non-speculative income under the head ‘profits and gains of business or profession’"
+  },
+  {
+    "question": "In the KYC process, Politically Exposed Persons are termed as:",
+    "options": ["Clients of Special Categories", "High Networth Clients", "Institutional Clients", "High Risk Clients"],
+    "answer": "Clients of Special Categories"
+  },
+  {
+    "question": "_________ is allotted on client onboarding and serves as an exclusive identification of the client.",
+    "options": ["PAN number", "Unique client code", "ISIN code", "Demat account number"],
+    "answer": "Unique client code"
+  },
+  {
+    "question": "Under the Anti-Money Laundering (AML) and Combating of Financial Terrorism (CFT) regulations, suspicious transactions must be reported to ___________.",
+    "options": ["Securities and Exchange Board of India", "Central Vigilance Commission", "Reserve Bank of India", "Financial Intelligence Unit – India"],
+    "answer": "Financial Intelligence Unit – India"
+  },
+  {
+    "question": "SCORES is: __________.",
+    "options": ["Exchange’s Margin Reporting System", "Collateral Reporting System of Clearing Corporation", "SEBI’s web-based complaints redressal system", "Customer Due Diligence and e-KYC system"],
+    "answer": "SEBI’s web-based complaints redressal system"
+  },
+  {
+    "question": "A calendar spread will attract _______ margin.",
+    "options": ["Zero", "Higher", "Lower", "None of the above"],
+    "answer": "Lower"
+  },
+  {
+    "question": "A buyer of Call Option -",
+    "options": ["Has the obligation to take delivery of asset", "Has the obligation to give delivery of asset", "Has the right to buy the underlying asset", "Has the right to sell the underlying asset"],
+    "answer": "Has the right to buy the underlying asset"
+  },
+  {
+    "question": "If one does a calendar spread contract in index futures, then it attracts ___________",
+    "options": ["Lower margin than sum of two independent legs of futures contract", "No margin needs to be paid for calendar spread positions", "Higher margin than sum of two independent legs of futures contract", "Same margin as sum of two independent legs of futures contract"],
+    "answer": "Lower margin than sum of two independent legs of futures contract"
+  },
+  {
+    "question": "Mr. Kailash has bought 200 shares of ABC Industries Ltd. at Rs.850 per share. He expects the price to go up but wants to protect himself if the price falls. He does not want to lose more than Rs. 4000 on this long position. What should he do?",
+    "options": ["Place a limit buy order for 200 shares Rs.830 per share", "Place a limit sell order for 200 shares Rs. 830 per share", "Place a stop loss sell order for 200 shares Rs.830 per share", "Place a limit buy order for 200 shares at Rs.870 per share"],
+    "answer": "Place a stop loss sell order for 200 shares Rs.830 per share"
+  },
+  {
+    "question": "All the trades and open positions on a derivative exchange are guaranteed by the Clearing Corporation and it becomes a legal counterparty.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "If the lot size of Reliance Industries future contract is 500 shares, what will be the lot size of its Option contract?",
+    "options": ["500", "250", "100", "1000"],
+    "answer": "500"
+  },
+  {
+    "question": "Mr A buys an August futures contract of ICICI Bank at Rs 500. On the last Thursday of the month i.e., expiry, the last traded price in August futures is Rs 512 and the closing price in cash / spot market is Rs 510. What is the profit / loss of Mr if his position is sq-up by the exchange? Market lot of ICICI Bank is 250.",
+    "options": ["Rs 3000", "Rs 2500", "Rs -3000", "Rs -2500"],
+    "answer": "Rs 2500"
+  },
+  {
+    "question": "A long position in a CALL option can be closed by taking a short position in PUT option.",
+    "options": ["False", "True"],
+    "answer": "False"
+  },
+  {
+    "question": "When compared to cash market, there are more chances that an investor does not properly understand the risks involved in the derivatives market. True or False?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "A stock exchange has ON LINE SURVEILLANCE capability to monitor the ________",
+    "options": ["Volumes", "Prices", "Positions", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "The Spot price i.e., the market price of a share is Rs 200 and the interest rate is 12% pa. Which of the below price is closest to 3 months future maturity?",
+    "options": ["206", "200", "203", "224"],
+    "answer": "206"
+  },
+  {
+    "question": "Of the below mentioned options, which would attract margins?",
+    "options": ["Buyer of PUT Option", "Seller of CALL Option", "Seller of PUT Option", "Both 2 and 3"],
+    "answer": "Both 2 and 3"
+  },
+  {
+    "question": "The margining system for index futures is based on _______",
+    "options": ["Margin at risk", "Price at risk", "Volume at risk", "Value at risk"],
+    "answer": "Value at risk"
+  },
+  {
+    "question": "________ is a deal that produces profit by exploiting a price difference in a product in two different markets.",
+    "options": ["Hedging", "Trading", "Speculation", "Arbitrage"],
+    "answer": "Arbitrage"
+  },
+  {
+    "question": "When you buy a put option on a stock you are owning, this strategy is called ________",
+    "options": ["Straddle", "writing a covered call", "calendar spread", "protective put"],
+    "answer": "protective put"
+  },
+  {
+    "question": "A trader buys a call and a put option of same strike price and same expiry. This is called as ________",
+    "options": ["Butterfly", "Short Straddle", "Long Straddle", "Calendar Spread"],
+    "answer": "Long Straddle"
+  },
+  {
+    "question": "A trader Mr. Raj wants to sell 10 contracts of June series at Rs.5200 and a trader Mr. Rahul wants to buy 5 contracts of July series at Rs. 5250. Lot size is 50 for both these contracts. The Initial Margin is fixed at 10%. They both have their accounts with the same broker. How much Initial Margin is required to be collected from both these investors by the broker?",
+    "options": ["Rs 2,60,000", "Rs 1,31,250", "Rs 3,91,250", "Rs 1,28,750"],
+    "answer": "Rs 3,91,250"
+  },
+  {
+    "question": "Fixed deposits and Bank guarantees are NOT permitted to be offered by Clearing Members to the Clearing corpn as part of liquid assets - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "question": "The intrinsic value is the difference between Market Price and Strike Price of the option and it can never be negative.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "A portfolio of Rs 25 lacs has a beta of 1.20. A complete hedge is obtained by __________",
+    "options": ["by selling Nifty futures of Rs 25 lacs", "by selling Nifty futures of Rs 28 lacs", "by selling Nifty futures of Rs 30 lacs", "by buying Nifty futures of Rs 28 lacs"],
+    "answer": "by selling Nifty futures of Rs 30 lacs"
+  },
+  {
+    "question": "All the orders entered on the Trading System of a Derivative Exchange are at Prices exclusive of brokerage. True or False?",
+    "options": ["False", "True"],
+    "answer": "True"
+  },
+  {
+    "question": "If the price of a stock is volatile, then the option premium would be relatively _______",
+    "options": ["Lower", "Higher", "No effect of volatility", "zero"],
+    "answer": "Higher"
+  },
+  {
+    "question": "If the liquid assets maintained by clearing member Mr. Ram are higher than that clearing member Mr. Shyam, which of the below options is/are true?",
+    "options": ["There is no need to maintain liquid assets", "Both Mr. Ram and Mr. Shyam have the same level of exposure", "Mr Ram has a higher exposure level than Mr. Shyam", "Mr Shyam has a higher exposure level than Mr. Ram"],
+    "answer": "Mr Ram has a higher exposure level than Mr. Shyam"
+  },
+  {
+    "question": "Mr R wants to sell 17 contracts of January series at Rs.4550 and Mr S wants to sell 20 contracts of February series at Rs. 4500. Lot size is 50. The Initial Margin is fixed at 9%. How much Initial Margin is required to be collected from both these investors by the broker?",
+    "options": ["Rs 3,48,075", "Rs 4,05,000", "Rs 5,87,500", "Rs 7,53,075"],
+    "answer": "Rs 7,53,075"
+  },
+  {
+    "question": "Initial margin is calculated based on ______",
+    "options": ["Average price movement in the last 5 working days", "Value-At-Risk (VAR) based margining", "fixed at 25% for most of the scrips and 35% for volatile scrips", "As per The Black & Scholes Model"],
+    "answer": "Value-At-Risk (VAR) based margining"
+  },
+  {
+    "question": "_______ is a deal that produces profit by exploiting a price difference in a product in two different markets.",
+    "options": ["Hedging", "Trading", "Speculation", "Arbitrage"],
+    "answer": "Arbitrage"
+  },
+  {
+    "question": "A trader sells a lower strike price CALL option and buys a higher strike price CALL option, both of the same scrip and same expiry date. This strategy is called _______",
+    "options": ["Bearish Spread", "Bullish Spread", "Long term Investment", "Butterfly"],
+    "answer": "Bearish Spread"
+  },
+  {
+    "question": "Mr. Ashu has bought 100 shares of ABC at Rs 980 per share. He expects the price to go up but wants to protect himself if price falls. He does not want to lose more than Rs. 1000 on this long position in ABC. What should Mr. Ashu do?",
+    "options": ["Place a stop loss order for 100 shares of ABC at Rs 990 per share", "Place a stop loss order for 100 shares of ABC at Rs 970 per share", "Place limit buy order for 100 shares of ABC at Rs 990 per share", "Place a limit sell order for 100 shares of ABC at Rs 970 per share"],
+    "answer": "Place a stop loss order for 100 shares of ABC at Rs 970 per share"
+  },
+  {
+    "question": "A member has two clients Rohit and Mohit. Rohit has purchased 100 contracts and Mohit has sold 300 contracts in March Tata Steel futures series. What is the outstanding liability (open Position) of the member towards Clearing Corporation in number of contracts?",
+    "options": ["100", "300", "400", "200"],
+    "answer": "400"
+  }
+]

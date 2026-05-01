@@ -1,0 +1,254 @@
+[
+  {
+    "question": "A market index is very important for its use ________.",
+    "options": ["in portfolio management", "as a barometer for market movements", "in index funds and index based derivatives", "All of the above"],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "The clearing member/trading member is required to disclose to the clearing corporation the details of the clients trading through him.",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following factor(s) do not affect the value of an option?",
+    "options": ["The Open Interest", "The Spot Price", "The volatility in underlying instruments", "The strike price"],
+    "answer": "The Open Interest",
+    "explanation": ""
+  },
+  {
+    "question": "An Equity based Mutual Fund can sell Index Futures to hedge its position - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "The beta of SBI is 0.9. If a trader has a buy position of Rs 3,00,000 of SBI, how much Nifty futures he should sell to completely hedge his position? (Nifty lot size 50)",
+    "options": ["Sell 5 lots of Nifty futures", "Sell 6 lots of Nifty futures", "Sell 7 lots of Nifty futures", "Sell 4 lots of Nifty futures"],
+    "answer": "Sell 6 lots of Nifty futures",
+    "explanation": ""
+  },
+  {
+    "question": "An investor has bought 100 SBI shares at Rs 2000. How will he hedge it? The Current price of SBI is Rs 2050 and the lot size of Nifty is 50.",
+    "options": ["Sell 4 lots of Nifty", "Sell 5 lots of Nifty", "Sell 6 lots of Nifty", "Sell 3 lots of Nifty"],
+    "answer": "Sell 5 lots of Nifty",
+    "explanation": ""
+  },
+  {
+    "question": "If you sell an Option, you will –",
+    "options": ["have to pay the premium", "receive the premium", "both 1 and 2", "none of the above"],
+    "answer": "receive the premium",
+    "explanation": ""
+  },
+  {
+    "question": "If an investor buys a future contract but does not sell it till expiry than what will happen?",
+    "options": ["The contract will be automatically squared up by the exchange", "The contract will be settled by delivery", "The contract will be rolled over to next month", "None of the above"],
+    "answer": "The contract will be automatically squared up by the exchange",
+    "explanation": ""
+  },
+  {
+    "question": "Margins in futures trading are applicable to –",
+    "options": ["Only Institutional players", "Only Retail players", "Both Institutional & Retail players", "Only Brokers"],
+    "answer": "Both Institutional & Retail players",
+    "explanation": ""
+  },
+  {
+    "question": "The Clearing Corporation can transfer a defaulting members client's position to another clearing member - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "If an trader does an calendar spread in index futures and the near leg of the calendar spread expires then the farther leg becomes a regular open position - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "The strategy in which an trader buys a call option of lower strike price and sells a call option of higher strike price is called ________.",
+    "options": ["Bull Spread", "Bear Spread", "Calendar Spread", "Strangle"],
+    "answer": "Bull Spread",
+    "explanation": ""
+  },
+  {
+    "question": "Of the below mentioned options, which would attract margins?",
+    "options": ["Buyer of PUT option", "Seller of PUT option", "Buyer of CALL option", "Both 2 and 3"],
+    "answer": "Both 2 and 3",
+    "explanation": ""
+  },
+  {
+    "question": "The Option price is the _______.",
+    "options": ["price paid by the seller of option to the buyer", "price paid by the buyer of option to the seller", "price paid to the exchange", "None of the above"],
+    "answer": "price paid by the buyer of option to the seller",
+    "explanation": ""
+  },
+  {
+    "question": "Client KKK has purchased 10 contracts of December series and sold 7 contracts of the same December series. What is the open position of KKK?",
+    "options": ["17 contracts", "3 contracts", "10 contracts", "7 contracts"],
+    "answer": "3 contracts",
+    "explanation": ""
+  },
+  {
+    "question": "________ means the total number of equity futures contracts that have not been offset and closed by an opposite position.",
+    "options": ["Open Interest", "Volume", "Turnover", "None of the above"],
+    "answer": "Open Interest",
+    "explanation": ""
+  },
+  {
+    "question": "In which option is the strike price not better than the market price (i.e., price at which the option would be exercised)?",
+    "options": ["In the money option", "Out of the money option", "At the money option", "None of the above"],
+    "answer": "Out of the money option",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following are derivatives?",
+    "options": ["Options", "Forwards", "Futures", "All of the above"],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "If you are an exporter what would you do to safeguard against dollar rate fluctuations?",
+    "options": ["Buy Dollar futures", "Sell Dollar futures", "Do nothing", "Buy Dollar Call option"],
+    "answer": "Sell Dollar futures",
+    "explanation": ""
+  },
+  {
+    "question": "You have sold a PUT option of strike price 100 for a premium of Rs 12. Theoretically what is the maximum loss you can make?",
+    "options": ["Rs 12", "Rs 100", "Rs 88", "Unlimited"],
+    "answer": "Unlimited",
+    "explanation": ""
+  },
+  {
+    "question": "Who can clear trades in index options?",
+    "options": ["All AMFI and IRDA members", "All trading members of the derivative segment", "Only Clearing Members", "Only Custodians"],
+    "answer": "Only Clearing Members",
+    "explanation": ""
+  },
+  {
+    "question": "You sold one Zee Ent Ltd. futures contract at Rs.260 and the lot size is 1,000. On that day the settlement price of Zee Ent futures contract is Rs 255. What is your profit (+) or loss (-)?",
+    "options": ["+5000", "-5000", "+260000", "-260000"],
+    "answer": "+5000",
+    "explanation": ""
+  },
+  {
+    "question": "An in-the-money option is a option with ______",
+    "options": ["a negative intrinsic value", "a zero intrinsic value", "a positive intrinsic value", "none of the above"],
+    "answer": "a positive intrinsic value",
+    "explanation": ""
+  },
+  {
+    "question": "If you have sold a ITC futures contract (contract multiplier 500) at 300 and the lot size is 500, and if the price of ITC futures goes to 320, what will be your profit or loss?",
+    "options": ["Profit of Rs 10,000", "Loss of Rs 10,000", "Profit of Rs 5000", "Loss of Rs 5000"],
+    "answer": "Loss of Rs 10,000",
+    "explanation": ""
+  },
+  {
+    "question": "In the Option segment, if you sell a CALL at a premium of Rs 45 at the Strike Price of Rs 400, lot is of 200 shares, then the maximum possible loss is _____",
+    "options": ["Rs 9000", "Rs 20,000", "Rs 80,000", "Unlimited"],
+    "answer": "Unlimited",
+    "explanation": ""
+  },
+  {
+    "question": "Securities Transaction Tax is levied on________.",
+    "options": ["Purchase of Equity Shares", "Sale of Equity Shares", "Purchase of Equity Derivatives", "Sale of Equity Derivatives"],
+    "answer": "Sale of Equity Derivatives",
+    "explanation": ""
+  },
+  {
+    "question": "FII Long positions in Index Derivatives should not exceed the FII's holding of cash market securities.",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "The market wide position limit for single stock futures and stock option contracts is ________.",
+    "options": ["10% of the market wide position limit", "20% of the market wide position limit", "30% of the market wide position limit", "None of the above"],
+    "answer": "20% of the market wide position limit",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is not the duty of the trading member ?",
+    "options": ["Execution of client orders", "Collection of margins from clients", "Clearing and settlement of trades", "None of the above"],
+    "answer": "Clearing and settlement of trades",
+    "explanation": ""
+  },
+  {
+    "question": "Currency futures were first traded at ________.",
+    "options": ["Chicago Stock Exchange", "Chicago Mercantile Exchange", "New York Stock Exchange", "London Stock Exchange"],
+    "answer": "Chicago Mercantile Exchange",
+    "explanation": ""
+  },
+  {
+    "question": "Limitations of forward market is / are _________.",
+    "options": ["Illiquidity", "Counterparty risk", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2",
+    "explanation": ""
+  },
+  {
+    "question": "Which exchange first started trading in financial futures?",
+    "options": ["Chicago Board of Trade", "Chicago Mercantile Exchange", "New York Mercantile Exchange", "London International Financial Futures Exchange"],
+    "answer": "Chicago Mercantile Exchange",
+    "explanation": ""
+  },
+  {
+    "question": "What is the difference between Spot Price and Future Price known as?",
+    "options": ["Impact Cost", "Basis", "Tick", "Spread"],
+    "answer": "Basis",
+    "explanation": ""
+  },
+  {
+    "question": "An investor purchased one lot of Nifty futures at 6000. The closing price of Nifty futures on the last Thursday of the month was 6050. What is his Profit (+) or Loss (-)? (Nifty lot size is 50)",
+    "options": ["+2500", "-2500", "+3000", "-3000"],
+    "answer": "+2500",
+    "explanation": ""
+  },
+  {
+    "question": "Cost of carry model means price of futures is equal to _______.",
+    "options": ["Spot price + Cost of carry", "Spot price - Cost of carry", "Spot price only", "None of the above"],
+    "answer": "Spot price + Cost of carry",
+    "explanation": ""
+  },
+  {
+    "question": "An option buyer pays the option premium to the option seller.",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "A trader believes that the future price of PQR company will rise and being a smart trader he will ________.",
+    "options": ["sell PQR futures now and buy them later", "buy PQR futures now and sell them later", "do nothing", "none of the above"],
+    "answer": "buy PQR futures now and sell them later",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the below options is the best way to manage risk in the underlying cash market?",
+    "options": ["Hedging", "Arbitrage", "Speculation", "None of the above"],
+    "answer": "Hedging",
+    "explanation": ""
+  },
+  {
+    "question": "The intrinsic value of a CALL option of Reliance of strike price 910 and spot price 920 is ______.",
+    "options": ["Rs 10", "Rs 0", "Rs -10", "None of the above"],
+    "answer": "Rs 10",
+    "explanation": ""
+  },
+  {
+    "question": "_______ spread involves same strike, same type but different expiry options.",
+    "options": ["Bull Spread", "Bear Spread", "Calendar Spread", "Butterfly Spread"],
+    "answer": "Calendar Spread",
+    "explanation": ""
+  },
+  {
+    "question": "The Client level position limits in derivative trading should not exceed 5% of the market wide position limit.",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE",
+    "explanation": ""
+  },
+  {
+    "question": "In the books of the buyer of the option, the premium paid would be ______.",
+    "options": ["an expense", "an asset", "a liability", "none of the above"],
+    "answer": "an asset",
+    "explanation": ""
+  }
+]

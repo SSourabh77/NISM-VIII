@@ -1,0 +1,152 @@
+[
+  {
+    "question": "The NEAT F&O trading system ___________.",
+    "options": ["does not allow combination trades", "allows only a single order placement at a time", "allows one to enter combination trades", "none of the above"],
+    "answer": "allows one to enter combination trades"
+  },
+  {
+    "question": "For FII's, the short position in index derivatives should not exceed the long positions in delivery holdings - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "The buyer of an option cannot lose more than the option premium paid.",
+    "options": ["True only for American options", "True only for European options", "True for all options", "False for all options"],
+    "answer": "True for all options"
+  },
+  {
+    "question": "The payoff for a trader who sells a future contract is similar to the payoff for a trader who ________ an asset.",
+    "options": ["goes long", "shorts", "hedges", "does arbitrage in"],
+    "answer": "shorts"
+  },
+  {
+    "question": "A writer of a call option is a person who ________.",
+    "options": ["Has the obligation to buy the underlying asset", "Has the obligation to sell the underlying asset", "Has the right to buy the underlying asset", "Has the right to sell the underlying asset"],
+    "answer": "Has the obligation to sell the underlying asset"
+  },
+  {
+    "question": "Options which can be exercised only on the expiration date are ________ options.",
+    "options": ["American Options", "Indian Options", "European Options", "Commodity Options"],
+    "answer": "European Options"
+  },
+  {
+    "question": "Short straddle is created by shorting a call and a put option of same strike and same expiry - True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "To take a selling position in a Stock Futures contract, a trader should _______.",
+    "options": ["have the underlying stock in his demat account", "pay only the margin amount as specified by the exchange", "pay the full value of future contract", "None of the above"],
+    "answer": "pay only the margin amount as specified by the exchange"
+  },
+  {
+    "question": "Seller of a put option expects _________.",
+    "options": ["Decrease in the price of underlying asset", "Increase in the price of underlying asset", "No change in the price of underlying asset", "Both (2) and (3)"],
+    "answer": "Both (2) and (3)"
+  },
+  {
+    "question": "You have taken a short position of one contract in June XYZ futures (contract multiplier 50) at a price of Rs. 3,400. When you closed this position after a few days, you realized that you made a profit of Rs. 10,000. Which of the following closing actions would have enabled you to generate this profit? (You may ignore brokerage costs.)",
+    "options": ["Selling 1 June XYZ futures contract at 3600", "Selling 1 June XYZ futures contract at 3200", "Buying 1 June XYZ futures contract at 3200", "Buying 1 June XYZ futures contract at 3600"],
+    "answer": "Buying 1 June XYZ futures contract at 3200"
+  },
+  {
+    "question": "A stock is currently selling at Rs. 90. The put option to sell the stock at Rs. 95 costs Rs. 12. What is the time value of the option?",
+    "options": ["Rs 7", "Rs 12", "Rs 19", "Rs 90"],
+    "answer": "Rs 7"
+  },
+  {
+    "question": "What role do speculators play in the futures market?",
+    "options": ["They take delivery of the commodities at expiration", "They transfer their risk to the hedgers", "They add to the liquidity in the futures markets", "All of the above"],
+    "answer": "They add to the liquidity in the futures markets"
+  },
+  {
+    "question": "The beta of SBI is 1.4. A trader has a long position in SBI of Rs 400000 and a short position in Nifty of Rs 410000. Which of the foll is true ?",
+    "options": ["He is bullish on Nifty as well as on SBI", "He is bearish on Nifty as well as on SBI", "He has a complete hedge against the fluction of Nifty", "He has a partial hedge against the fluction of Nifty"],
+    "answer": "He has a partial hedge against the fluction of Nifty"
+  },
+  {
+    "question": "The main intention behind buying a PUT option is to benefit when the market / script _______.",
+    "options": ["rises", "falls", "sees no major price change", "none of the above"],
+    "answer": "falls"
+  },
+  {
+    "question": "The index futures position are mark to marketed on a daily basis - True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "The beta of a stock is 0.7 and you have a buy position of Rs 3,00,000 in it. Which of the below options will give you a complete hedge ?",
+    "options": ["Sell Rs 2,10,000 Nifty", "Buy Rs 2,10,000 Nifty", "Buy Rs 3,00,00 Nifty", "Sell Rs 3,00,000 Nifty"],
+    "answer": "Sell Rs 2,10,000 Nifty"
+  },
+  {
+    "question": "What is the intrinsic value of a call option if the spot price is Rs 300 and the strike price is Rs 250 ?",
+    "options": ["zero", "50", "650", "None of the above"],
+    "answer": "50"
+  },
+  {
+    "question": "For which type of options is it profitable to exercise the options ?",
+    "options": ["In the Money", "At the Money", "Out of the Money", "None of the above"],
+    "answer": "In the Money"
+  },
+  {
+    "question": "Losses due to Operational risks include losses due to _______.",
+    "options": ["State Government policies", "Income tax regulations", "Inadequate disaster planning", "Excessive management control"],
+    "answer": "Inadequate disaster planning"
+  },
+  {
+    "question": "Mr R wants to sell 17 contracts of January series at Rs.4550 and Mr S wants to sell 20 contracts of February series at Rs. 4500. Lot size is 50. The Initial Margin is fixed at 9%. How much Initial Margin is required to be collected from both these investors by the broker?",
+    "options": ["Rs 3,48,075", "Rs 4,05,000", "Rs 5,87,500", "Rs 7,53,075"],
+    "answer": "Rs 7,53,075"
+  },
+  {
+    "question": "The Spot price ie. the market price of a share is Rs 200 and the interest rate is 12%. Which of the below price is closest to 3 months future maturity ?",
+    "options": ["206", "200", "203", "224"],
+    "answer": "206"
+  },
+  {
+    "question": "If a person buys a share in one market and the simultaneously sells in a different market to benefit from differentials is known as ________.",
+    "options": ["Log trading", "Arbitrage", "Speculation", "Jobbing"],
+    "answer": "Arbitrage"
+  },
+  {
+    "question": "Can clients position be netted off against each other while calculating initial Margin on the derivatives segment.",
+    "options": ["No", "Yes"],
+    "answer": "No"
+  },
+  {
+    "question": "Trade Guarantee Fund (TGF) is maintained for –",
+    "options": ["Protecting the interests of investors", "inculcating confidence in the minds of investors and brokers", "Guaranteeing the settlement of trades", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "In an equity scheme, the Mutual Fund can hedge its equity exposure by selling stock index futures - True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "All the orders entered on the Trading System of a Derivative Exchange are at Prices exclusive of brokerage. True or False ?",
+    "options": ["FALSE", "TRUE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "Ms. Rita sold a put option of strike price Rs. 90 and she received a premium of Rs. 6 from the option buyer. Theoretically, what can be the maximum loss on this trade ?",
+    "options": ["90", "84", "96", "0"],
+    "answer": "84"
+  },
+  {
+    "question": "If the liquid assets maintained by clearing member Mr. Ram are higher than that clearing member Mr. Shyam, which of the below options is/are true ?",
+    "options": ["There is no need to maintain liquid assets", "Both Mr. Ram and Mr. Shyam have the same level of exposure", "Mr Ram has a higher exposure level than Mr. Shyam", "Mr Shyam has a higher exposure level than Mr. Ram"],
+    "answer": "Mr Ram has a higher exposure level than Mr. Shyam"
+  },
+  {
+    "question": "An exchange traded option after maturity ________ .",
+    "options": ["Can be traded after 2 days ie. after pay in / pay out.", "Can be traded in the spot market", "Cannot be traded", "None of the above"],
+    "answer": "Cannot be traded"
+  },
+  {
+    "question": "You have bought a CALL of SBI of Strike price of Rs 2000 of January. To close the position, you will buy a PUT of same strike price of January. True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  }
+]

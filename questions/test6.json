@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Mr. Ganesh thinks that the markets will go down, so he sell 10 lots of index futures at 3500. His predictions come true and the index falls and Mr. Ganesh buys back the futures contract at 3410. What is the profit Mr. Ganesh has made if one lot of index is of 50.",
+    "options": ["35000", "45000", "55000", "65000"],
+    "answer": "45000"
+  },
+  {
+    "question": "______ is not a derivatives market product.",
+    "options": ["Preference Share", "Futures", "Swaps", "Options"],
+    "answer": "Preference Share"
+  },
+  {
+    "question": "A trader sells a PQR stock Put contract of Rs 200 strike for Rs 50. The lot size is 1500. What is the profit /loss if he buys the Put back at Rs 28 ? (in Rs)",
+    "options": ["28500", "-28500", "33000", "-33000"],
+    "answer": "33000"
+  },
+  {
+    "question": "Counterparty risk can also be called as ________.",
+    "options": ["Credit Risk", "Default Risk", "Both 1 and 2", "Speculative Risk"],
+    "answer": "Both 1 and 2"
+  },
+  {
+    "question": "To whom is a high impact cost beneficial ?",
+    "options": ["Only buyers", "Only sellers", "Neither buyers nor sellers", "Only arbitrageurs"],
+    "answer": "Neither buyers nor sellers"
+  },
+  {
+    "question": "A call option gives the buyer the right to buy the underlying at market price - State True or False ?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "FALSE"
+  },
+  {
+    "question": "When it is said that there is cash settlement of an index futures contract, it means that the contract is settled in cash with no delivery of the underlying - State whether True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "When the margins are kept on the lower side, it will attract more players to join the market - State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "______ is a deal that produces profit by exploiting a price difference in a product in two different markets.",
+    "options": ["Hedging", "Trading", "Speculation", "Arbitrage"],
+    "answer": "Arbitrage"
+  },
+  {
+    "question": "How can you close a short position in a futures market?",
+    "options": ["By buying a Call Option", "By entering into a suitable forward contract", "By executing a purchase of the same futures contracts", "By executing a sale of the same futures contracts"],
+    "answer": "By executing a purchase of the same futures contracts"
+  },
+  {
+    "question": "Arbitrage is basically earning a risk-free profit by simultaneous buying and selling replicating assets in two or more different markets - State True or False?",
+    "options": ["TRUE", "FALSE"],
+    "answer": "TRUE"
+  },
+  {
+    "question": "An Index Option is_____.",
+    "options": ["a derivative product", "settled in cash", "rarely traded on the Indian stock exchanges", "Both 1 and 2"],
+    "answer": "Both 1 and 2"
+  }
+]
