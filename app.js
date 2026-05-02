@@ -88,7 +88,14 @@ const tests = [
   { name: "Mock Test 12", file: "questions/test12.json" },
   { name: "Mock Test 13", file: "questions/test13.json" },
   { name: "Mock Test 14", file: "questions/test14.json" },
-  { name: "Mock Test 15", file: "questions/test15.json" }
+  { name: "Mock Test 15", file: "questions/test15.json" },
+  { name: "Mock Test 16", file: "questions/test16.json" },
+  { name: "Mock Test 17", file: "questions/test17.json" },
+  { name: "Mock Test 18", file: "questions/test18.json" },
+  { name: "Mock Test 19", file: "questions/test19.json" },
+  { name: "Mock Test 20", file: "questions/test20.json" },
+  { name: "Mock Test 21", file: "questions/test21.json" },
+  { name: "Mock Test 22", file: "questions/test22.json" }
 ];
 
 const icons = ["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12", "T13", "T14", "T15"];
