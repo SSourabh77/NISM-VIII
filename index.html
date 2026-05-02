@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NISM Mock Test App</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -96,7 +96,22 @@
 
     #quiz, #resultCard, #historyBox { display: none; }
 
-    .quiz-inner { padding: 28px 28px 24px; }
+    /* ===== QUIZ CARD ===== */
+    #quiz .quiz-card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(15,27,53,0.25);
+      overflow: hidden;
+    }
+    .progress-wrap { height: 6px; background: #e2e8f0; }
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--gold), #f59e0b);
+      transition: width 0.4s ease;
+      width: 0%;
+    }
+
+    .quiz-inner { padding: 28px 24px 24px; }
 
     .quiz-meta { 
       display: flex; 
@@ -105,13 +120,12 @@
       margin-bottom: 20px; 
     }
     .q-counter { 
-      font-size: 0.78rem; 
-      font-weight: 600; 
-      letter-spacing: 0.08em; 
+      font-size: 0.75rem; 
+      font-weight: 700; 
+      letter-spacing: 0.1em; 
       color: var(--muted); 
       text-transform: uppercase; 
     }
-
     .timer-pill { 
       display: flex; 
       align-items: center; 
@@ -135,12 +149,15 @@
       to { transform: scale(1.05); } 
     }
 
-    .question { 
-      font-family: 'DM Serif Display', serif; 
-      font-size: clamp(1rem, 2.5vw, 1.15rem); 
-      line-height: 1.6; 
-      color: var(--text); 
-      margin-bottom: 22px; 
+    /* ✅ QUESTION FONT — Inter Black, pure dark, large */
+    .question {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.06rem;
+      line-height: 1.85;
+      color: #060d1f;
+      margin-bottom: 24px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
     }
 
     .options { 
@@ -148,19 +165,23 @@
       flex-direction: column; 
       gap: 10px; 
     }
+
+    /* ✅ OPTION FONT — Inter SemiBold, near-black */
     .option-label { 
       display: flex; 
       align-items: center; 
       gap: 12px; 
       background: #f8fafc; 
       border: 2px solid #e2e8f0; 
-      border-radius: 10px; 
-      padding: 12px 16px; 
+      border-radius: 12px; 
+      padding: 13px 16px; 
       cursor: pointer; 
       transition: all 0.18s ease; 
-      font-size: 0.93rem; 
-      font-weight: 500; 
-      color: var(--text); 
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem; 
+      font-weight: 600; 
+      color: #0f172a;
+      line-height: 1.5;
     }
     .option-label:hover { 
       border-color: var(--gold); 
@@ -169,9 +190,9 @@
     .option-label input[type="radio"] { display: none; }
     
     .radio-dot { 
-      width: 18px; 
-      height: 18px; 
-      min-width: 18px; 
+      width: 20px; 
+      height: 20px; 
+      min-width: 20px; 
       border-radius: 50%; 
       border: 2px solid #cbd5e1; 
       display: flex; 
@@ -189,8 +210,8 @@
     }
     .option-label.selected .radio-dot::after { 
       content: ''; 
-      width: 7px; 
-      height: 7px; 
+      width: 8px; 
+      height: 8px; 
       border-radius: 50%; 
       background: white; 
     }
@@ -229,6 +250,13 @@
       from { opacity: 0; transform: translateY(20px); } 
       to { opacity: 1; transform: translateY(0); } 
     }
+    .result-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.6rem;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+    .result-subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
 
     .score-grid { 
       display: grid; 
@@ -236,46 +264,35 @@
       gap: 12px; 
       margin-bottom: 28px; 
     }
-    .score-box { 
-      border-radius: 12px; 
-      padding: 16px 10px; 
-      text-align: center; 
-    }
+    .score-box { border-radius: 12px; padding: 16px 10px; text-align: center; }
+    .box-green { background: #f0fdf4; border: 1.5px solid #86efac; }
+    .box-red   { background: #fff5f5; border: 1.5px solid #fca5a5; }
+    .box-grey  { background: #f8fafc; border: 1.5px solid #cbd5e1; }
+    .box-gold  { background: #fffbeb; border: 1.5px solid var(--gold); }
     .score-box .score-num { 
       font-family: 'DM Serif Display', serif; 
-      font-size: 1.8rem; 
-      font-weight: 700; 
-      display: block; 
+      font-size: 1.8rem; font-weight: 700; display: block; color: var(--navy);
     }
     .score-box .score-lbl { 
-      font-size: 0.72rem; 
-      font-weight: 600; 
-      letter-spacing: 0.06em; 
-      text-transform: uppercase; 
-      margin-top: 4px; 
-      display: block; 
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; 
+      text-transform: uppercase; margin-top: 4px; display: block; color: var(--muted);
     }
 
     .wrong-title { 
       font-family: 'DM Serif Display', serif; 
-      font-size: 1.1rem; 
-      color: var(--text); 
-      margin-bottom: 14px; 
-      padding-bottom: 10px; 
-      border-bottom: 1px solid #e2e8f0; 
+      font-size: 1.1rem; color: var(--text); 
+      margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid #e2e8f0; 
     }
     .wrong-item { 
-      background: #fff5f5; 
-      border-left: 4px solid var(--red); 
-      border-radius: 0 8px 8px 0; 
-      padding: 12px 14px; 
-      margin-bottom: 10px; 
-      font-size: 0.88rem; 
+      background: #fff5f5; border-left: 4px solid var(--red); 
+      border-radius: 0 8px 8px 0; padding: 12px 14px; 
+      margin-bottom: 10px; font-size: 0.88rem; color: #1e293b;
     }
     .correct-ans { color: var(--green); font-weight: 600; margin-top: 6px; display: block; }
     .your-ans { color: var(--red); margin-top: 3px; display: block; }
-
     .retry-btn-wrap { text-align: center; margin-top: 24px; }
+
+    #historyBox { background: white; padding: 20px; border-radius: 12px; margin-bottom: 20px; color: #1e293b; }
 
     @media (max-width: 520px) {
       .quiz-inner { padding: 18px 14px; }
@@ -283,7 +300,6 @@
       #testList { grid-template-columns: repeat(3, 1fr); }
     }
 
-    /* Hide navigation buttons when not logged in */
     #navButtons { display: none; }
   </style>
 </head>
@@ -297,7 +313,7 @@
   </div>
 </header>
 
-<!-- ==================== LOGIN PAGE ==================== -->
+<!-- LOGIN PAGE -->
 <div id="loginPage" style="display:flex; flex-direction:column; align-items:center; gap:12px; margin-top:80px; padding:20px;">
   <h2 style="color:white;">Login</h2>
   <input id="usernameInput" placeholder="Enter Username" 
@@ -308,7 +324,7 @@
   <button onclick="signupUser()" class="btn btn-primary" style="width:280px;">Sign Up</button>
 </div>
 
-<!-- ==================== MAIN APP (Hidden Initially) ==================== -->
+<!-- MAIN APP -->
 <div class="container" id="mainApp" style="display: none;">
 
   <div id="navButtons" style="display:flex; justify-content:space-between; margin-bottom:20px;">
@@ -317,40 +333,41 @@
     <button class="btn btn-primary" onclick="logoutUser()">🚪 Logout</button>
   </div>
 
-  <div id="historyBox" style="background:white; padding:20px; border-radius:12px; margin-bottom:20px;"></div>
+  <div id="historyBox" style="display:none;"></div>
 
   <div id="homeScreen">
     <div class="section-label">Select a Mock Test</div>
     <div id="testList"></div>
   </div>
 
+  <!-- QUIZ -->
   <div id="quiz">
-    <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
-    <div class="quiz-inner">
-      <div class="quiz-meta">
-        <span class="q-counter" id="qCounter">Question 1 of 10</span>
-        <div class="timer-pill" id="timerPill">⏱ <span id="timerNum">60</span>s</div>
+    <div class="quiz-card">
+      <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+      <div class="quiz-inner">
+        <div class="quiz-meta">
+          <span class="q-counter" id="qCounter">Question 1 of 10</span>
+          <div class="timer-pill" id="timerPill">⏱ <span id="timerNum">60</span>s</div>
+        </div>
+        <div class="question" id="questionText"></div>
+        <div class="options" id="optionsList"></div>
+        <div class="quiz-nav" id="quizNav"></div>
       </div>
-      <div class="question" id="questionText"></div>
-      <div class="options" id="optionsList"></div>
-      <div class="quiz-nav" id="quizNav"></div>
     </div>
   </div>
 
+  <!-- RESULT -->
   <div id="resultCard">
-    <div class="result-title">Test Completed!</div>
+    <div class="result-title">Test Completed! 🎉</div>
     <div class="result-subtitle" id="resultSubtitle"></div>
-    
     <div class="score-grid">
       <div class="score-box box-green"><span class="score-num" id="resCorrect">0</span><span class="score-lbl">Correct</span></div>
       <div class="score-box box-red"><span class="score-num" id="resWrong">0</span><span class="score-lbl">Wrong</span></div>
       <div class="score-box box-grey"><span class="score-num" id="resSkipped">0</span><span class="score-lbl">Skipped</span></div>
       <div class="score-box box-gold"><span class="score-num" id="resScore">0</span><span class="score-lbl">Score</span></div>
     </div>
-
     <div class="wrong-title">Incorrect Answers Review</div>
     <div id="wrongList"></div>
-
     <div class="retry-btn-wrap">
       <button class="btn btn-primary" onclick="resetApp()">← Try Another Test</button>
     </div>
