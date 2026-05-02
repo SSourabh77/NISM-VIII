@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NISM Mock Test App</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- No Google Fonts — using system fonts that always work offline on Android -->
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -14,7 +14,7 @@
       --card-shadow: 0 8px 32px rgba(15,27,53,0.13);
     }
     body { 
-      font-family: 'DM Sans', sans-serif; 
+      font-family: -apple-system, 'Roboto', 'Segoe UI', Arial, sans-serif;
       background: var(--navy); 
       min-height: 100vh; 
       color: var(--text); 
@@ -31,7 +31,8 @@
     }
     header .logo-icon { font-size: 2rem; }
     header h1 { 
-      font-family: 'DM Serif Display', serif; 
+      font-family: 'Roboto', Arial, sans-serif;
+      font-weight: 700;
       color: var(--gold); 
       font-size: clamp(1.2rem, 4vw, 1.7rem); 
     }
@@ -149,15 +150,15 @@
       to { transform: scale(1.05); } 
     }
 
-    /* ✅ QUESTION FONT — Inter Black, pure dark, large */
+    /* ✅ QUESTION FONT — Roboto Bold, always available on Android */
     .question {
-      font-family: 'Inter', sans-serif;
-      font-size: 1.06rem;
+      font-family: 'Roboto', -apple-system, 'Segoe UI', Arial, sans-serif;
+      font-size: 1.08rem;
       line-height: 1.85;
       color: #060d1f;
       margin-bottom: 24px;
-      font-weight: 800;
-      letter-spacing: -0.01em;
+      font-weight: 700;
+      letter-spacing: 0em;
     }
 
     .options { 
@@ -166,7 +167,7 @@
       gap: 10px; 
     }
 
-    /* ✅ OPTION FONT — Inter SemiBold, near-black */
+    /* ✅ OPTION FONT — Roboto SemiBold, near-black */
     .option-label { 
       display: flex; 
       align-items: center; 
@@ -177,8 +178,8 @@
       padding: 13px 16px; 
       cursor: pointer; 
       transition: all 0.18s ease; 
-      font-family: 'Inter', sans-serif;
-      font-size: 0.95rem; 
+      font-family: 'Roboto', -apple-system, Arial, sans-serif;
+      font-size: 0.97rem; 
       font-weight: 600; 
       color: #0f172a;
       line-height: 1.5;
