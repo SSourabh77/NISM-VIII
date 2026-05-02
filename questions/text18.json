@@ -1,0 +1,351 @@
+[
+  {
+    "question": "Mr. Sam is a equity fund manager and he is bearish on the stock market. How will he use this view to create a hedge?",
+    "options": ["He will sell all his stocks", "He will decrease the NAV of his fund", "He will sell index futures", "He will buy index futures"],
+    "answer": "He will sell index futures",
+    "explanation": "Mr. Sam is a fund manager which means his fund already has a portfolio of stock. He thinks that the stock market can fall so he will sell index futures to create a hedge. In case the market falls, he will have a loss on his stocks but will earn on his index futures position."
+  },
+  {
+    "question": "The absolute amount of minimum capital adequacy requirement for derivative clearing member is higher than that of spot market - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "The absolute amount of minimum capital adequacy requirement for derivative brokers/dealers is much higher than for cash market as the risk involved are higher. Further, if a broker/dealer is involved both in cash and futures segments, or in several exchanges, the capital adequacy requirement should be satisfied for each exchange/segment separately."
+  },
+  {
+    "question": "What will be the Delta for a Far Out-of-the-money option?",
+    "options": ["Near 0", "Near 1", "Near -1", "Near 2"],
+    "answer": "Near 0",
+    "explanation": "Delta for Out of the Money Call and Put option approaches zero as it nears expiry. Delta for In the Money Call option approaches 1 and delta for In the Money Put option approaches -1 as it nears expiry."
+  },
+  {
+    "question": "A penalty or suspension of registration of a stock broker from derivatives exchange/segment under SEBI (Stock Broker and Sub-broker) Regulations, 1992 can take place if ______.",
+    "options": [
+      "The stock broker fails to resolve the complaints of the investors",
+      "The stock broker indulges in manipulating, or price rigging or cornering of the market",
+      "The stock broker does not follow the code of conduct",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "A penalty or suspension of registration of a stock - broker under the SEBI (Stock Broker) Regulations, 1992 can be ordered if: The stock broker violates the provisions of the Act, The stock broker does not follow the code of conduct, The stock broker fails to resolve the complaints of the investors, The stock broker indulges in manipulating, or price rigging or cornering of the market, The stock broker's financial position deteriorates substantially, The stock broker fails to pay fees, The stock broker violates the conditions of registration, The stock broker is suspended by the stock exchange."
+  },
+  {
+    "question": "Can a Equity oriented mutual fund hedge its equity exposure by selling index futures?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "Yes, a mutual fund can sell index futures for hedging purposes. For eg - If a fund manager of an equity mutual fund feels that the stock markets can fall in the near future, he can hedge his position by selling Nifty / Sensex futures."
+  },
+  {
+    "question": "A trader buys a January ABC stock futures contract at Rs 768 and the lot size is 1200. What is his profit or loss, if he squares off the position at Rs 778?",
+    "options": ["Rs. 12000", "Rs. 1200000", "-Rs. 12000", "-Rs. 10000"],
+    "answer": "Rs. 12000",
+    "explanation": "The trader buys at Rs 768 and sells off at Rs 778, so he makes a profit of Rs 10. Lot size is 1200. So the total profit is Rs 10 × 1200 = Rs 12000."
+  },
+  {
+    "question": "Which of these complaints against a trading member can an Exchange take up for redressal?",
+    "options": [
+      "Claims for expenses incurred for taking up the matter with the ISC",
+      "Losses for transaction which are not within the framework of exchange",
+      "Claims for opportunity loss for the particular disputed trade",
+      "Excess brokerage charged by a broker"
+    ],
+    "answer": "Excess brokerage charged by a broker",
+    "explanation": "Complaints against trading members on account of the following can be taken by an Exchange for redressal: Non-receipt of funds / securities, Non-receipt of documents such as member client agreement, contract notes, settlement of accounts, order trade log etc., Non-Receipt of Funds / Securities kept as margin, Trade executed without adequate margins, Delay / non – receipt of funds, Squaring up of positions without consent, Unauthorized transaction in the account, Excess Brokerage charged by Trading Member, Unauthorized transfer of funds from commodities account to other accounts etc."
+  },
+  {
+    "question": "A trader takes a short position in call option, but does not take any offsetting position in the underlying stock. What is this strategy known as?",
+    "options": ["Protective Put strategy", "Writing a naked call", "Writing a covered call", "Butterfly strategy"],
+    "answer": "Writing a naked call",
+    "explanation": "Naked position in options market simply means a long or short position in any option contract without having any position in the underlying asset. When one sells (short) a call it is also known as 'writing' a call. So the above strategy is - Writing a naked call option."
+  },
+  {
+    "question": "If there are three series of one, two and three months futures open at a given point of time, how many calendar spread possibilities arise?",
+    "options": ["4", "3", "2", "1"],
+    "answer": "3",
+    "explanation": "The three calendar spreads can be between months 1 and 2, 2 and 3 and 1 and 3."
+  },
+  {
+    "question": "______ is the ratio of change in option premium for a unit change in volatility.",
+    "options": ["Rho", "Theta", "Delta", "Vega"],
+    "answer": "Vega",
+    "explanation": "Vega (ν) is a measure of the sensitivity of an option price to changes in market volatility. It is the change of an option premium for a given change in the underlying volatility."
+  },
+  {
+    "question": "When the price of a future contract decreases, the margin account ______.",
+    "options": [
+      "of the seller of futures contract will be credited for the gain",
+      "of the buyer of futures contract will be debited for the loss",
+      "Both 1 and 2",
+      "None of the above"
+    ],
+    "answer": "Both 1 and 2",
+    "explanation": "The buyer of futures will have a notional loss and so his margin account will be debited by the notional loss amount. The seller of futures will have a notional profit if the price falls and his margin account will be credited by the notional gain amount."
+  },
+  {
+    "question": "A forward contract is ______.",
+    "options": [
+      "is a type of Option",
+      "is settled and cleared through a Clearing Corporation",
+      "a bilateral commitment of trade between two parties",
+      "is entered through an Exchange"
+    ],
+    "answer": "a bilateral commitment of trade between two parties",
+    "explanation": "Forward Contract - It is a contractual agreement between two parties to buy/sell an underlying asset at a certain future date for a particular price that is pre-decided on the date of contract."
+  },
+  {
+    "question": "Brokers and dealers of derivative exchanges have also to be registered with SEBI in addition to their registration with stock exchange - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "In addition to their registration as brokers of existing stock exchanges, Derivative brokers/dealers and clearing members are required to seek registration from SEBI."
+  },
+  {
+    "question": "'Bulls' are those investors who believe the market will rise - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Investors who believe that the markets will rise are called Bulls and investors who believe that markets will fall are known as Bears."
+  },
+  {
+    "question": "In case of forward contracts, the rules regarding the minimum amount by which the price would change and the price limits are specified by an authority - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "In a Forward Contract, there is no such authority. Forward contract is agreement between two parties to buy/sell an underlying asset and no other authority like a Stock Exchange or SEBI is involved."
+  },
+  {
+    "question": "All the 50 stocks of NSE Nifty index are equally weighed while calculating the index - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "The NIFTY 50 index is a well-diversified 50 companies index reflecting overall market conditions. NIFTY 50 Index is computed using free float market capitalization method. As per this method, the 50 stocks of Nifty are weighed as per their free float market capitalisation. For eg - Reliance Industry has a weightage of approx 7% where as Wipro has a weightage of approx 2% in Nifty."
+  },
+  {
+    "question": "The Clearing Corporation gives exposure limits to Clearing Members based on the number of Trading Members using the services of that Clearing Member - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "As per rules - Both trading-cum-clearing member and professional clearing member are required to bring in additional security deposits in respect of every trading member whose trades they undertake to clear and settle."
+  },
+  {
+    "question": "Arbitrage is simultaneous purchase and sale of an asset or replicating asset in the market in an attempt to profit from discrepancies in their prices - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "An arbitrage is a deal that produces risk free profits by exploiting a mispricing in the market. A simple arbitrage occurs when you buy a share at a low price in one exchange at the same time as you sell the share at a higher price in another exchange."
+  },
+  {
+    "question": "The seller or writer of an option is required to pay initial margin for entering into the option contract. Where is this shown in the balance sheet?",
+    "options": ["Under Current Assets", "Under Current Liabilities", "Under Fixed Assets", "Under Fixed Liabilities"],
+    "answer": "Under Current Assets",
+    "explanation": "The seller/ writer of the option is required to pay initial margin for entering into the option contract and its should be debited to an appropriate account, say, 'Equity Index/ Stock Option Margin Account'. In the balance sheet, such account should be shown separately under the head 'Current Assets'."
+  },
+  {
+    "question": "Which Option gives the holder a right to buy the underlying asset on or before a particular date for a certain price?",
+    "options": ["European call option", "European put option", "American call option", "American put option"],
+    "answer": "American call option",
+    "explanation": "American option: The owner of such option can exercise his right at any time on or before the expiry date/day of the contract. A Call Option gives the holder a right to buy the underlying asset - So the answer is American Call Option. (European option: The owner of such option can exercise his right only on the expiry date/day of the contract. In India, Index options are European.)"
+  },
+  {
+    "question": "Foreign Exchange can be a part of liquid assets to be maintained by Clearing Members with the clearing corporation - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Liquid assets can comprise of Cash, Bank Guarantees, Govt. Securities etc. but not foreign exchange."
+  },
+  {
+    "question": "Theta is the rate of change in option premium for a unit change in ______.",
+    "options": ["volatility", "price of the underlying asset", "time to expiry", "interest rates"],
+    "answer": "time to expiry",
+    "explanation": "Theta is the change in option price given a one-day decrease in time to expiration. It is a measure of time decay."
+  },
+  {
+    "question": "What is Unsystematic Risk?",
+    "options": [
+      "Unsystematic Risk is related to risk in a specific security and not pertaining to overall market",
+      "Unsystematic Risk can be reduced through diversification",
+      "Both 1 and 2",
+      "None of the above"
+    ],
+    "answer": "Both 1 and 2",
+    "explanation": "Unsystematic risk is the component of price risk that is unique to particular events of the company and/or industry. For example: Strike in a factory or threats from cheaper imports to steel industry. This risk is inseparable from investing in the securities. This risk could be reduced to a certain extent by diversifying the portfolio."
+  },
+  {
+    "question": "Future prices are usually more transparent than Forward prices - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "A futures contract is similar to a forward, except that the deal is made through an organized and regulated exchange rather than being negotiated directly between two parties. Since the futures are traded in an organised manner and mostly done through screen based trading, they are much more transparent than forwards."
+  },
+  {
+    "question": "If the interest rate increases, the premium on CALL option will also increase - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "High interest rates will result in an increase in the value of a call option and a decrease in the value of a put option."
+  },
+  {
+    "question": "Ms. Gayatri buys a call option of strike price Rs. 300 when the spot price is Rs 337. What is the intrinsic value of this call option?",
+    "options": ["-37", "0", "37", "zero", "637"],
+    "answer": "37",
+    "explanation": "Intrinsic value for a Call Option = Spot Price - Strike Price = 337 - 300 = 37"
+  },
+  {
+    "question": "What is time value of an option?",
+    "options": [
+      "Its the general bank interest rate",
+      "Its the volatility of the underlying asset",
+      "Its the difference between the intrinsic value and the premium",
+      "Its the time left for the option to expiry"
+    ],
+    "answer": "Its the difference between the intrinsic value and the premium",
+    "explanation": "Time value is the difference between the option premium and the intrinsic value."
+  },
+  {
+    "question": "A portfolio of Rs 25 lacs has a beta of 1.20. A complete hedge is obtained by ______.",
+    "options": [
+      "by selling Nifty futures of Rs 25 lacs",
+      "by selling Nifty futures of Rs 28 lacs",
+      "by selling Nifty futures of Rs 30 lacs",
+      "by buying Nifty futures of Rs 28 lacs"
+    ],
+    "answer": "by selling Nifty futures of Rs 30 lacs",
+    "explanation": "Beta measures the sensitivity of a scrip/portfolio vis-a-vis index movement over a period of time, on the basis of historical prices. A beta of 1 indicates that the security's price will move with the market. A beta of less than 1 means that the security will be less volatile than the market. A beta of greater than 1 indicates that the security's price will be more volatile than the market. For example, if a stock's beta is 1.3, it's theoretically 30% more volatile than the market. So to obtain a hedge for a portfolio of shares, one has to sell Nifty futures. The beta of a portfolio in the above case is 1.20. The portfolio value is Rs 25 lacs. 25 Lacs × 1.20 = Rs 30 lacs. Therefore to get a complete hedge for this portfolio, Nifty worth Rs 30 lacs have to be sold."
+  },
+  {
+    "question": "The beta of a stock is 0.7 and you have a buy position of Rs 3,00,000 in it. Which of the below options will give you a complete hedge?",
+    "options": ["Sell Rs 2,10,000 Nifty", "Buy Rs 2,10,000 Nifty", "Buy Rs 3,00,000 Nifty", "Sell Rs 3,00,000 Nifty"],
+    "answer": "Sell Rs 2,10,000 Nifty",
+    "explanation": "To get a complete hedge against your buy position, you will have to sell Nifty. 0.7 × Rs 3,00,000 = Rs 2,10,000."
+  },
+  {
+    "question": "A derivative market would primarily have ______.",
+    "options": ["Speculators", "Hedgers", "Long term investors", "Both 1 and 2"],
+    "answer": "Both 1 and 2",
+    "explanation": "A derivative market has both speculators and hedgers. Long term investors invest in the cash market and take delivery of securities."
+  },
+  {
+    "question": "Mr. Sunil wishes to buy a futures contract of Tata Steel shares. He should ______.",
+    "options": [
+      "make payments for the full value of the contract",
+      "make the margin payments as calculated by the exchange",
+      "hedge his position in Tata Steel in the Options market",
+      "None of the above"
+    ],
+    "answer": "make the margin payments as calculated by the exchange",
+    "explanation": ""
+  },
+  {
+    "question": "Forward Contracts are those contracts which can be customised as per the requirements of the concerned parties - True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": "Forward contracts are as per the choice of the transacting parties where as the future contracts, the parameters quantity, expiry date etc. are customised by the exchanges."
+  },
+  {
+    "question": "Which amongst the following comes under the purview of Securities Contracts (Regulation) Act-1956?",
+    "options": ["Currency", "Securities", "Gold", "Commodities"],
+    "answer": "Securities",
+    "explanation": "As per the Securities Contracts (Regulation) Act-1956, the term 'Securities' include: Shares, scrips, stocks, bonds, debentures, debenture stock or other marketable securities of a like nature in or of any incorporated company or other body corporate, Derivative, Units or any other instrument issued by any collective investment scheme to the investors in such schemes, Government securities, Such other instruments as may be declared by the Central Government to be securities, Rights or interests in securities."
+  },
+  {
+    "question": "Strike price is the price per share for which the underlying security may be purchased or sold by the option holder - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Strike price or Exercise price is the price per share for which the underlying security may be purchased or sold by the option holder."
+  },
+  {
+    "question": "A penalty or suspension of registration of a stock broker from derivatives exchange/segment under SEBI (Stock Broker and Sub-broker) Regulations, 1992 can take place if ______.",
+    "options": [
+      "The stock broker violates the conditions of registration",
+      "The stock broker fails to pay fees",
+      "The stock broker is suspended by the stock exchange",
+      "In any of the above situations"
+    ],
+    "answer": "In any of the above situations",
+    "explanation": "A penalty or suspension of registration of a stock broker under the SEBI (Stock Broker) Regulations, 1992 can be ordered if: The stock broker violates the provisions of the Act, The stock broker does not follow the code of conduct, The stock broker fails to resolve the complaints of the investors, The stock broker indulges in manipulating, or price rigging or cornering of the market, The stock broker's financial position deteriorates substantially, The stock broker fails to pay fees, The stock broker violates the conditions of registration, The stock broker is suspended by the stock exchange."
+  },
+  {
+    "question": "The losses for a seller of a Call options are ______.",
+    "options": ["limited", "unlimited"],
+    "answer": "unlimited",
+    "explanation": "The seller of a call option believes that prices will go down. The losses begin when the prices rise and theoretically prices can rise to unlimited levels, so the losses can be unlimited."
+  },
+  {
+    "question": "A trader sells a future contract and prices rises. The trader will ______ if he squares up the position.",
+    "options": ["make a profit", "make a loss", "Insufficient data", "None of the above"],
+    "answer": "make a loss",
+    "explanation": "For eg - He sells at Rs 100 and prices rises to Rs 110. If he squares up, he shall make a loss of Rs 10."
+  },
+  {
+    "question": "The quality of the underlying asset is standardized by the ______ in case of futures contract.",
+    "options": ["RBI", "SEBI", "Exchange", "The buyer and seller"],
+    "answer": "Exchange",
+    "explanation": "In a futures contract, the product parameters like the quality, quantity etc. are all fixed by the exchange."
+  },
+  {
+    "question": "The Bye Laws of an Indian Stock Exchange are to be approved by ______.",
+    "options": ["Finance Ministry", "RBI", "Clearing Corporation", "SEBI"],
+    "answer": "SEBI",
+    "explanation": ""
+  },
+  {
+    "question": "Clearing member Ram has 6 trading members who are all in Mumbai and Clearing member Shyam has 6 trading members who are all outside Mumbai. Both of them have deposited same amount of liquid assets with the clearing corporation. Which amongst the following statement is True?",
+    "options": [
+      "Clearing Member Ram will have a higher exposure limit than Clearing Member Shyam",
+      "Clearing Member Shyam will have a higher exposure limit than Clearing Member Ram",
+      "Both Ram and Shyam will have the equal exposure limits",
+      "None of the above"
+    ],
+    "answer": "Both Ram and Shyam will have the equal exposure limits",
+    "explanation": "As per Dr. L. C. Gupta Committee recommendations: Members' exposure should be linked to the amount of liquid assets maintained by them with the clearing corporation. There is no mention of any geographical limitations."
+  },
+  {
+    "question": "Which one of the below mentioned option will result in a Bear Spread?",
+    "options": [
+      "Selling a Call of a lower strike price and buying a Call of a higher strike price",
+      "Selling a Put of a lower strike price and buying a Call of a higher strike price",
+      "Selling one Call of a lower strike price and buying two Puts of a higher strike price",
+      "None of the above"
+    ],
+    "answer": "Selling a Call of a lower strike price and buying a Call of a higher strike price",
+    "explanation": "Bear Spread can be created by: 1) Selling a low strike call and buying a high strike call OR 2) Selling a low strike Put and buying a high strike Put. Remember: Bear spread involves either 2 Calls or 2 Puts and not Call and Put."
+  },
+  {
+    "question": "Are Treasury Bills included in the list of permitted liquid assets which can be offered to Clearing Corporation by the Clearing Members?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "Liquid Assets can be in the form of Cash, Cash Equivalents (Government Securities, Fixed Deposits, Treasury Bills, Bank Guarantees, and Investment Grade Debt Securities) and Equity Securities."
+  },
+  {
+    "question": "The Spot Price of ABC Stock is Rs. 347. Rs. 325 strike call is quoted at Rs. 39. What is the Intrinsic Value?",
+    "options": ["0", "22", "39", "61"],
+    "answer": "22",
+    "explanation": "When the Strike Price is below the Spot Price, the Call Option is 'In the Money' ie. profitable. Intrinsic Value for such a Call Option = Spot Price - Strike Price = 347 - 325 = 22."
+  },
+  {
+    "question": "Options which are traded on a recognised exchange ie. Exchange traded options are ______",
+    "options": ["usually in-the-money options", "usually out-of-the money options", "Standardized options", "Customized options"],
+    "answer": "Standardized options",
+    "explanation": "Exchange traded options are standardized contracts as they are traded on a recognized exchange. The options contracts, their size quantity, time (maturity) etc. are all fixed by the exchanges."
+  },
+  {
+    "question": "You sold one SBI Ltd. futures contract at Rs.260 and the lot size is 1,000. What is your profit or loss, if you purchase the contract back at Rs.251?",
+    "options": ["9000", "-9000", "7500", "-7500"],
+    "answer": "9000",
+    "explanation": "When you sell a stock future contract you make a profit if the share falls. In this case SBI has fallen by Rs 9 x 1000 = Profit of Rs 9000."
+  },
+  {
+    "question": "Margins in futures trading are applicable to -",
+    "options": ["Only Institutional players", "Both the buyer and the seller", "Only the buyer", "Only the Seller"],
+    "answer": "Both the buyer and the seller",
+    "explanation": "In a futures market margins are payable by both the parties."
+  },
+  {
+    "question": "An in-the-money option is a option with ______",
+    "options": ["a negative intrinsic value", "a positive intrinsic value", "either negative or positive intrinsic value", "zero time value"],
+    "answer": "a positive intrinsic value",
+    "explanation": "Intrinsic value refers to the amount by which option is in the money i.e. the amount an option buyer will realize, before adjusting for premium paid, if he exercises the option instantly. For eg - Spot price of a stock is Rs 100. The Call option of strike price Rs 95 is in the money and Rs 5 is the Intrinsic value. Therefore, only in-the-money options have intrinsic value whereas at-the-money and out-of-the-money options have zero intrinsic value."
+  },
+  {
+    "question": "All the orders entered on the Trading System of a Derivative Exchange are at Prices exclusive of brokerage. True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": "The prices are exclusive i.e. without any brokerage. Brokerage is added later and is reflected in the contract note."
+  },
+  {
+    "question": "If a person buys a share in one market and the simultaneously sells in a different market to benefit from differentials is known as ______.",
+    "options": ["Long trading", "Arbitrage", "Speculation", "Jobbing"],
+    "answer": "Arbitrage",
+    "explanation": "Arbitrage means the simultaneous purchase and sale of an asset in order to profit from a difference in the price. It is a trade that profits by exploiting price differences of identical or similar financial instruments, on different markets. For example- If SBI is quoted on NSE at Rs 200 and on BSE there is a buyer at Rs 203, then the arbitrageur will buy on NSE and sell on BSE and Rs 3 (less brokerage etc.) will be his profit. Arbitrage exists as a result of market inefficiencies; it provides a mechanism to ensure prices do not deviate substantially from fair value for long periods of time."
+  }
+]

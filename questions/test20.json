@@ -1,0 +1,796 @@
+[
+  {
+    "question": "Can Professional Clearing members act only on behalf of institutional clients?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Professional clearing member clears the trades of his associate Trading Member and institutional clients."
+  },
+  {
+    "question": "Trading members shall maintain a higher level of Book networth than the clearing members - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clearing Members have to maintain higher book networth than trading members."
+  },
+  {
+    "question": "If you have a long or short position in a futures contract, this can be closed by initiating a reverse trade - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Closing a position means either buying or selling a contract, which essentially results in reduction of client's open position (long or short). A client is said to be closed a position if he sells a contract which he had bought before or he buys a contract which he had sold earlier."
+  },
+  {
+    "question": "The idea and economic rational of introducing forward contracts is to ______.",
+    "options": ["help arbitrage", "help trading", "help hedging", "both 1 and 3"],
+    "answer": "both 1 and 3",
+    "explanation": ""
+  },
+  {
+    "question": "As per Accounting Standards, the initial margin paid by an option seller is shown under ______ in the balance sheet",
+    "options": ["Bad Debts", "Fixed Assets", "Current Assets", "Current Liabilities"],
+    "answer": "Current Assets",
+    "explanation": "The seller/ writer of the option is required to pay initial margin for entering into the option contract and its should be debited to an appropriate account, say, 'Equity Index/ Stock Option Margin Account'. In the balance sheet, such account should be shown separately under the head 'Current Assets'."
+  },
+  {
+    "question": "A person who is bullish and a payer of premium is a ______.",
+    "options": ["buyer of call option", "seller of call option", "buyer of put option", "seller of put option"],
+    "answer": "buyer of call option",
+    "explanation": "A buyer of a Call is bullish and believes that the price will rise. He pays a premium which is his maximum loss but the profits can be unlimited."
+  },
+  {
+    "question": "Investor Mr. X wants to sell 11 contracts of Feb series at Rs.6300 & investor Mr. Y wants to sell 13 contracts of March series at Rs.6450. Lot size is 50 for both these contracts. The initial margin is fixed at 6%. How much initial margin is required to be collected from both these investors(sum of initial margin of X and Y) by the broker?",
+    "options": ["Rs 251550", "Rs 459450", "Rs 640000", "Rs 374900"],
+    "answer": "Rs 459450",
+    "explanation": "Margin from Mr. X: Rs 6300 × 11 contracts × 50 (lot size) × 6% = 207900. Margin from Mr. Y: Rs 6450 × 13 contracts × 50 (lot size) × 6% = 251550. Total Margin = 207900 + 251550 = 459450."
+  },
+  {
+    "question": "A trader has taken a short position of one contract in Sept ABC futures (contract multiplier 50) at a price of Rs.1800. When he closed this position after a few days, he realized that he has made a profit of Rs.5000. Which of the following closing actions would have enabled him to generate the profit? (Please ignore brokerage costs).",
+    "options": [
+      "Buying 1 Sept ABC futures contract at 1900",
+      "Buying 1 Sept ABC futures contract at 1700",
+      "Selling 1 Sept ABC futures contract at 1900",
+      "Selling 1 Sept ABC futures contract at 1700"
+    ],
+    "answer": "Buying 1 Sept ABC futures contract at 1700",
+    "explanation": "To make a profit of Rs 5000, he has to earn Rs 100 per share (5000/50 = 100) since he has gone short, he will make a profit when the price falls and he buys at the reduced price. He has sold at Rs 1800, so when he buys back at Rs 1700 he makes Rs 100 profit per share. Rs 100 × 50 (Lot size) = Rs 5000 profit."
+  },
+  {
+    "question": "The option which gives the holder a right to buy the underlying asset on or before a particular date for a certain price, is called as ______",
+    "options": ["European put option", "American put option", "American call option", "European call option"],
+    "answer": "American call option",
+    "explanation": "In case of American options, buyers can exercise their option any time before the maturity of contract. In case of European options, owner of such option can exercise his right only on the expiry date/day of the contract."
+  },
+  {
+    "question": "A call option gives the holder a right to buy how much of the underlying from the writer of the option?",
+    "options": [
+      "The specified quantity or less than the specified quantity",
+      "The specified quantity or more than the specified quantity",
+      "Only the specified quantity",
+      "None of the above"
+    ],
+    "answer": "Only the specified quantity",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is closest to the forward price of a share if cash price is Rs 425, forward contract maturity=12 months from date, market interest rate 12%?",
+    "options": ["425", "482", "476", "437"],
+    "answer": "476",
+    "explanation": "12 months maturity means full one year of interest cost. So 12% of 425 = 425 × 12/100 = 51. 425 + 51 = 476 is closest to the one year forward price."
+  },
+  {
+    "question": "A trader is very bearish on specific companies. However he is bullish on the market as a whole. Which of the following is the most appropriate strategy to take advantage from this view?",
+    "options": [
+      "sell the shares of those specific companies in futures and also sell index futures",
+      "sell the shares of those specific companies in futures and buy index futures",
+      "buy the shares of those specific companies in futures and sell index futures",
+      "do nothing"
+    ],
+    "answer": "sell the shares of those specific companies in futures and buy index futures",
+    "explanation": "The trader should sell the shares of those specific companies in futures and buy index futures. By this he will profit when the stock prices of those specific companies fall and index rises - if his view proves correct."
+  },
+  {
+    "question": "The concept in which the derivative trader gets a higher exposure for the small portion of margin amount brought by him is called as ______.",
+    "options": ["Arbitrage", "Leverage", "Delta Hedging", "Speculation"],
+    "answer": "Leverage",
+    "explanation": "A trader in the future's market pays a relatively small margin for market exposure in relation to the contract value. This is known as leverage."
+  },
+  {
+    "question": "Which of the following problem(s) that exist in the forward contracts are solved by the Futures contracts?",
+    "options": [
+      "A central agency for monitoring",
+      "Settlement problems",
+      "Counter party risk",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "Loss incurred on derivatives transactions can be carried forward for a period of 12 assessment years - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Loss incurred on derivatives transactions which are carried out in a recognized stock exchange can be carried forward for a period of 8 assessment years."
+  },
+  {
+    "question": "A short position in a CALL option can be closed out by taking a long position in a PUT option with same exercise date and exercise price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "A short position in a CALL option can be closed out by taking a long position in a same CALL option with same exercise date and exercise price."
+  },
+  {
+    "question": "Which of the following complaints can be taken up by the exchange for redressal?",
+    "options": [
+      "Claims for notional loss, opportunity loss for the disputed period or trade",
+      "Complaints pertaining to trades not executed on the Exchange by the complainant",
+      "Claims of sub-broker/authorized persons for private commercial dealings with the trading member",
+      "Excess Brokerage charged by Trading Member / Sub-broker"
+    ],
+    "answer": "Excess Brokerage charged by Trading Member / Sub-broker",
+    "explanation": "Exchanges provide assistance if the complaints fall within the purview of the Exchange and are related to trades that are executed on the Exchange Platform. Excess Brokerage charged by Trading Member / Sub-broker comes under this assistance."
+  },
+  {
+    "question": "Mr. Ravi purchases 10 call option on stock at Rs. 20 per call with strike price of Rs 350. If on exercise date, stock price is Rs. 310, ignoring transaction cost, Mr. Ravi will choose ______",
+    "options": [
+      "To exercise the option",
+      "Not to exercise the option",
+      "May or may not exercise the option depending on whether he likes the company or not",
+      "May or may not depending on whether he is in town or not"
+    ],
+    "answer": "Not to exercise the option",
+    "explanation": "Mr. Ravi has bought a Call Option assuming that the price will rise. The price has fallen and he is in a loss. So he will not choose to exercise his option. His loss is restricted to the premium he has paid."
+  },
+  {
+    "question": "Trading members are required to possess a higher level of Capital Adequacy (as per balance sheet) than clearing members - True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clearing Members are permitted to settle their own trades as well as the trades of the other non-clearing members known as Trading Members who have agreed to settle the trades through them. Thus the Capital Adequacy requirement is higher for Clearing Members."
+  },
+  {
+    "question": "A trader sold a call option on a share of strike price Rs. 200 and received a premium of Rs. 12 from the option buyer. What can be his maximum loss on this position?",
+    "options": ["Rs 200", "Rs 188", "Rs 12", "Unlimited"],
+    "answer": "Unlimited",
+    "explanation": "When a trader sells a Call option he is bearish / neutral on that scrip. But in case the price rises, he makes losses and theoretically price can rise to any levels - so his losses can be unlimited. In this eg, he has sold Rs 200 call at Rs 12. In case the price rises, the call price will also rise and theoretically it can rise to any levels leading to 'unlimited losses'."
+  },
+  {
+    "question": "Investor protection fund for the derivatives segment is ______",
+    "options": [
+      "same as that of cash segment",
+      "Independent of that of cash segment",
+      "Contributed by ministry of finance",
+      "No investor protection fund is there for the derivative segment"
+    ],
+    "answer": "Independent of that of cash segment",
+    "explanation": ""
+  },
+  {
+    "question": "The contract size in futures market is defined by",
+    "options": ["The Stock Brokers", "The Stock Exchange", "The Parties to the contract", "SEBI"],
+    "answer": "The Stock Exchange",
+    "explanation": ""
+  },
+  {
+    "question": "In Options - the seller of an contract pays an upfront premium at the time of entering into the contract - State whether True or False?",
+    "options": [
+      "True",
+      "False as the premium is paid on maturity",
+      "false as the premium is paid by the buyer and not the seller",
+      "None of the above"
+    ],
+    "answer": "false as the premium is paid by the buyer and not the seller",
+    "explanation": ""
+  },
+  {
+    "question": "The mark-to-market margin debits for index options are made on",
+    "options": ["weekly basis", "daily basis", "fortnightly basis", "every friday"],
+    "answer": "daily basis",
+    "explanation": "All types of Mark to Market margin debits are made on daily basis."
+  },
+  {
+    "question": "A calendar spread in index futures is treated as ______ in a far month contract when the near months contract is expired.",
+    "options": ["long position", "hedged position", "naked position", "short position"],
+    "answer": "naked position",
+    "explanation": "A calendar spread becomes a naked/open position, when the near month contract expires or either of the legs of spread is closed."
+  },
+  {
+    "question": "The main objective of derivatives is to enable market participants to",
+    "options": ["Trade", "Manage the risks", "Speculate", "Arbitrage"],
+    "answer": "Manage the risks",
+    "explanation": ""
+  },
+  {
+    "question": "Higher the interest rate, the higher the CALL option premium - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "High interest rates will result in an increase in the value of a call option and a decrease in the value of a put option."
+  },
+  {
+    "question": "A Buyer or holder of the option is the party to the contract who has ______.",
+    "options": [
+      "the obligation but not the right",
+      "the right but not the obligation",
+      "the right and the obligation",
+      "None of the above"
+    ],
+    "answer": "the right but not the obligation",
+    "explanation": "A Call option gives the buyer the right, but not the obligation to buy the underlying at the strike price. A put option gives the buyer of the option the right, but not the obligation, to sell the underlying at the strike price."
+  },
+  {
+    "question": "The Trading members on the exchanges derivatives segment are not required to be registered with SEBI. State whether True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "A unique principle of futures trading makes trading possible for those who do not want to make or take delivery of underlying assets. Which is that principle?",
+    "options": [
+      "Traded on a recognised exchange",
+      "Price uncertainty",
+      "Standardisation of contracts",
+      "Cash settlement"
+    ],
+    "answer": "Cash settlement",
+    "explanation": ""
+  },
+  {
+    "question": "On the National Stock Exchange, for its index futures, what would be the opening day of its April series?",
+    "options": [
+      "Last Friday of March month",
+      "Last Friday of April month",
+      "Last Friday of Jan month",
+      "Last Friday of February month"
+    ],
+    "answer": "Last Friday of Jan month",
+    "explanation": "There are 3 series of index futures active all the time. A new series is introduced as the older series expires. Lets assume the Jan, Feb and March series are active currently. On the last Thursday of Jan, the Jan series will expire. So that next day ie. on the last Friday of Jan, the April series will be activated. This will be the opening day for April series. Thus we will have three series active ie. Feb, March and April."
+  },
+  {
+    "question": "Operational risks include losses due to ______",
+    "options": [
+      "natural calamities",
+      "inadequate contingency planning",
+      "power failure",
+      "all of the above"
+    ],
+    "answer": "inadequate contingency planning",
+    "explanation": "An operational risk is defined as a risk incurred by an organisation's internal activities. So losses due to fraud, inadequate documentation, inadequate disaster management, improper execution are all Operational risks."
+  },
+  {
+    "question": "The total number of outstanding / unsettled contracts in the market, at any point of time is known as 'OPEN INTEREST' - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "An open interest is the total number of contracts outstanding (yet to be settled) for an underlying asset."
+  },
+  {
+    "question": "The clearing corporation may utilize the client account margins deposited with it for fulfilling the dues which a clearing member may owe to the clearing corporation for the trades on the clearing members own account. State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clients money cannot be used by the Clearing or Trading member for his trades."
+  },
+  {
+    "question": "A clearing member has deposited eligible liquid assets of Rs.75 lacs. The exchange has minimum liquid net worth requirement of Rs. 50 lakhs. The member has not entered into any transactions so far. What is the margin available for trading. (in lakhs)",
+    "options": ["75", "50", "25", "125"],
+    "answer": "25",
+    "explanation": "Liquid Networth is defined as Liquid Assets minus Initial Margin. In above case he has deposited Rs 75 lakhs as liquid assets. Rs 50 lakhs is the requirement, so the balance Rs 25 lakhs will be used as initial margin."
+  },
+  {
+    "question": "Is it true that an efficient cash market is required for an efficient futures market? Yes or No?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "The prices of futures are derived from the underlying cash market prices. So an efficient cash market is required for an efficient futures market."
+  },
+  {
+    "question": "If the price of a future contract increases, the mark to market margin account of the holder of the short position in that contract is credited for the gain. State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "In a short position, if the price increases their is a loss. So the mark to market margin will be debited."
+  },
+  {
+    "question": "The absolute amount of minimum capital adequacy requirement for derivative brokers is same as that for cash market - True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "The absolute amount of minimum capital adequacy requirement for derivative brokers/dealers has to be much higher than for cash market. Further, if a broker/dealer is involved both in cash and futures segments, or in several exchanges, the capital adequacy requirement should be satisfied for each exchange/segment separately."
+  },
+  {
+    "question": "Change in option premium for a unit change in ______ is known as Rho.",
+    "options": ["market volatility", "Price of the underlying asset", "Risk free interest rate", "liquidity"],
+    "answer": "Risk free interest rate",
+    "explanation": ""
+  },
+  {
+    "question": "The ask price is the price at which ______",
+    "options": [
+      "the clearing corporation settles the transaction",
+      "the trader is prepared to sell the share",
+      "the trader is prepared to purchase the share",
+      "the trader is prepared to either buy or sell the share"
+    ],
+    "answer": "the trader is prepared to sell the share",
+    "explanation": "BID ASK price means Buyer and Seller price - eg Rs 100 - 101. So Ask price is the price at which the trader is prepared to sell the share."
+  },
+  {
+    "question": "In India, futures and options on individual stocks are allowed on",
+    "options": [
+      "A few selected stocks only",
+      "All stocks listed on any of the exchanges",
+      "All stocks with stock price of more than Rs.100 or Rs 50 in A and B group resp",
+      "Only those stocks which are simultaneously listed on all the stock exchange in India"
+    ],
+    "answer": "A few selected stocks only",
+    "explanation": "SEBI has allowed stock specific derivatives only on a few selected securities after meeting several criteria related to market capitalization, market wide position limits, and past trading volumes."
+  },
+  {
+    "question": "Higher the price volatility, higher would be the initial margin requirement - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "If the price of a stock is very volatile, the risk of losses increases. So the Stock Exchanges collect higher initial margins in such cases."
+  },
+  {
+    "question": "In a derivative exchange, the net worth requirement for a clearing member is higher than that of a non-clearing member (i.e. a member who only clears his trades).",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Clearing Member Eligibility Norms: Net-worth of at least Rs.300 lakhs. The Net-worth requirement for a Clearing Member who clears and settles only deals executed by him is Rs. 100 lakhs."
+  },
+  {
+    "question": "Money and securities deposited by clients with the trading members should be kept by them in a separate clients account - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "All active members of the Exchange are required to make initial contribution towards Trade Guarantee Fund of the Exchange - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "An increase in the interest rates will lead to ______.",
+    "options": [
+      "increase the premium on put options",
+      "decrease the premium on put options",
+      "No effect on put options",
+      "Expiration of the option automatically"
+    ],
+    "answer": "decrease the premium on put options",
+    "explanation": "High interest rates means high cost of capital and this will result in an increase in the value of a call option and a decrease in the value of a put option."
+  },
+  {
+    "question": "In a forward contract, the party that agrees to sell the underlying asset on a certain specified date for a certain specified price is said to have assumed ______.",
+    "options": ["A long position", "A square off position", "A short position", "A trade off position"],
+    "answer": "A trade off position",
+    "explanation": "Trade off basically means an exchange where you give up one thing in order to get something else. In a forward contract for eg the farmer sells his crop two months hence in exchange of some amount of money."
+  },
+  {
+    "question": "Mr. Hitesh is a trading member. One of his clients has purchased 12 contracts of March series index futures and another client has sold 10 contracts of March series index futures. The exposure of Mr. Hitesh as trading member is",
+    "options": [
+      "grossed up at 22 contracts",
+      "netted out at 2 contracts",
+      "maximum of 10 and 12 which is 12 contracts",
+      "The Exchange will decide to either gross up or net out the exposure depending upon his past record"
+    ],
+    "answer": "grossed up at 22 contracts",
+    "explanation": ""
+  },
+  {
+    "question": "In case of Call options, if the market price is less than the exercise (strike) price, the option will",
+    "options": [
+      "expire worthless",
+      "seller of the option will exercise it",
+      "will definitely get exercised",
+      "none of the above"
+    ],
+    "answer": "expire worthless",
+    "explanation": "If market price is below strike price, the option expires worthless as the buyer will incur the maximum loss of his premium paid and the seller will earn the premium received."
+  },
+  {
+    "question": "Does the difference between exercise price of the option and spot price affects option premium? State Yes or No.",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "The Option premium is a combination of intrinsic value and time value and other factors. The Intrinsic value is difference between Spot and Exercise Price (Strike Price). Exercise price remains constant whereas the Spot price fluctuates. So the option premium will fluctuate as per the movement in Spot price."
+  },
+  {
+    "question": "A high initial margin level improves solvency & financial capability of the clearing corporation - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "An American put option gives the buyer the right but not the obligations to sell to the writer an underlying asset at a specified price on or before the expiry date - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "Can Professional Clearing members act only on behalf of institutional clients?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Professional clearing member clears the trades of his associate Trading Member and institutional clients."
+  },
+  {
+    "question": "Trading members shall maintain a higher level of Book networth than the clearing members - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clearing Members have to maintain higher book networth than trading members."
+  },
+  {
+    "question": "If you have a long or short position in a futures contract, this can be closed by initiating a reverse trade - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Closing a position means either buying or selling a contract, which essentially results in reduction of client's open position (long or short). A client is said to be closed a position if he sells a contract which he had bought before or he buys a contract which he had sold earlier."
+  },
+  {
+    "question": "The idea and economic rational of introducing forward contracts is to ______.",
+    "options": ["help arbitrage", "help trading", "help hedging", "both 1 and 3"],
+    "answer": "both 1 and 3",
+    "explanation": ""
+  },
+  {
+    "question": "As per Accounting Standards, the initial margin paid by an option seller is shown under ______ in the balance sheet",
+    "options": ["Bad Debts", "Fixed Assets", "Current Assets", "Current Liabilities"],
+    "answer": "Current Assets",
+    "explanation": "The seller/ writer of the option is required to pay initial margin for entering into the option contract and its should be debited to an appropriate account, say, 'Equity Index/ Stock Option Margin Account'. In the balance sheet, such account should be shown separately under the head 'Current Assets'."
+  },
+  {
+    "question": "A person who is bullish and a payer of premium is a ______.",
+    "options": ["buyer of call option", "seller of call option", "buyer of put option", "seller of put option"],
+    "answer": "buyer of call option",
+    "explanation": "A buyer of a Call is bullish and believes that the price will rise. He pays a premium which is his maximum loss but the profits can be unlimited."
+  },
+  {
+    "question": "Investor Mr. X wants to sell 11 contracts of Feb series at Rs.6300 & investor Mr. Y wants to sell 13 contracts of March series at Rs.6450. Lot size is 50 for both these contracts. The initial margin is fixed at 6%. How much initial margin is required to be collected from both these investors(sum of initial margin of X and Y) by the broker?",
+    "options": ["Rs 251550", "Rs 459450", "Rs 640000", "Rs 374900"],
+    "answer": "Rs 459450",
+    "explanation": "Margin from Mr. X: Rs 6300 × 11 contracts × 50 (lot size) × 6% = 207900. Margin from Mr. Y: Rs 6450 × 13 contracts × 50 (lot size) × 6% = 251550. Total Margin = 207900 + 251550 = 459450."
+  },
+  {
+    "question": "A trader has taken a short position of one contract in Sept ABC futures (contract multiplier 50) at a price of Rs.1800. When he closed this position after a few days, he realized that he has made a profit of Rs.5000. Which of the following closing actions would have enabled him to generate the profit? (Please ignore brokerage costs).",
+    "options": [
+      "Buying 1 Sept ABC futures contract at 1900",
+      "Buying 1 Sept ABC futures contract at 1700",
+      "Selling 1 Sept ABC futures contract at 1900",
+      "Selling 1 Sept ABC futures contract at 1700"
+    ],
+    "answer": "Buying 1 Sept ABC futures contract at 1700",
+    "explanation": "To make a profit of Rs 5000, he has to earn Rs 100 per share (5000/50 = 100) since he has gone short, he will make a profit when the price falls and he buys at the reduced price. He has sold at Rs 1800, so when he buys back at Rs 1700 he makes Rs 100 profit per share. Rs 100 × 50 (Lot size) = Rs 5000 profit."
+  },
+  {
+    "question": "The option which gives the holder a right to buy the underlying asset on or before a particular date for a certain price, is called as ______",
+    "options": ["European put option", "American put option", "American call option", "European call option"],
+    "answer": "American call option",
+    "explanation": "In case of American options, buyers can exercise their option any time before the maturity of contract. In case of European options, owner of such option can exercise his right only on the expiry date/day of the contract."
+  },
+  {
+    "question": "A call option gives the holder a right to buy how much of the underlying from the writer of the option?",
+    "options": [
+      "The specified quantity or less than the specified quantity",
+      "The specified quantity or more than the specified quantity",
+      "Only the specified quantity",
+      "None of the above"
+    ],
+    "answer": "Only the specified quantity",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is closest to the forward price of a share if cash price is Rs 425, forward contract maturity=12 months from date, market interest rate 12%?",
+    "options": ["425", "482", "476", "437"],
+    "answer": "476",
+    "explanation": "12 months maturity means full one year of interest cost. So 12% of 425 = 425 × 12/100 = 51. 425 + 51 = 476 is closest to the one year forward price."
+  },
+  {
+    "question": "A trader is very bearish on specific companies. However he is bullish on the market as a whole. Which of the following is the most appropriate strategy to take advantage from this view?",
+    "options": [
+      "sell the shares of those specific companies in futures and also sell index futures",
+      "sell the shares of those specific companies in futures and buy index futures",
+      "buy the shares of those specific companies in futures and sell index futures",
+      "do nothing"
+    ],
+    "answer": "sell the shares of those specific companies in futures and buy index futures",
+    "explanation": "The trader should sell the shares of those specific companies in futures and buy index futures. By this he will profit when the stock prices of those specific companies fall and index rises - if his view proves correct."
+  },
+  {
+    "question": "The concept in which the derivative trader gets a higher exposure for the small portion of margin amount brought by him is called as ______.",
+    "options": ["Arbitrage", "Leverage", "Delta Hedging", "Speculation"],
+    "answer": "Leverage",
+    "explanation": "A trader in the future's market pays a relatively small margin for market exposure in relation to the contract value. This is known as leverage."
+  },
+  {
+    "question": "Which of the following problem(s) that exist in the forward contracts are solved by the Futures contracts?",
+    "options": [
+      "A central agency for monitoring",
+      "Settlement problems",
+      "Counter party risk",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "Loss incurred on derivatives transactions can be carried forward for a period of 12 assessment years - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Loss incurred on derivatives transactions which are carried out in a recognized stock exchange can be carried forward for a period of 8 assessment years."
+  },
+  {
+    "question": "A short position in a CALL option can be closed out by taking a long position in a PUT option with same exercise date and exercise price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "A short position in a CALL option can be closed out by taking a long position in a same CALL option with same exercise date and exercise price."
+  },
+  {
+    "question": "Which of the following complaints can be taken up by the exchange for redressal?",
+    "options": [
+      "Claims for notional loss, opportunity loss for the disputed period or trade",
+      "Complaints pertaining to trades not executed on the Exchange by the complainant",
+      "Claims of sub-broker/authorized persons for private commercial dealings with the trading member",
+      "Excess Brokerage charged by Trading Member / Sub-broker"
+    ],
+    "answer": "Excess Brokerage charged by Trading Member / Sub-broker",
+    "explanation": "Exchanges provide assistance if the complaints fall within the purview of the Exchange and are related to trades that are executed on the Exchange Platform. Excess Brokerage charged by Trading Member / Sub-broker comes under this assistance."
+  },
+  {
+    "question": "Mr. Ravi purchases 10 call option on stock at Rs. 20 per call with strike price of Rs 350. If on exercise date, stock price is Rs. 310, ignoring transaction cost, Mr. Ravi will choose ______",
+    "options": [
+      "To exercise the option",
+      "Not to exercise the option",
+      "May or may not exercise the option depending on whether he likes the company or not",
+      "May or may not depending on whether he is in town or not"
+    ],
+    "answer": "Not to exercise the option",
+    "explanation": "Mr. Ravi has bought a Call Option assuming that the price will rise. The price has fallen and he is in a loss. So he will not choose to exercise his option. His loss is restricted to the premium he has paid."
+  },
+  {
+    "question": "Trading members are required to possess a higher level of Capital Adequacy (as per balance sheet) than clearing members - True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clearing Members are permitted to settle their own trades as well as the trades of the other non-clearing members known as Trading Members who have agreed to settle the trades through them. Thus the Capital Adequacy requirement is higher for Clearing Members."
+  },
+  {
+    "question": "A trader sold a call option on a share of strike price Rs. 200 and received a premium of Rs. 12 from the option buyer. What can be his maximum loss on this position?",
+    "options": ["Rs 200", "Rs 188", "Rs 12", "Unlimited"],
+    "answer": "Unlimited",
+    "explanation": "When a trader sells a Call option he is bearish / neutral on that scrip. But in case the price rises, he makes losses and theoretically price can rise to any levels - so his losses can be unlimited. In this eg, he has sold Rs 200 call at Rs 12. In case the price rises, the call price will also rise and theoretically it can rise to any levels leading to 'unlimited losses'."
+  },
+  {
+    "question": "Investor protection fund for the derivatives segment is ______",
+    "options": [
+      "same as that of cash segment",
+      "Independent of that of cash segment",
+      "Contributed by ministry of finance",
+      "No investor protection fund is there for the derivative segment"
+    ],
+    "answer": "Independent of that of cash segment",
+    "explanation": ""
+  },
+  {
+    "question": "The contract size in futures market is defined by",
+    "options": ["The Stock Brokers", "The Stock Exchange", "The Parties to the contract", "SEBI"],
+    "answer": "The Stock Exchange",
+    "explanation": ""
+  },
+  {
+    "question": "In Options - the seller of an contract pays an upfront premium at the time of entering into the contract - State whether True or False?",
+    "options": [
+      "True",
+      "False as the premium is paid on maturity",
+      "false as the premium is paid by the buyer and not the seller",
+      "None of the above"
+    ],
+    "answer": "false as the premium is paid by the buyer and not the seller",
+    "explanation": ""
+  },
+  {
+    "question": "The mark-to-market margin debits for index options are made on",
+    "options": ["weekly basis", "daily basis", "fortnightly basis", "every friday"],
+    "answer": "daily basis",
+    "explanation": "All types of Mark to Market margin debits are made on daily basis."
+  },
+  {
+    "question": "A calendar spread in index futures is treated as ______ in a far month contract when the near months contract is expired.",
+    "options": ["long position", "hedged position", "naked position", "short position"],
+    "answer": "naked position",
+    "explanation": "A calendar spread becomes a naked/open position, when the near month contract expires or either of the legs of spread is closed."
+  },
+  {
+    "question": "The main objective of derivatives is to enable market participants to",
+    "options": ["Trade", "Manage the risks", "Speculate", "Arbitrage"],
+    "answer": "Manage the risks",
+    "explanation": ""
+  },
+  {
+    "question": "Higher the interest rate, the higher the CALL option premium - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "High interest rates will result in an increase in the value of a call option and a decrease in the value of a put option."
+  },
+  {
+    "question": "A Buyer or holder of the option is the party to the contract who has ______.",
+    "options": [
+      "the obligation but not the right",
+      "the right but not the obligation",
+      "the right and the obligation",
+      "None of the above"
+    ],
+    "answer": "the right but not the obligation",
+    "explanation": "A Call option gives the buyer the right, but not the obligation to buy the underlying at the strike price. A put option gives the buyer of the option the right, but not the obligation, to sell the underlying at the strike price."
+  },
+  {
+    "question": "The Trading members on the exchanges derivatives segment are not required to be registered with SEBI. State whether True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "A unique principle of futures trading makes trading possible for those who do not want to make or take delivery of underlying assets. Which is that principle?",
+    "options": [
+      "Traded on a recognised exchange",
+      "Price uncertainty",
+      "Standardisation of contracts",
+      "Cash settlement"
+    ],
+    "answer": "Cash settlement",
+    "explanation": ""
+  },
+  {
+    "question": "On the National Stock Exchange, for its index futures, what would be the opening day of its April series?",
+    "options": [
+      "Last Friday of March month",
+      "Last Friday of April month",
+      "Last Friday of Jan month",
+      "Last Friday of February month"
+    ],
+    "answer": "Last Friday of Jan month",
+    "explanation": "There are 3 series of index futures active all the time. A new series is introduced as the older series expires. Lets assume the Jan, Feb and March series are active currently. On the last Thursday of Jan, the Jan series will expire. So that next day ie. on the last Friday of Jan, the April series will be activated. This will be the opening day for April series. Thus we will have three series active ie. Feb, March and April."
+  },
+  {
+    "question": "Operational risks include losses due to ______",
+    "options": [
+      "natural calamities",
+      "inadequate contingency planning",
+      "power failure",
+      "all of the above"
+    ],
+    "answer": "inadequate contingency planning",
+    "explanation": "An operational risk is defined as a risk incurred by an organisation's internal activities. So losses due to fraud, inadequate documentation, inadequate disaster management, improper execution are all Operational risks."
+  },
+  {
+    "question": "The total number of outstanding / unsettled contracts in the market, at any point of time is known as 'OPEN INTEREST' - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "An open interest is the total number of contracts outstanding (yet to be settled) for an underlying asset."
+  },
+  {
+    "question": "The clearing corporation may utilize the client account margins deposited with it for fulfilling the dues which a clearing member may owe to the clearing corporation for the trades on the clearing members own account. State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clients money cannot be used by the Clearing or Trading member for his trades."
+  },
+  {
+    "question": "A clearing member has deposited eligible liquid assets of Rs.75 lacs. The exchange has minimum liquid net worth requirement of Rs. 50 lakhs. The member has not entered into any transactions so far. What is the margin available for trading. (in lakhs)",
+    "options": ["75", "50", "25", "125"],
+    "answer": "25",
+    "explanation": "Liquid Networth is defined as Liquid Assets minus Initial Margin. In above case he has deposited Rs 75 lakhs as liquid assets. Rs 50 lakhs is the requirement, so the balance Rs 25 lakhs will be used as initial margin."
+  },
+  {
+    "question": "Is it true that an efficient cash market is required for an efficient futures market? Yes or No?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "The prices of futures are derived from the underlying cash market prices. So an efficient cash market is required for an efficient futures market."
+  },
+  {
+    "question": "If the price of a future contract increases, the mark to market margin account of the holder of the short position in that contract is credited for the gain. State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "In a short position, if the price increases their is a loss. So the mark to market margin will be debited."
+  },
+  {
+    "question": "The absolute amount of minimum capital adequacy requirement for derivative brokers is same as that for cash market - True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "The absolute amount of minimum capital adequacy requirement for derivative brokers/dealers has to be much higher than for cash market. Further, if a broker/dealer is involved both in cash and futures segments, or in several exchanges, the capital adequacy requirement should be satisfied for each exchange/segment separately."
+  },
+  {
+    "question": "Change in option premium for a unit change in ______ is known as Rho.",
+    "options": ["market volatility", "Price of the underlying asset", "Risk free interest rate", "liquidity"],
+    "answer": "Risk free interest rate",
+    "explanation": ""
+  },
+  {
+    "question": "The ask price is the price at which ______",
+    "options": [
+      "the clearing corporation settles the transaction",
+      "the trader is prepared to sell the share",
+      "the trader is prepared to purchase the share",
+      "the trader is prepared to either buy or sell the share"
+    ],
+    "answer": "the trader is prepared to sell the share",
+    "explanation": "BID ASK price means Buyer and Seller price - eg Rs 100 - 101. So Ask price is the price at which the trader is prepared to sell the share."
+  },
+  {
+    "question": "In India, futures and options on individual stocks are allowed on",
+    "options": [
+      "A few selected stocks only",
+      "All stocks listed on any of the exchanges",
+      "All stocks with stock price of more than Rs.100 or Rs 50 in A and B group resp",
+      "Only those stocks which are simultaneously listed on all the stock exchange in India"
+    ],
+    "answer": "A few selected stocks only",
+    "explanation": "SEBI has allowed stock specific derivatives only on a few selected securities after meeting several criteria related to market capitalization, market wide position limits, and past trading volumes."
+  },
+  {
+    "question": "Higher the price volatility, higher would be the initial margin requirement - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "If the price of a stock is very volatile, the risk of losses increases. So the Stock Exchanges collect higher initial margins in such cases."
+  },
+  {
+    "question": "In a derivative exchange, the net worth requirement for a clearing member is higher than that of a non-clearing member (i.e. a member who only clears his trades).",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Clearing Member Eligibility Norms: Net-worth of at least Rs.300 lakhs. The Net-worth requirement for a Clearing Member who clears and settles only deals executed by him is Rs. 100 lakhs."
+  },
+  {
+    "question": "Money and securities deposited by clients with the trading members should be kept by them in a separate clients account - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "All active members of the Exchange are required to make initial contribution towards Trade Guarantee Fund of the Exchange - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "An increase in the interest rates will lead to ______.",
+    "options": [
+      "increase the premium on put options",
+      "decrease the premium on put options",
+      "No effect on put options",
+      "Expiration of the option automatically"
+    ],
+    "answer": "decrease the premium on put options",
+    "explanation": "High interest rates means high cost of capital and this will result in an increase in the value of a call option and a decrease in the value of a put option."
+  },
+  {
+    "question": "In a forward contract, the party that agrees to sell the underlying asset on a certain specified date for a certain specified price is said to have assumed ______.",
+    "options": ["A long position", "A square off position", "A short position", "A trade off position"],
+    "answer": "A trade off position",
+    "explanation": "Trade off basically means an exchange where you give up one thing in order to get something else. In a forward contract for eg the farmer sells his crop two months hence in exchange of some amount of money."
+  },
+  {
+    "question": "Mr. Hitesh is a trading member. One of his clients has purchased 12 contracts of March series index futures and another client has sold 10 contracts of March series index futures. The exposure of Mr. Hitesh as trading member is",
+    "options": [
+      "grossed up at 22 contracts",
+      "netted out at 2 contracts",
+      "maximum of 10 and 12 which is 12 contracts",
+      "The Exchange will decide to either gross up or net out the exposure depending upon his past record"
+    ],
+    "answer": "grossed up at 22 contracts",
+    "explanation": ""
+  },
+  {
+    "question": "In case of Call options, if the market price is less than the exercise (strike) price, the option will",
+    "options": [
+      "expire worthless",
+      "seller of the option will exercise it",
+      "will definitely get exercised",
+      "none of the above"
+    ],
+    "answer": "expire worthless",
+    "explanation": "If market price is below strike price, the option expires worthless as the buyer will incur the maximum loss of his premium paid and the seller will earn the premium received."
+  },
+  {
+    "question": "Does the difference between exercise price of the option and spot price affects option premium? State Yes or No.",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "The Option premium is a combination of intrinsic value and time value and other factors. The Intrinsic value is difference between Spot and Exercise Price (Strike Price). Exercise price remains constant whereas the Spot price fluctuates. So the option premium will fluctuate as per the movement in Spot price."
+  },
+  {
+    "question": "A high initial margin level improves solvency & financial capability of the clearing corporation - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "An American put option gives the buyer the right but not the obligations to sell to the writer an underlying asset at a specified price on or before the expiry date - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  }
+]

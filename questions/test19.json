@@ -1,0 +1,387 @@
+[
+  {
+    "question": "ICICI Bank stock call and put option' belongs to which of the following categories?",
+    "options": ["Cash market product", "Derivative product", "Money market product", "Debt product"],
+    "answer": "Derivative product",
+    "explanation": "Call and Put options on any stock are derivatives products."
+  },
+  {
+    "question": "Whom does the Clearing Member need to consult for setting limits on the trading members clearing through him?",
+    "options": [
+      "Clearing Corporation",
+      "SEBI",
+      "The respective Stock Exchange",
+      "No consultation is required with anyone as the Clearing Member can set the limits of his trading members on his own"
+    ],
+    "answer": "No consultation is required with anyone as the Clearing Member can set the limits of his trading members on his own",
+    "explanation": "A trading terminal helps the Clearing Members to monitor the open positions of all the Trading Members clearing and settling through him. A Clearing Member may set limits for a Trading Member clearing and settling through him. Clearing corporation assists the Clearing Member to monitor the intraday limits set up by a Clearing Member and whenever a Trading Member exceed the limits, it stops that particular Trading Member from further trading."
+  },
+  {
+    "question": "If the price of far month futures is less than the price of near month futures, it is called as",
+    "options": ["Reverse Hedging", "Contango", "Basis", "Backwardation"],
+    "answer": "Backwardation",
+    "explanation": "If futures price is lower than spot price of an asset or if the far month future prices are lower than current month futures prices, it is called 'Backwardation market'."
+  },
+  {
+    "question": "What does a seller of Put Option expect?",
+    "options": [
+      "An increase in the price of the underlying",
+      "No change in the price of the underlying",
+      "A decrease in the price of the underlying",
+      "Both 1 and 2"
+    ],
+    "answer": "Both 1 and 2",
+    "explanation": "A seller of put option expects the price to rise. Even if the price remains stable, the seller earns the option premium. (Note - Buyer of Put option is bearish and a seller of Put option is bullish / neutral)"
+  },
+  {
+    "question": "What does a beta of more than 1 mean?",
+    "options": [
+      "It means that the expected percentage change in stock price will be twice the percentage change in index",
+      "It means that the expected percentage change in stock price will be less percentage change in index",
+      "It means that the expected percentage change in stock price will be more than the percentage change in index",
+      "It means that the expected percentage change in stock price equals the percentage change in index"
+    ],
+    "answer": "It means that the expected percentage change in stock price will be more than the percentage change in index",
+    "explanation": "Beta measures the sensitivity of a stock / portfolio vis-a-vis index movement over a period of time, on the basis of historical prices. If Beta of a stock is 1, it means that a % change in the index will lead to equal % change in the stock price. Suppose a stock has a beta equal to 2. This means that historically a security has moved 20% when the index moved 10%."
+  },
+  {
+    "question": "You sold a call option on a share. The strike price of the Call was Rs 250 and you received a premium of Rs 16 from the option buyer. What can be the maximum loss on this position?",
+    "options": ["Unlimited", "Zero", "Rs. 250", "Rs. 234"],
+    "answer": "Unlimited",
+    "explanation": "When you sell a Call Option, you believe that the price will fall. If the price rises, you start making losses. Prices can rise theoretically to unlimited levels, so the losses can be unlimited."
+  },
+  {
+    "question": "Clearing Corporation of an Exchange guarantees performance of exchange traded contracts - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Clearing Corporation acts as a legal counterparty to all trades on this segment and also guarantees their financial settlement."
+  },
+  {
+    "question": "In the derivatives segment, who has to pay the margins as specified by the Clearing Corporation?",
+    "options": ["Clients", "Arbitrageurs", "Financial Institutions", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "All those who trade in the derivatives segment have to pay margins without exception."
+  },
+  {
+    "question": "When a dealer is doing trades in his own account and also doing trades for their clients then these two trades have to be completely segregated - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "The trades done by the broker in his own account, by the dealer in his own account and the trades of the clients have to be totally segregated."
+  },
+  {
+    "question": "When a person enters into a forward contract, the loss that can occur on the position is _____.",
+    "options": ["known", "unknown"],
+    "answer": "unknown",
+    "explanation": "When a person enters into a forward or a futures contract, his profits or losses are uncertain as it depends on the movement of prices. (Only in the case of buying an option, the losses are fixed ie. premium paid)"
+  },
+  {
+    "question": "As per the SEBI Act, the board members of Securities Exchange Board of India are appointed by _____.",
+    "options": ["The Stock Exchanges", "The Central Government", "The High Court of Mumbai", "Securities Appellate Tribunal"],
+    "answer": "The Central Government",
+    "explanation": "SEBI consists of a Board of Directors who are appointed by the Union Government of India."
+  },
+  {
+    "question": "Can a long position in a Put option can be closed out by taking a short position in a call option with identical exercise date and exercise price?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "A long position in a Put Option can be closed out (squared up) only by selling the same Put Option."
+  },
+  {
+    "question": "In the case of futures contract, the profits or losses are received / paid only on maturity - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "In case of futures contract, the profits or losses are received / paid on a day-to-day basis during the life of the contract and not only on maturity. This is known as Mark to Market settlement."
+  },
+  {
+    "question": "Mr. Ashu has bought 100 shares of ABC at Rs 980 per share. He expects the price to go up but wants to protect himself if price falls. He does not want to lose more than Rs. 1000 on this long position in ABC. What should Mr. Ashu do?",
+    "options": [
+      "Place a stop loss order for 100 shares of ABC at Rs 990 per share",
+      "Place a stop loss order for 100 shares of ABC at Rs 970 per share",
+      "Place a limit buy order for 100 shares of ABC at Rs 990 per share",
+      "Place a limit sell order for 100 shares of ABC at Rs 970 per share"
+    ],
+    "answer": "Place a stop loss order for 100 shares of ABC at Rs 970 per share",
+    "explanation": "Mr. Ashu will lose Rs 1000 if the ABC share will fall by Rs 10 as he has 100 shares and a 10 rupee fall will lead to Rs 1000 loss. He has bought at Rs 980. So he will put the stop loss order at Rs 970 (980 - 10)."
+  },
+  {
+    "question": "Intrinsic value is always positive for in-the-money options and zero for out-of-the money options - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "In-the-money options have positive intrinsic value whereas at-the-money and out-of-the-money options have zero intrinsic value. The intrinsic value of an option can never be negative."
+  },
+  {
+    "question": "The minimum Networth for clearing members of the derivatives clearing corporation/house shall be _____.",
+    "options": ["Rs. 1 crore", "Rs. 5 crore", "Rs. 10 crore", "None of the above"],
+    "answer": "None of the above",
+    "explanation": "The minimum Net-worth for clearing members of the derivatives clearing corporation/house shall be Rs. 300 Lakhs (Rs 3 cr)."
+  },
+  {
+    "question": "A long position in a call option can be closed out by taking a long position in a put option with identical exercise date and exercise price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "A long position in a CALL option can be closed out by taking a short position in the same CALL option with same exercise date and exercise price."
+  },
+  {
+    "question": "If futures price is higher than spot price of an underlying asset, this is known as _____.",
+    "options": ["Maximization", "Normalization", "Backwardation", "Contango"],
+    "answer": "Contango",
+    "explanation": "If futures price is higher than spot price of an underlying asset, market participants may expect the spot price to go up in near future. This expectedly rising market is called 'Contango market'. Similarly, if futures price are lower than spot price of an asset, market participants may expect the spot price to come down in future. This expectedly falling market is called 'Backwardation market'."
+  },
+  {
+    "question": "Mr. Ashish is a portfolio manager and he is bullish on the market. What should be his course of action?",
+    "options": [
+      "He should sell index futures",
+      "He should sell index call option",
+      "He should buy index futures",
+      "He should sell his complete portfolio"
+    ],
+    "answer": "He should buy index futures",
+    "explanation": "Buying index futures such as Nifty futures will help him reap good profits if his view of bullish markets prove correct."
+  },
+  {
+    "question": "Can one sell assets in futures market even if he does not own any such assets?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "One can sell futures / options etc. even if he does not own the underlying asset."
+  },
+  {
+    "question": "State True or False - The mark-to-market of index futures is daily valuation of open positions as per the current market prices.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "In futures market, while contracts have maturity of several months, profits and losses are settled on day-to-day basis – called mark to market (MTM) settlement. The exchange collects these margins (MTM margins) from the loss making participants and pays to the gainers on day-to-day basis."
+  },
+  {
+    "question": "If on the auction day, there are no sellers for a particular short delivery, what will the Clearing Corporation do regarding the outstanding transaction?",
+    "options": [
+      "The transaction is cancelled",
+      "One more auction is held the next day",
+      "The transaction is annulled",
+      "The transaction is closed out"
+    ],
+    "answer": "The transaction is closed out",
+    "explanation": "If no shares are received in an auction, the transaction is closed out at a particular price. The Close out will be at the highest price prevailing in the exchange from the day of trading till the auction day or 20% above the official closing price on the auction day, whichever is higher."
+  },
+  {
+    "question": "In respect of Margin account - What will be done if the prices of future contract increases?",
+    "options": [
+      "The margin account of the seller of futures will be debited for the notional loss",
+      "The margin account of the buyer of futures will be credited for the notional gain",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": "Both 1 and 2",
+    "explanation": "The buyer of futures will have a notional gain and so his margin account will be credited by the notional gain amount. The seller of futures will have a notional loss if the price rises and his margin account will be debited by the notional loss amount."
+  },
+  {
+    "question": "When there is a 'Closing buy transaction', this will have the effect of partly or fully offsetting _____.",
+    "options": ["A cross position", "A short position", "A high position", "A long position"],
+    "answer": "A short position",
+    "explanation": "Creating a Short Position means selling the asset on an exchange with a view to buy it back when the price falls. So a Closing Buy transaction will be used to buy back / offset the short position created."
+  },
+  {
+    "question": "An ideal index should contain _____ shares",
+    "options": ["More than 50", "As many as possible", "As few as possible", "As per the objective of the index"],
+    "answer": "As per the objective of the index",
+    "explanation": "Stocks in the index are chosen based on certain pre-determined qualitative and quantitative parameters, laid down by the Index Construction Managers."
+  },
+  {
+    "question": "Which of these CALL options are Out of The Money (OTM)?",
+    "options": [
+      "The spot price is Rs 350 and strike price is Rs 330",
+      "The spot price is Rs 350 and strike price is Rs 370",
+      "The spot price is Rs 350 and strike price is Rs 350",
+      "Depends on the Delta of the option"
+    ],
+    "answer": "The spot price is Rs 350 and strike price is Rs 370",
+    "explanation": "A call option is out of the money when the strike price is higher than the spot/cash price of the underlying."
+  },
+  {
+    "question": "A farmer agrees to sell 100 tonnes of sugarcane to a factory after 2 month at a specific price. What is this type of contract known as?",
+    "options": ["Swapation", "Future Contract", "Forward Contract", "None of the above"],
+    "answer": "Forward Contract",
+    "explanation": "A contract which is between two or more persons as per their agreed terms and in which no Stock Exchange or any other Exchange is involved is a Forward contract."
+  },
+  {
+    "question": "Mr Rohit has bought 8 lots of contracts of June BSE Sensex futures and sold 6 lots of contracts of July BSE sensex futures. What is his regular - non spread open position?",
+    "options": ["14 lots", "2 lots", "8 lots", "6 lots"],
+    "answer": "2 lots",
+    "explanation": "Mr Rohit has bought and sold the same underlying i.e. BSE Sensex futures. So his risk is limited to the net position which will be his open position. Here he has bought 8 lots and sold 6 lots, so his open position is 2 lots."
+  },
+  {
+    "question": "An European option can be exercised only on expiry date - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "European Option is an option that can only be exercised at the end of its life, at its maturity / expiry and not before that. An American option can be exercised any time."
+  },
+  {
+    "question": "_____ are eligible to clear trades in Index Options.",
+    "options": [
+      "All trading members of a recognised stock exchange",
+      "All trading members and their sub brokers",
+      "Only members who are registered as clearing members with the derivative exchange",
+      "All Public sector banks"
+    ],
+    "answer": "Only members who are registered as clearing members with the derivative exchange",
+    "explanation": ""
+  },
+  {
+    "question": "Among the given options, which one can be the principal driver of the movement of stock index?",
+    "options": ["Inflation", "Price movement in underlying shares", "Interest Rates", "Currency Rates"],
+    "answer": "Price movement in underlying shares",
+    "explanation": "A stock index is made up of a basket of shares. For eg. Nifty is made up of 50 shares. So price movements in these 50 shares will be the principal driver of the movement in Nifty stock index."
+  },
+  {
+    "question": "High level of initial margins deter brokers and clients from trading in the derivatives market - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Risk involved in trading in derivatives are higher as compared to spot market due to bigger trading lot sizes. Margin levels in derivatives are kept at a higher level so that brokers and clients who do not have adequate finances, do not trade in this market as they do not have the risk bearing financial capacity."
+  },
+  {
+    "question": "Investors who are called Bulls are those investors who believe the market or stock will fall - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Bulls believe that market / stock will rise."
+  },
+  {
+    "question": "When a futures contract is entered, _____.",
+    "options": [
+      "no margin is exchanged between the buyer and seller",
+      "only the buyer pays the margin to the seller",
+      "only the seller pays margin to buyer",
+      "the buyer and seller pay margins to each other"
+    ],
+    "answer": "no margin is exchanged between the buyer and seller",
+    "explanation": "In a futures contract, the margin is payable by both buyer and seller to the Clearing Corporation and not to each other. So among the four given options, option 1 is the most appropriate."
+  },
+  {
+    "question": "It is recommended but not compulsory for the trading members to have dealers and sales personal in the derivatives market who have passed a certification programme approved by SEBI - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "It is mandatory that trading members are required to have qualified approved user and sales person who have passed a certification programme approved by SEBI. Each dealer should pass SEBI approved certification exams."
+  },
+  {
+    "question": "Derivatives can have _____ as an underlying",
+    "options": ["a bond", "another derivative", "stock index", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "The most common underlying assets include stocks, indices, commodities, bonds, currencies etc., but they can also be other derivatives, which adds another layer of complexity to proper valuation."
+  },
+  {
+    "question": "The liquid assets which are to be deposited by the clearing member can be in the form of",
+    "options": [
+      "Only cash",
+      "Only cash and approved securities",
+      "Cash, Bank Guarantees, Equity Securities and other Cash Equivalents",
+      "None of the above"
+    ],
+    "answer": "Cash, Bank Guarantees, Equity Securities and other Cash Equivalents",
+    "explanation": "Liquid Assets can be in the form of Cash, Cash Equivalents (Government Securities, Fixed Deposits, Treasury Bills, Bank Guarantees, and Investment Grade Debt Securities) and Equity Securities."
+  },
+  {
+    "question": "On exercise of the option, the seller/writer will pay the adverse difference, between the final settlement price as on the exercise/expiry date and the strike price. Such payment will be recognised as a",
+    "options": ["Profit", "Loss", "Debt", "None of the above"],
+    "answer": "Loss",
+    "explanation": "Adverse difference means the transaction has resulted in a adverse way i.e. a Loss. On exercise of the option, the seller/writer will pay the adverse difference, between the final settlement price as on the exercise/expiry date and the strike price. Such payment will be recognised as a LOSS."
+  },
+  {
+    "question": "Mr. Deshmukh took a short position of one contract in May Nifty futures (Contract multiplier 50) at a price of Rs. 5600. When he closed this position after a few days, he realized that he has made a profit of Rs. 5000. Which of the following closing actions would have enabled him to generate this profit?",
+    "options": [
+      "Selling 1 May Nifty futures contract at 5700",
+      "Buying 1 May Nifty futures contract at 5700",
+      "Selling 1 May Nifty futures contract at 5500",
+      "Buying 1 May Nifty futures contract at 5500"
+    ],
+    "answer": "Buying 1 May Nifty futures contract at 5700",
+    "explanation": ""
+  },
+  {
+    "question": "You sold a Put option on a share. The strike price of the put was Rs.245 and you received a premium of Rs.49 from the option buyer. Theoretically, what can be the maximum loss on this position?",
+    "options": ["206", "196", "49", "NIL"],
+    "answer": "196",
+    "explanation": "When you sell a Put option you believe the share will go up. If the share goes down you will make a loss. Theoretically the share of 245 can fall to zero. So you can make a loss of 245. You have received a premium of 49. So the maximum loss can be 245 - 49 = 196."
+  },
+  {
+    "question": "A person has bought an option so cannot lose more than the option premium paid.",
+    "options": [
+      "False for all types of options",
+      "True only for American options",
+      "True only for European options",
+      "True for all types of options"
+    ],
+    "answer": "True for all types of options",
+    "explanation": "A buyer of an OPTION pays the premium and that is the maximum loss and its true for all types of options. (On the other hand a seller of an option receives the premium and thats his maximum profit. The loss can be unlimited)"
+  },
+  {
+    "question": "Three Call series of same strike price of State Bank of India stock-June, July and August are quoted. Which will have the lowest option premium?",
+    "options": ["Same premium for all", "June", "July", "August"],
+    "answer": "June",
+    "explanation": "The series closest to current date will have the lowest premium due to low time value of money (so lower interest costs)."
+  },
+  {
+    "question": "The Clearing Corporation can transfer a defaulting members client's position to _____.",
+    "options": [
+      "Liability a/c.",
+      "Another solvent member",
+      "Investor Protection Fund a/c.",
+      "The Stock Exchange"
+    ],
+    "answer": "Another solvent member",
+    "explanation": "As per SEBI rules, the Clearing Corporation can transfer client positions from one broker member to another broker member in the event of a default by the first broker member."
+  },
+  {
+    "question": "Mr. Nayar has purchased 8 contracts of March series and sold 6 contracts of April series of the NSE Nifty futures. How many lots will get categorized as Regular (non-spread) open positions?",
+    "options": ["14", "8", "2", "6"],
+    "answer": "2",
+    "explanation": "Various future contract position in the same underlying (even at various expiry dates) are netted off before arriving at open position. Here in this case it is 8 - 6 = 2. This is because a long and a short position in the same underlying will have no risk (if one will make profit, the other will be in a similar loss) and only the open position will have the risks and margins will be collected from these open positions."
+  },
+  {
+    "question": "_____ measures the sensitivity of the option value to a given small change in the price of the underlying asset.",
+    "options": ["Delta", "Theta", "Rho", "Vega"],
+    "answer": "Delta",
+    "explanation": "The most important of the 'Greeks' is the option's is 'Delta'. This measures the sensitivity of the option value to a given small change in the price of the underlying asset. It may also be seen as the speed with which an option moves with respect to price of the underlying asset. Delta = Change in option premium/ Unit change in price of the underlying asset. Delta for call option buyer is positive. This means that the value of the contract increases as the share price rises. For example, with respect to call options, a delta of 0.6 means that for every Rs.1 the underlying stock increases, the call option will increase by Rs 0.60. Put option deltas, on the other hand, will be negative, because as the underlying security increases, the value of the option will decrease. So a put option with a delta of -0.6 will decrease by Rs.0.60 for every Rs 1 the underlying increases in price. The knowledge of delta is of vital importance for option traders because this parameter is heavily used in margining and risk management strategies."
+  },
+  {
+    "question": "Of the below mentioned options, which would attract margins?",
+    "options": [
+      "Buyer of PUT Option",
+      "Seller of CALL Option",
+      "Seller of PUT Option",
+      "Both 2 and 3"
+    ],
+    "answer": "Both 2 and 3",
+    "explanation": "Buyers of Options pay the premium and that is the maximum loss they can suffer - so they need not pay any margin. A seller of options receives the premium but he can suffer infinite losses - so margins are collected both from sellers of Call and Put options."
+  },
+  {
+    "question": "Mr. Singh purchases a call option on a stock at Rs. 10 per call with strike price of Rs. 140. If on exercise date, stock price is Rs. 168, ignoring transaction cost, Mr. Singh will choose _____",
+    "options": [
+      "To exercise the option",
+      "Not to exercise the option",
+      "May or may not depending on the balance he has in his bank account",
+      "May or may not depending on the recommendation of experts"
+    ],
+    "answer": "To exercise the option",
+    "explanation": "Mr Singh has purchased a CALL and on the expiry day he is in a profitable position as the price of the stock has risen and the spot price is above the strike price. So he will exercise his option."
+  },
+  {
+    "question": "You have bought a CALL of ITC Ltd. of Strike price of Rs 200 of January. To close the position, you will SELL a PUT of same strike price of January. True or False?",
+    "options": ["False", "True"],
+    "answer": "False",
+    "explanation": "If you have bought a CALL option, then to close the position you will have to sell a CALL option Rs 200 strike price."
+  },
+  {
+    "question": "Mr Prashant has bought one lot of ABC futures for Rs 75 (lot size 2000) expecting that this share will go up. But he also wants to protect himself against any loss of more than Rs 3000. What should he do?",
+    "options": [
+      "Put a stop loss sell order at Rs 74",
+      "Put a stop loss sell order at Rs 73.5",
+      "Place a buy order for 2000 shares of ABC at Rs 76.50 per",
+      "None of the above"
+    ],
+    "answer": "Put a stop loss sell order at Rs 73.5",
+    "explanation": "Mr. Prashant has bought one lot i.e. 2000 shares and does not want to have a loss of more than Rs 3000. So 3000 / 2000 = Rs 1.50. So per share he should not lose more than Rs 1.50. His buying price is Rs 75. So 75 - 1.50 = 73.50 will be his stop loss price. When the share falls to Rs 73.50, he will stand to lose Rs 3000."
+  },
+  {
+    "question": "On the derivatives exchange, a trading cum clearing member has a client who has purchased and sold 600 and 350 contracts respectively in the August series of PQR futures (contract multiplier 50). The trading cum clearing member has purchased and sold 300 and 850 contracts respectively on his own account in the same August series of PQR futures. What is the outstanding liability (open position) of the member towards Clearing corporation in the number of contracts?",
+    "options": ["300", "800", "250", "550"],
+    "answer": "800",
+    "explanation": "The open position of a client and the clearing member cannot be netted off. Open position of client is 600 - 350 = 250 purchase contracts. Open position of Clearing member is 300 - 850 = 550 sale contracts. Total outstanding position of the clearing member towards the Clearing Corporation is 250 + 550 = 800 contracts."
+  }
+]

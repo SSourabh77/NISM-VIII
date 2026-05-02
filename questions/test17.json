@@ -1,0 +1,367 @@
+[
+  {
+    "question": "Over-the-counter options are always standardised - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Over the Counter options are made as per the needs of the trading parties - so they are customised. Future options are standardised as per the rules of stock exchange."
+  },
+  {
+    "question": "A seller of call option can lose unlimited amount of money - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "A seller of a Call Option expects the price to fall. But as the price of the underlying rises, he begins to make losses. Theoretically the price can rise to any levels and so the call option seller may make unlimited losses."
+  },
+  {
+    "question": "The broker is compulsorily required to get a Risk Disclosure Document signed by the client, at the time of client registration - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "The broker is required to get a Risk Disclosure Document signed by the client, at the time of client registration. This document informs clients about the kind of risks that derivatives can involve for the client. It makes the client aware and well informed."
+  },
+  {
+    "question": "A long position in futures market can be reversed only with the same counterparty from whom the contract was initially purchased - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Futures contracts are traded on screen based derivatives market where the identity of the buyer and seller is unknown to each other. A trade can be squared off with any buyer or seller whose quotes are available on the screen. The Clearing Corporation acts as a legal counterparty for every contract and guarantees the trades."
+  },
+  {
+    "question": "Intrinsic value of an option is sum of Option premium and Time value - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Intrinsic value is basically the difference between Spot price and Strike price. Option premium consists of two components - intrinsic value and time value. For eg. If the current option premium for a Rs 500 strike price Call option is Rs 70 and the current spot price is Rs 550, than Rs 50 is the intrinsic value (550 - 500) and the balance Rs 20 (70 - 50) is the time value."
+  },
+  {
+    "question": "Its the duty of the Clearing Corporation to continuously analyse and modify the initial margin requirements as the stock markets tend to be very volatile - State whether True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": "As per Prof. J.R.Verma Committee recommendations - Initial Margin levels should be dynamic and recalculated continuously based on volatility levels. The Clearing Corporation does this activity using modern mathematical tools."
+  },
+  {
+    "question": "In exercising call option on an index, the option holder receives from the option writer cash amount equal to excess of spot price (at the time of exercise) over the strike price of the call option - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "When a person buys a Call Option of an index, he is expecting the index to rise. On exercise, if the spot price of the index is over and above the strike price at which the buyer had bought the Call, he will receive the difference between the spot price and strike price."
+  },
+  {
+    "question": "In a derivatives exchange, the networth requirement for a clearing member is higher than that of a non-clearing member - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "In a derivative exchange, the networth requirement for a clearing member is higher than that of a non-clearing member."
+  },
+  {
+    "question": "At the time of final settlement, the seller / writer of the option will recognize the adverse difference he paid to the buyer as ______ in his profit and loss account.",
+    "options": ["Expenses", "Loss", "Debt", "Profit"],
+    "answer": "Loss",
+    "explanation": "On exercise of the option, the seller/writer will pay the adverse difference, between the final settlement price as on the exercise/ expiry date and the strike price. Such payment will be recognised as a loss."
+  },
+  {
+    "question": "At price level of Rs. 6900, what will be the value of one lot of ABC futures contract (contract multiplier 50)?",
+    "options": ["Rs. 289000", "Rs. 690000", "Rs. 345000", "Rs. 460000"],
+    "answer": "Rs. 345000",
+    "explanation": "The value of the futures contract is the Price X Lot size = Rs 6900 × 50 = Rs 345000"
+  },
+  {
+    "question": "What does hedging do?",
+    "options": [
+      "It maximises business profits",
+      "It minimises business losses",
+      "It produces a more clearer outcome",
+      "Hedging can be used only in currency markets and not in equity markets"
+    ],
+    "answer": "It produces a more clearer outcome",
+    "explanation": "Hedging produces a more clearer outcome. The classic example is the farmer who sells futures contracts to lock into a price for delivering a crop on a future date. The buyer might be a food-processing company, which wishes to fix a price for taking delivery of the crop in the future. Another case is that of a company due to receive a payment in a foreign currency on a future date. It enters into a forward transaction with a bank agreeing to sell the foreign currency and receive a predetermined quantity of domestic currency."
+  },
+  {
+    "question": "Which of these statements is True?",
+    "options": [
+      "Money and securities deposited by clients can be attached for meeting the brokers obligation on his proprietary account",
+      "Money and securities deposited by clients cannot be attached for meeting the brokers obligation on his proprietary account",
+      "Money and securities deposited by clients can be attached as per the decision of the clearing corporation",
+      "Money and securities deposited by clients can be attached as per the decision of the Stock Exchange"
+    ],
+    "answer": "Money and securities deposited by clients cannot be attached for meeting the brokers obligation on his proprietary account",
+    "explanation": "The securities or money deposited by clients cannot be attached for meeting broker's obligation on his proprietary account."
+  },
+  {
+    "question": "Initial margin to be paid in derivatives is set up taking into account the volatility of the underlying market. Generally —",
+    "options": [
+      "Lower the volatility, higher the initial margin",
+      "Higher the volatility, lower the initial margin",
+      "Higher the volatility, higher the initial margin",
+      "None of the above"
+    ],
+    "answer": "Higher the volatility, higher the initial margin",
+    "explanation": "When the markets are very volatile, it could results in losses to the traders. So to safe guard the trading member and the trader, higher initial margin are levied on when volatility is high."
+  },
+  {
+    "question": "Meghna wants to sell 34 contracts of ABC futures at Rs. 2450 (contract multiplier is 50). Initial margin is 7%. How much will be the initial margin to be paid?",
+    "options": ["Rs. 4165000", "Rs. 83300", "Rs. 5831", "Rs. 291550"],
+    "answer": "Rs. 291550",
+    "explanation": "Margin to be collected from Meghna : Rs 2450 × 34 contracts × 50 (Market lot) at 7% = Rs 4165000 × 7% = Rs 291550"
+  },
+  {
+    "question": "In the derivatives market, as the strike price goes down, the premium of PUT option ______",
+    "options": ["will increase", "will decrease", "there will be no change", "can increase or decrease"],
+    "answer": "will decrease",
+    "explanation": "For eg. If the Spot Price is Rs 900, and the premium for Put Option of Strike price 900 is Rs 5. The premium for Strike price Rs 880 can be around Rs. 1. (For a call option, the premium decreases as the strike price moves up)"
+  },
+  {
+    "question": "Can the exercise price be more than or equal to or less than the cash spot price?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "Exercise price means the Strike price for which options can be traded. For eg., A scrip ABC has options trading at a strike price of Rs 100. The spot price (market price) can easily fluctuate as per market sentiments and can be above, below or equal to Rs. 100."
+  },
+  {
+    "question": "In a derivative segment, the initial margin is collected from the clearing member on a net basis i.e. after netting all buy and sell positions of all clients together - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "In the derivatives segment, Clients' positions cannot be netted off against each other while calculating initial margin. Margin for each client has to be paid separately as per his outstanding trades / position."
+  },
+  {
+    "question": "Derivatives brokers/ dealers are expected to know their clients and to exercise care to ensure that the derivative product being sold by them to a particular client is suitable to his understanding and financial capabilities - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Derivatives brokers/ dealers should avoid recommending opening futures/ options transaction unless they have a reasonable basis for believing that the customer has such knowledge and financial experience that he or she is capable of evaluating, and financially able to bear, the risks of the transaction."
+  },
+  {
+    "question": "Trading is allowed in Indian Equity markets in which of the following -",
+    "options": ["Index Options", "Individual stock options", "Individual stock futures options", "All of the above"],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "Suppose you are a trading member and have bought 14 contracts of April series index futures and sold 7 contracts of April series index futures on your own account. What will be your exposure on these transactions?",
+    "options": [
+      "It will grossed up to 21 contracts",
+      "It will be netted to 7 contracts",
+      "Higher of 14 and 7 i.e. 14 contracts",
+      "The Stock Exchange can decide to either to gross up or net out the exposure depending on the past record of the trading member"
+    ],
+    "answer": "It will be netted to 7 contracts",
+    "explanation": "The exposure will be netted i.e. 14 - 7 = 7 contracts."
+  },
+  {
+    "question": "A person has buy position in a stock, how can he cover his long position in the stock?",
+    "options": [
+      "By Selling any security of equal quantity",
+      "By Selling any index stock of equal quantity",
+      "By Selling the same stock and same quantity",
+      "By Selling any 'A' group stock of equal quantity"
+    ],
+    "answer": "By Selling the same stock and same quantity",
+    "explanation": "To square up / cover a long position, the same quantity of the same stock has to be sold."
+  },
+  {
+    "question": "Mr. X does not hold any shares of ABC company so he cannot write a CALL option on it - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Any one, whether he holds the underlying asset or not, can buy / write options."
+  },
+  {
+    "question": "Two stocks A and B stocks are quoted at Rs 500 per share. Keeping everything else constant, if A is more volatile than B, which 'Put' will be priced higher?",
+    "options": ["The put of stock A", "The put of stock B", "Both the puts will be equally priced"],
+    "answer": "The put of stock A",
+    "explanation": "Vega, which measure of the sensitivity of an option price to changes in market volatility is positive for a long call and a long put. An increase in the volatility of the underlying increases the expected payout from a buy option, whether it is a call or a put."
+  },
+  {
+    "question": "On the derivatives futures market, if there are three series of one, two and three months open at a point of time, how many calendar spread can one have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3",
+    "explanation": "The three calendar spreads can be between months 1 and 2, 2 and 3 and 1 and 3."
+  },
+  {
+    "question": "______ can write an option in the Indian stock market.",
+    "options": ["Common individuals", "Market makers", "Foreign Financial Institutions (FII)", "All of the above"],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "For a derivative exchange, the networth requirement for a clearing member is always less than that for a non-clearing member - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "In a derivative exchange, the networth requirement for a clearing member is higher than that of a non-clearing member."
+  },
+  {
+    "question": "When an option moves more in the money, the absolute value of Delta will ______.",
+    "options": ["Increase", "Decrease", "No effect on delta", "Tend to become zero"],
+    "answer": "Increase",
+    "explanation": "The value of delta increases as an option moves more in the money. For a Call option, the delta increases as price rises and for a put option, the delta increases as price falls."
+  },
+  {
+    "question": "A Professional Clearing Member can act only for Institutional clients - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Professional clearing member clears the trades of his associate Trading Member and institutional clients."
+  },
+  {
+    "question": "The price at which the market maker is ready to buy is known as BID price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Bid price is the price buyer / market maker is willing to pay and ask price is the price seller is willing to sell. For eg - If the price of Reliance Industries Ltd as seen on the trading screen is Rs 1000 - 1001, this means Rs 1000 is the bid price and Rs 1001 is the ask price."
+  },
+  {
+    "question": "If a Day Order is not executed during the day, it will ______.",
+    "options": [
+      "get cancelled automatically once the trading time for the day is over",
+      "get executed the next day if its in the price range",
+      "get executed in the special auction market",
+      "None of the above"
+    ],
+    "answer": "get cancelled automatically once the trading time for the day is over",
+    "explanation": "A Day order is an order which is valid for a single day on which it is entered. If the order is not executed during the day, the trading system cancels the order automatically at the end of the day."
+  },
+  {
+    "question": "The Intrinsic value of an In the Money option is the difference between the Market Price and the Exercise price - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Intrinsic value refers to the amount by which option is in the money i.e. the amount an option buyer will realize, before adjusting for premium paid, if he exercises the option instantly. For call option which is in-the-money, intrinsic value is the excess of spot price over the exercise price. For put option which is in-the-money, intrinsic value is the excess of exercise price over the spot price."
+  },
+  {
+    "question": "If the price of the underlying stock of a PUT option is very volatile, ______.",
+    "options": [
+      "The premium will comparatively be lower",
+      "The premium will comparatively be higher",
+      "The premium will be zero",
+      "No effect on option premium"
+    ],
+    "answer": "The premium will comparatively be higher",
+    "explanation": "Vega, which measure of the sensitivity of an option price to changes in market volatility is positive for a long call and a long put. An increase in the volatility of the underlying increases the expected payout from a buy option, whether it is a call or a put."
+  },
+  {
+    "question": "There is only CASH settlement for Nifty futures contract - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "In Nifty, there is only cash settlement. In some securities, SEBI has permitted physical settlement for futures contract."
+  },
+  {
+    "question": "A Mutual Fund floats a new fund offer of a 100% equity scheme. Till the time it invests this cash in equities, the fund can take equity exposure by buying stock index futures - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "FIIs & MF's can take exposure in equity index derivatives subject to the following limits: Long positions in index derivatives (long futures, long calls and short puts) not exceeding (in notional value) the FII's / MF's holding of cash, government securities, T-Bills and similar instruments. Short positions in index derivatives (short futures, short calls and long puts) not exceeding (in notional value) the FII's / MF's holding of stocks."
+  },
+  {
+    "question": "A writer of a naked PUT option is ______.",
+    "options": [
+      "Bullish and pays the premium",
+      "Bullish and receives the premium",
+      "Bearish and pays the premium",
+      "Bearish and receives the premium"
+    ],
+    "answer": "Bullish and receives the premium",
+    "explanation": "A writer i.e. seller of a PUT option is bullish or neutral and receives the premium. A writer i.e. seller of a CALL option is bearish or neutral and receives the premium. In options - A writer always receives the premium and the buyer always pays the premium."
+  },
+  {
+    "question": "The potential exposure is calculated by the clearing corporation ______.",
+    "options": [
+      "on the last trading day of the contract month",
+      "on the last trading day of the week",
+      "at the end of the trading day",
+      "on real time basis"
+    ],
+    "answer": "on real time basis",
+    "explanation": "Clearing corporation's on-line position monitoring system monitors a CM's open position on a real-time basis. Clearing corporation monitors the CMs for Initial Margin violation, Exposure margin violation, while TMs are monitored for Initial Margin violation and position limit violation."
+  },
+  {
+    "question": "If a Trading member defaults in the derivative segment, he can still continue the trading business in the cash segment. - True or False?",
+    "options": ["False", "True"],
+    "answer": "False",
+    "explanation": "A default by a member in the derivatives segment will be treated as default in all segments of that exchange and as default on all exchanges where he is a member."
+  },
+  {
+    "question": "The Spot price is the market price of a share is Rs 200 and the interest rate is 12% pa. Which of the below price is closest to 3 months future maturity?",
+    "options": ["206", "200", "203", "224"],
+    "answer": "206",
+    "explanation": "Price of a future contract is generally the spot price plus interest for the time period. Yearly Interest Rate is 12%. Full year's interest = 12% of 200 ie. Rs 24 (200 x 12 / 100). So for 3 months the cost of interest is Rs 6 (24/12 x 3). Therefore the 3 month future contract will have an price of approx. Rs 206 (200 + 6)."
+  },
+  {
+    "question": "Mr Manoj buys a put option on PQR stock for Rs 20 of strike price Rs 130. If on the exercise day, the spot price of PQR is Rs 175, Mr Manoj will choose ______.",
+    "options": [
+      "Not to exercise the option",
+      "To exercise the option",
+      "May or may not exercise the option depending on whether he is in his city or not at that time",
+      "May or may not exercise the option depending on whether he likes the company or not"
+    ],
+    "answer": "Not to exercise the option",
+    "explanation": "Mr. Manoj bought a PUT option so he had a view that the stock will fall. On the exercise day the stock has risen and so Mr Manoj is in a loss. So he will not exercise the option."
+  },
+  {
+    "question": "If you have sold a ITC Ltd. futures contract (contract multiplier 500) at 200 and bought it back at 228, what is your gain/loss?",
+    "options": ["A gain of Rs. 6,800", "A loss of Rs. 6,800", "A loss of Rs. 14,000", "A gain of Rs. 14,000"],
+    "answer": "A loss of Rs. 14,000",
+    "explanation": "You had sold ITC believing that it will fall down, but it has risen - so there will be a loss. 200 - 228 = -28 Loss. -28 × 500 shares = -Rs 14000."
+  },
+  {
+    "question": "If the price of a stock is volatile, then the option premium would be relatively ______.",
+    "options": ["Lower", "Higher", "No effect of volatility", "zero"],
+    "answer": "Higher",
+    "explanation": "Higher volatility means higher risk and higher risk means one has to pay a higher premium."
+  },
+  {
+    "question": "If the liquid assets maintained by clearing member Mr. Ram are higher than that clearing member Mr. Shyam, which of the below options is/are true?",
+    "options": [
+      "There is no need to maintain liquid assets",
+      "Both Mr. Ram and Mr. Shyam have the same level of exposure",
+      "Mr Ram has a higher exposure level than Mr. Shyam",
+      "Mr Shyam has a higher exposure level than Mr. Ram"
+    ],
+    "answer": "Mr Ram has a higher exposure level than Mr. Shyam",
+    "explanation": "As per the rules of SEBI and Stock Exchanges, the notional value of gross open positions at any point in time in the case of all Futures and Options shall not exceed a particular percentage of the liquid networth of a member. So a member (Mr Ram) who keeps higher liquid assets as security and margin with the stock exchanges will get higher exposure limits."
+  },
+  {
+    "question": "As per SEBI rules, a stock broker can be suspended from the derivatives segment if ______.",
+    "options": [
+      "he violates the conditions of registration",
+      "he is suspended by the stock exchange",
+      "he fails to pay fees",
+      "Any of above"
+    ],
+    "answer": "Any of above",
+    "explanation": "A penalty or suspension of registration of a stock - broker under the SEBI (Stock Broker & Sub - Broker) Regulations, 1992 can be ordered if: The stock broker violates the provisions of the Act, The stock broker does not follow the code of conduct, The stock broker fails to resolve the complaints of the investors, The stock broker in manipulating, or price rigging or cornering of the market, The stock broker's financial position deteriorates substantially, The stock broker fails to pay fees, The stock broker violates the conditions of registration, The stock broker is suspended by the stock exchange."
+  },
+  {
+    "question": "Cost of carry model means price of futures is equal to ______.",
+    "options": ["Spot price + Cost of Carry", "Spot Price", "Cost of Carry", "Spot price – Cost of Carry"],
+    "answer": "Spot price + Cost of Carry",
+    "explanation": "Cost of Carry is the relationship between futures prices and spot prices. For stock derivatives, carrying cost is the interest paid to finance the purchase. For example, assume the share of XYZ Ltd is trading at Rs. 200 in the cash market. A person wishes to buy the share, but does not have money. In that case he would have to borrow Rs. 200 at the rate of, say, 12% per annum. So 1% i.e. Rs 2 (1% of Rs 200) is the per month interest cost. And this Rs 2 is the cost of carry. The future price (ideally) at the beginning of month will be Spot Price + Cost of Carry i.e. Rs 200 + Rs 2 = Rs 202."
+  },
+  {
+    "question": "Mr Gautam has sold a put option with strike of Rs.650 at a premium of Rs.60. What is the maximum gain per share that he may have on expiry of this position?",
+    "options": ["650", "590", "60", "0"],
+    "answer": "60",
+    "explanation": ""
+  },
+  {
+    "question": "The Strangle strategy is similar to straddle strategy in outlook but different in ______.",
+    "options": ["implementation", "aggression", "cost", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Long Strangle As in case of straddle, the outlook here (for the long strangle position) is that the market will move substantially in either direction, but while in straddle, both options have same strike price, in case of a strangle, the strikes are different. Also, both the options (call and put) in this case are out-of-the-money and hence the premium paid is low."
+  },
+  {
+    "question": "Theta is ______.",
+    "options": [
+      "is the change in option price given a one percentage point change in the risk-free interest rate",
+      "a measure of the sensitivity of an option price to changes in market volatility",
+      "the change in option price given a one-day decrease in time to expiration",
+      "speed with which an option moves with respect to price of the underlying asset"
+    ],
+    "answer": "the change in option price given a one-day decrease in time to expiration",
+    "explanation": ""
+  },
+  {
+    "question": "The net worth of clearing members does not include -",
+    "options": ["Bad Deliveries", "Doubtful Debts", "Unlisted Securities", "All of the Above"],
+    "answer": "All of the Above",
+    "explanation": "The minimum net worth for clearing members of the derivatives clearing corporation/house shall be Rs.300 Lakhs. The net worth of the member shall be computed as follows: Capital + Free reserves. Less non-allowable assets which are: Fixed assets, Pledged securities, Member's card, Non-allowable securities (unlisted securities), Bad deliveries, Doubtful debts and advances, Prepaid expenses, Intangible assets, 30% marketable securities."
+  },
+  {
+    "question": "Option Premium consists of two components –",
+    "options": ["Intrinsic value and time value", "Sum of Call and Put premium", "Minimum value and time value", "Intrinsic value and premium"],
+    "answer": "Intrinsic value and time value",
+    "explanation": "Option premium consists of two components - intrinsic value and time value. For an option, intrinsic value refers to the amount by which option is in the money i.e. the amount an option buyer will realize, before adjusting for premium paid, if he exercises the option instantly. Therefore, only in-the-money options have intrinsic value whereas at-the-money and out-of-the-money options have zero intrinsic value. The intrinsic value of an option can never be negative. For eg - If the spot price is Rs 200, and the call option premium of a Rs 195 strike price is Rs 25, then Rs 5 is the intrinsic value (200 - 195) and balance Rs 20 is time value."
+  },
+  {
+    "question": "The liquid asset which are to be maintained by clearing members with clearing corporation can include gold and silver jewellery after applying standard 20% haircut.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Clearing member is required to provide liquid assets which adequately cover various margins and liquid networth requirements. He may deposit liquid assets in the form of cash, bank guarantees, fixed deposit receipts, approved securities and any other form of collateral as may be prescribed from time to time. The total liquid assets comprise of at least 50% of the cash component and the rest is non cash component. Cash Component: Cash, Bank fixed deposits (FDRs) issued by approved banks and deposited with approved custodians or Clearing Corporation, Bank Guarantees (BGs) in favour of clearing corporation from approved banks in the specified format, Units of money market mutual fund and Gift funds where applicable haircut is 10%, Government Securities and T-Bills. Non Cash Component: Liquid (Group I) Equity Shares as per Capital Market Segment which are in demand form, as specified by clearing corporation from time to time deposited with approved custodians, Mutual fund units other than those listed under cash component decided by clearing corporation from time to time deposited with approved custodians."
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "question": "The risk that cannot be controlled by diversification of portfolio is ______.",
+    "options": ["Systematic Risk", "Unsystematic Risk", "Credit Risk", "Operational Risk"],
+    "answer": "Systematic Risk",
+    "explanation": "An investor can diversify his portfolio and eliminate major part of price risk i.e. the diversifiable/unsystematic risk but what is left is the non-diversifiable portion or the market risk-called Systematic risk. Systematic risk can be caused due to unfavourable reasons such as act of nature like a natural disaster, changes in government policy etc."
+  },
+  {
+    "question": "The margining system for index futures is based on ______.",
+    "options": ["Margin at risk", "Price at risk", "Volume at risk", "Value at risk"],
+    "answer": "Value at risk",
+    "explanation": "As per the recommendations of Dr. L.C.Gupta Committee - Margins should be based on Value at Risk Methodology at 99% confidence. Clearing corporation charges an upfront initial margin for all the open positions of a Clearing Member. It specifies the initial margin requirements for each futures/options contract on a daily basis and also follows Value-At-Risk (VAR) based margining."
+  },
+  {
+    "question": "Future contracts are not symmetrical with respect to rights & obligations of the parties involved - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Option contracts are not symmetrical as the buyers and sellers have different obligations and risk factors. The buyer has limited risk where as seller of an option has unlimited risk. On the other hand, obligations and returns in Futures are symmetrical for both buyer and sellers. Both gain or lose in equal proportion as per the price movements."
+  },
+  {
+    "question": "The option which gives the holder a right to SELL the underlying asset on or before a particular date for a certain price, is called as ______",
+    "options": ["American Call option", "American Put option", "European Call option", "European Put option"],
+    "answer": "American Put option",
+    "explanation": "American option: The owner of such option can exercise his right at any time on or before the expiry date/day of the contract. A Put Option gives the holder the right to sell the underlying asset on or before a particular date for a certain price. (European option: The owner of such option can exercise his right only on the expiry date/day of the contract. In India, Index options are European)"
+  },
+  {
+    "question": "The rate of change in option premium for a unit change in price of the underlying asset is known as Delta - State True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": "Delta measures the sensitivity of the option value to a given small change in the price of the underlying asset."
+  },
+  {
+    "question": "A tick is ______.",
+    "options": ["Minimum price difference between two buy quotes", "Minimum price difference between two sell quotes", "Both 1 and 2", "None of the above"],
+    "answer": "Both 1 and 2",
+    "explanation": "Tick Size is the minimum move allowed in the price quotations. (Eg - Suppose the tick size 5 paise. A buyer has entered an order to buy at Rs 100. If some other buyer wants to enter a buying quote at a higher price, he can quote the price as Rs 100.05 and not 100.01)"
+  },
+  {
+    "question": "Calendar spreads carry basis risk and no market risk - hence ______ margins are charged.",
+    "options": ["Higher", "Lower", "NIL", "Very high"],
+    "answer": "Lower",
+    "explanation": "Calendar spreads carry only basis risk and no market risk - hence lower margins are adequate. That is why margin on calendar spread transaction in index futures is lower than the sum of regular margin on two independent legs of spread transaction. (Basis risk arises when the price of a futures contract does not have a predictable relationship with the spot price, which is very rare.) Market risk is the risk that the price of a stock etc. will increase or decrease due to changes in market factors)"
+  },
+  {
+    "question": "Professional clearing member clears the trades of his associate Trading Member only - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Professional clearing member clears the trades of his associate Trading Member and Institutional clients."
+  },
+  {
+    "question": "Tick size is ______.",
+    "options": ["Contract Lot size", "Average of the high and low prices", "The maximum permitted movement in the price of the contract", "The minimum permitted movement in the price of the contract"],
+    "answer": "The minimum permitted movement in the price of the contract",
+    "explanation": "Tick Size is minimum move allowed in the price quotations. Exchanges decide the tick sizes on traded contracts as part of contract specification. For eg. - Tick size for Nifty futures is 5 paisa."
+  },
+  {
+    "question": "How many shares should be ideally there in an index?",
+    "options": ["Depends on the objective of the index", "Around 100 to comprehensively cover all sectors", "Exactly 50", "Below 50"],
+    "answer": "Depends on the objective of the index",
+    "explanation": "Stocks in the index are chosen based on certain pre-determined qualitative and quantitative parameters, laid down by the Index Construction Managers. Once a stock satisfies the eligibility criterion, it is entitled for inclusion in the index. Generally, final decision of inclusion or removal of a security from the index is taken by a specialized committee known as Index Committee."
+  },
+  {
+    "question": "In Option Spreads there is a combination of options constructed in such a way that there is limited profit or limited loss - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Option Spreads involve combining options on the same underlying and of same type (call/ put) but with different strikes and maturities. These are limited profit and limited loss positions."
+  },
+  {
+    "question": "The Exercise price of an option is same as its position limit - State whether True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Position limits are the maximum exposure levels which the entire market can go up to and each Clearing Member or investor can go up to. Strike price or Exercise price is the price for which the underlying security may be purchased or sold by the option holder."
+  },
+  {
+    "question": "In exercising a Put option on a stock, the option holder acquires from the option writer ______.",
+    "options": ["a short position in the underlying stock", "a long position in the underlying stock", "a strangle position in the underlying stock", "a butterfly position in the underlying stock"],
+    "answer": "a short position in the underlying stock",
+    "explanation": "The buyer / holder of a Put option is of the view that price of the underlying will fall. He thus acquires a short position on exercise."
+  },
+  {
+    "question": "As a Call option moves more Out-Of-The-Money, the absolute value of Delta will ______.",
+    "options": ["Increase", "Decrease", "Not change", "None of the above"],
+    "answer": "Decrease",
+    "explanation": "A Call option moving more Out of the Money means the price of its underlying has fallen. Delta for call option buyer is positive. This means that the value of the contract increases as the share price rises and falls as the share price falls."
+  },
+  {
+    "question": "Mr P and Mr Q are clearing members of a stock exchange. Both of them have maintained Rs 7 crores of liquid assets consisting of equity shares and other assets. Both have the same exposure limits on day one. Based on this, which of the following statements is true?",
+    "options": [
+      "The minimum exposure possible for the two brokers may change from time to time based on the changes in those asset valuations, even if they do not withdraw the assets deposited",
+      "The minimum exposure possible for the two brokers will remain same for ever, even if they withdraw the asset deposited subsequently",
+      "The minimum exposure possible for the two brokers will remain the same forever as long as they do not withdraw the assets deposited",
+      "None of the above"
+    ],
+    "answer": "The minimum exposure possible for the two brokers may change from time to time based on the changes in those asset valuations, even if they do not withdraw the assets deposited",
+    "explanation": "The exposure depends on the value of assets deposited. Although both P and Q have deposited assets worth Rs.7 crores, the assets could be different (equity shares of different companies) and the value of these will become higher or lower as time passes. So the exposure limits will also change accordingly."
+  },
+  {
+    "question": "A feature of a forward contract is ______.",
+    "options": ["Its traded one-to-one between counterparties", "It has good liquidity", "It cannot be of a tenor of more than one year", "It does not carry any credit risk"],
+    "answer": "Its traded one-to-one between counterparties",
+    "explanation": "Forward Contract - It is a contractual agreement between two parties to buy/sell an underlying asset at a certain future date for a particular price that is pre-decided on the date of contract."
+  },
+  {
+    "question": "What is the beta of a portfolio?",
+    "options": [
+      "Its the value weighted average of the beta's of the constituent securities in that portfolio",
+      "Its the same as the beta of the stock with the highest market capitalization",
+      "Its the sum of the betas the constituent securities in that portfolio",
+      "Its the simple average of the beta's of the constituent securities in that portfolio"
+    ],
+    "answer": "Its the value weighted average of the beta's of the constituent securities in that portfolio",
+    "explanation": "Beta of a portfolio is calculated as weighted average of betas of individual stocks in the portfolio based on their investment proportion."
+  },
+  {
+    "question": "Speculators are those who take risk whereas hedgers are those who wish to reduce risk - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Hedgers - They face risk associated with the prices of underlying assets and use derivatives to reduce their risk."
+  },
+  {
+    "question": "The Time value of an option is the portion of option premium that is linked to the amount of time left till expiry of the option contract and also due to the fact that the underlying components that determine the value of option may change during that time - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Time value of the option depends upon how much time is remaining for the option to expire. If all other factors affecting an option's price remain same, the time value portion of an option's premium will decrease with the passage of time. This is also known as time decay."
+  },
+  {
+    "question": "The trades done by dealers in their own account has to be totally segregated from the trades done in their clients account - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "The main proof of whether a futures transaction is for speculation or hedging is based on whether there already exists a related commercial position which is exposed to risk of loss due to price movement - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Hedging basically means making a trade to reduce the risk of adverse price movements in an asset which you already hold. Normally, a hedge consists of taking an offsetting position in a related security, such as a futures contract. For eg. - A company will be receiving dollars after three months. So to safe guard against any fluctuations, it sells dollars in the futures market (3 month futures) and locks in the price."
+  },
+  {
+    "question": "How can be risks be controlled in the derivatives segment by the stock exchange?",
+    "options": [
+      "By implementing a effective margin system",
+      "By having a well organized control systems and audit procedures",
+      "By periodic evaluation of member positions",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "In derivative exchanges, the exposure amount possible for each member broker is linked to the amount of deposits / margins kept by the member with the clearing house - True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Higher the deposits / margins kept, more will be the exposure amount available to the member brokers."
+  },
+  {
+    "question": "Mr. A wants to sell stock options but he does not own the underlying stock. Can he do it in India?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "One can buy / sell stock options even if he does not own the underlying stock."
+  },
+  {
+    "question": "The intrinsic value of an option ______.",
+    "options": [
+      "Is the difference between spot price and strike price of an in-the-money option",
+      "Is zero for at the money options",
+      "Is called the time value of the option",
+      "Both 1 and 2"
+    ],
+    "answer": "Both 1 and 2",
+    "explanation": "Option premium consists of two components - intrinsic value and time value. Intrinsic value is the difference between the Strike Price and the Spot Price. If the Strike Price and the Spot Price is same (At the money), the intrinsic value is zero. Time value: It is the difference between premium and intrinsic value, if any, of an option. ATM and OTM options will have only time value because the intrinsic value of such options is zero."
+  },
+  {
+    "question": "Broker are allowed to and expected to fund margin requirements of their clients - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "As per major recommendations of Dr. L.C.Gupta Committee - All clients should pay margins. Brokers should not fund margins of clients."
+  },
+  {
+    "question": "When the price of a future contract rises, the margin account ______.",
+    "options": [
+      "of the buyer is credited for the gain",
+      "of the seller is debited for the loss",
+      "Both 1 and 2",
+      "None of the above"
+    ],
+    "answer": "Both 1 and 2",
+    "explanation": "In futures, the account of buyers and sellers are debited or credited daily as per their notional profit or losses by the Mark to Market margin."
+  },
+  {
+    "question": "A short position in futures contract can be reversed only with the same counter party to whom the contract was originally sold - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "A long or short futures contract is executed on an exchange and the buyers and sellers are unknown to each other. These trades can be reversed by executing a suitable trade on the exchange."
+  },
+  {
+    "question": "A trader sells a PUT option of strike Rs 100 on ABC stock for a premium of Rs 25. On expiry day, the ABC stock closed at Rs 50. What is the trader's profit or loss in Rs.? (Lot size is 1000)",
+    "options": ["+25000", "-25000", "+50000", "-50000"],
+    "answer": "-25000",
+    "explanation": "When a trader sells a PUT option, he believes the stock price will rise. Here the stock price has closed at Rs 50 which means it has fallen by Rs 50 (100 - 50). So his Gross loss is Rs 50 x 1000 (lot size) = Rs 50000. However, when we sell an option, we receive the premium. Here the premium received by the trader is Rs 25 x 1000 = Rs 25000. So his net loss is Rs 50000 less Rs 25000 = Rs 25000 loss."
+  },
+  {
+    "question": "We can get high returns from many investment products in the market in an absolutely risk free manner - State True or False?",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Returns are related to the risk taken and hence there cannot be products in the market that gives high return in risk free manner."
+  },
+  {
+    "question": "A trader is long on ABC stock April futures at 3100. He shall make a loss if the futures price moves to ______.",
+    "options": ["3300", "3200", "3400", "3000"],
+    "answer": "3000",
+    "explanation": "A long position (purchase) will result in a loss if prices go down from the purchase price."
+  },
+  {
+    "question": "Option premium depends on ______.",
+    "options": [
+      "volatility of the underlying",
+      "current price and the strike price",
+      "interest rates in the economy and the time to expiry",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": ""
+  },
+  {
+    "question": "The ratio of change in delta for a unit change in the price of underlying is called ______.",
+    "options": ["Vega", "Theta", "Alpha", "Gamma"],
+    "answer": "Gamma",
+    "explanation": "Gamma measures change in delta with respect to change in price of the underlying asset."
+  },
+  {
+    "question": "Outsiders ie. Non Broker members are allowed to be appointed on the Governing Board of the Clearing Corporation of the Derivatives segment - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "As per Dr. L. C. Gupta Committee recommendations: A separate Governing Board should be constituted for the Clearing Corporation of the Derivatives segment. No broker members should be allowed to sit on the Governing Board of the Clearing Corporation."
+  },
+  {
+    "question": "A separate client account has to be maintained to keep the money and securities deposited by clients - State True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "The trading members own money and securities cannot be mixed up with the clients money and securities."
+  },
+  {
+    "question": "If an investor is exposed to a price risk in a stock, by hedging he would be able to ______.",
+    "options": [
+      "make the outcome more profitable",
+      "make the outcome as per SEBI and Stock market regulations",
+      "make the outcome more certain",
+      "make the outcome more volatile"
+    ],
+    "answer": "make the outcome more certain",
+    "explanation": "Hedging does not increase the profit but controls the losses. This makes the outcome more certain. Hedging involves having two opposite positions. Loss in one will be countered by a profit in the other. So the outcome is more certain."
+  },
+  {
+    "question": "Ms. Rita sold a put option of strike price Rs. 90 and she received a premium of Rs. 6 from the option buyer. Theoretically, what can be the maximum loss on this trade?",
+    "options": ["90", "84", "96", "0"],
+    "answer": "84",
+    "explanation": "Theoretically a share call to Rs 0. So the maximum loss can be Rs 90. But Ms. Rita has received Rs 6 as option premium so her maximum loss will be Rs 90 - Rs 6 = Rs 84."
+  },
+  {
+    "question": "If you are a buyer of put option, it will give you the right to sell how much of the underlying to the writer of the option?",
+    "options": [
+      "The specified quantity or less than the specified quantity",
+      "The specified quantity or more than the specified quantity",
+      "Only the specified quantity (lot size of the option contract)",
+      "Any quantity"
+    ],
+    "answer": "Only the specified quantity (lot size of the option contract)",
+    "explanation": "Only the quantity of the lot size as determined by the stock exchange."
+  },
+  {
+    "question": "By using Financial derivatives one can engage in ______.",
+    "options": ["Hedging", "Arbitraging", "Speculation", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Modern traders and investors also use financial derivatives for Arbitrage and Speculation, apart from hedging."
+  },
+  {
+    "question": "Can clients position be netted off against each other while calculating initial Margin on the derivatives segment.",
+    "options": ["No", "Yes"],
+    "answer": "No",
+    "explanation": "Each clients open position is taken separately for calculating the initial margin. Positions of two or more clients cannot be netted off against each other for calculation of initial margin. For eg - If Mr A has bought 10 contracts of Nifty and Mr B has sold 4 contracts of Nifty, then the broker has to pay the initial margin on 14 contracts and not 6 contracts."
+  },
+  {
+    "question": "If a trader does a calendar spread in index futures and the near leg of the calendar spread expires, the Further leg becomes a regular open position. True or False?",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Calendar spread means an options or futures spread established by simultaneously entering a long and short position on the same underlying asset but with different delivery months. In the above question, lets assume a trader has gone long in index options in current month and short in index options in third month. Incase he does not close his position by the end of current month, his current month option will expire and the third month option contract will become an open position as there is no opposite option contract in his account."
+  },
+  {
+    "question": "Who can clear trades in index options?",
+    "options": [
+      "All AMFI and IRDA members",
+      "Members of a stock exchange",
+      "Members and sub brokers of the stock exchange",
+      "Clearing members registered in the derivatives segment"
+    ],
+    "answer": "Clearing members registered in the derivatives segment",
+    "explanation": ""
+  },
+  {
+    "question": "Mr R wants to sell 17 contracts of January series at Rs.4550 and Mr S wants to sell 20 contracts of February series at Rs. 4500. Lot size is 50. The Initial Margin is fixed at 9%. How much Initial Margin is required to be collected from both these investors by the broker?",
+    "options": ["Rs 3,48,075", "Rs 4,05,000", "Rs 5,87,500", "Rs 7,53,075"],
+    "answer": "Rs 7,53,075",
+    "explanation": "The Broker has to collect - From Mr. R : 17 × 4550 × 50 × 9% = Rs 3,48,075. From Mr. S : 20 × 4500 × 50 × 9% = Rs 4,05,000. Therefore the total margin to be collected is 348075 + 405000 = Rs 7,53,075."
+  },
+  {
+    "question": "When the price of a futures contract goes down, the margin account of the buyer of this futures contract is debited for the loss - True or False?",
+    "options": ["False", "True"],
+    "answer": "True",
+    "explanation": ""
+  },
+  {
+    "question": "Mr Ranjan sold a ABC stock put contract of Rs 300 strike price at Rs 28. What will be his profit / loss if he buys it back at Rs 13. The lot size is 1000 shares.",
+    "options": ["18000", "-18000", "15000", "-15000"],
+    "answer": "15000",
+    "explanation": "Mr Ranjan sold at Rs 28 and bought back at Rs 13, so his net profit is Rs 15 (28 - 13). The lot size is 1000, so his total profit is Rs 15 x 1000 = Rs 15000."
+  },
+  {
+    "question": "In case of CALL OPTION, it gives the buyer the right to ______.",
+    "options": [
+      "buy the underlying at market price",
+      "buy the underlying at set price",
+      "sell the underlying at market price",
+      "sell the underlying at set price"
+    ],
+    "answer": "buy the underlying at set price",
+    "explanation": "A call option is a financial instrument that gives the buyer the right, but not an obligation, to buy a set quantity of a security at a set strike price at some time on or before expiration. In easy terms - what ever may be the market price, the buyer will get the security at the set price or strike price as he has paid a premium for it."
+  },
+  {
+    "question": "You own a portfolio of various stock for long term but currently you are unsure of the market. The best possible action to safe guard your investments is:",
+    "options": ["Buy more stocks", "Sell the Stocks", "Sell Index Futures as a hedge", "None of the above"],
+    "answer": "Sell Index Futures as a hedge",
+    "explanation": "In case the market goes down and his stocks fall, he will gain from the short index futures position and thus this hedge will help him prevent losses."
+  },
+  {
+    "question": "The settlement in futures contract happen only in ______.",
+    "options": ["Cash", "Physical Delivery", "Cash or Delivery", "None of the above"],
+    "answer": "Cash or Delivery",
+    "explanation": "SEBI has now permitted physical deliveries also."
+  },
+  {
+    "question": "A trader believes that the future price of PQR company will rise and being a smart trader he will ______.",
+    "options": [
+      "sell PQR futures now and buy them later when the price rises",
+      "buy PQR futures now and sell them later when it rises",
+      "wait till the price of PQR futures and cash market price become same",
+      "wait till the prices drop to the lowest level"
+    ],
+    "answer": "buy PQR futures now and sell them later when it rises",
+    "explanation": ""
+  },
+  {
+    "question": "What is done if a client defaults in making payments in respect to his daily settlement?",
+    "options": [
+      "The contract is transferred to a special 'Default Account'",
+      "The contract is closed out",
+      "The contract is transferred to another clients account who has sufficient funds",
+      "A weeks notice is given to that client"
+    ],
+    "answer": "The contract is closed out",
+    "explanation": "When a Client defaults in making payment in respect of Daily Settlement, the contract is closed out."
+  }
+]
